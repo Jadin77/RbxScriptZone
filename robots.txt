@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jadin77.github.io/RbxScriptZone/sitemap.xml
