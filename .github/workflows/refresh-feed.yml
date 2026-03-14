@@ -8,15 +8,15 @@ on:
       max_pages:
         description: "Max pages for this run"
         required: false
-        default: "120"
+        default: "150"
       delay_ms:
         description: "Delay between page pulls (ms)"
         required: false
-        default: "1400"
+        default: "1800"
       target_pages:
         description: "Target visible pages to maintain"
         required: false
-        default: "400"
+        default: "800"
 
 permissions:
   contents: write
@@ -77,12 +77,12 @@ jobs:
         shell: pwsh
         run: |
           $maxPages = "${{ github.event.inputs.max_pages }}"
-          if (-not $maxPages) { $maxPages = "120" }
+          if (-not $maxPages) { $maxPages = "150" }
           if ([int]$maxPages -lt 40) { $maxPages = "40" }
           $delayMs = "${{ github.event.inputs.delay_ms }}"
-          if (-not $delayMs) { $delayMs = "1400" }
+          if (-not $delayMs) { $delayMs = "1800" }
           $targetPages = "${{ github.event.inputs.target_pages }}"
-          if (-not $targetPages) { $targetPages = "400" }
+          if (-not $targetPages) { $targetPages = "800" }
           if ([int]$targetPages -lt 1) { $targetPages = "400" }
           $targetScripts = [int]$targetPages * 24
 
@@ -121,9 +121,58 @@ jobs:
             -MaxVisibleScripts $targetScripts
 
           if ($LASTEXITCODE -ne 0) {
-            Write-Warning "Refresh script exited with code $LASTEXITCODE. Keeping previous feed files."
-            exit 0
+            Write-Warning "Refresh script exited with code $LASTEXITCODE. Retrying once after 5 minutes."
+            Start-Sleep -Seconds 300
+            pwsh -NoProfile -File ./refresh-scriptblox-feed.ps1 `
+              -Force `
+              -MaxPages ([int]$maxPages) `
+              -DelayMs ([int]$delayMs) `
+              -MaxDetailLookupsPerRun 6 `
+              -DetailDelayMs 1500 `
+              -MinIntervalMinutes 10 `
+              -BlacklistOwnerPages 2 `
+              -BlacklistOwnerDelayMs 900 `
+              -MinimumKeepRatio 35 `
+              -RetentionDays 60 `
+              -MaxVisibleScripts $targetScripts
+
+            if ($LASTEXITCODE -ne 0) {
+              Write-Warning "Retry failed. Keeping previous feed files."
+              exit 0
+            }
           }
+
+      - name: Validate feed freshness
+        shell: pwsh
+        run: |
+          $feedPath = "./scriptblox-feed.json"
+          if (-not (Test-Path $feedPath)) {
+            Write-Warning "scriptblox-feed.json not found after refresh."
+            exit 1
+          }
+          try {
+            $feed = Get-Content $feedPath -Raw | ConvertFrom-Json
+          } catch {
+            Write-Warning "Failed to parse scriptblox-feed.json."
+            exit 1
+          }
+          $stamp = $feed.generatedAt
+          if (-not $stamp) {
+            Write-Warning "generatedAt missing from scriptblox-feed.json."
+            exit 1
+          }
+          try {
+            $ts = [datetime]::Parse($stamp).ToUniversalTime()
+          } catch {
+            Write-Warning "generatedAt is not a valid timestamp: $stamp"
+            exit 1
+          }
+          $age = (Get-Date).ToUniversalTime() - $ts
+          if ($age.TotalMinutes -gt 120) {
+            Write-Warning ("Feed is stale ({0:N0} minutes old). Failing run to avoid committing stale data." -f $age.TotalMinutes)
+            exit 1
+          }
+          Write-Host ("Feed freshness OK: {0:N0} minutes old." -f $age.TotalMinutes)
 
       - name: Commit updated feed files
         shell: bash

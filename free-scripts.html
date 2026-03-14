@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>Roblox Tweaks - Free Scripts</title>
     <script src="theme.js"></script>
     <script src="ui-sounds.js"></script>
@@ -290,6 +293,14 @@
         color: var(--muted);
         font-size: 14px;
         margin: 4px 0 12px;
+      }
+      .status-meta {
+        font-size: 12px;
+        opacity: 0.85;
+        margin-top: -6px;
+      }
+      .status-meta.stale {
+        color: #ffd166;
       }
       .filter-row {
         display: flex;
@@ -710,6 +721,7 @@
 
       <div class="scroll-area">
         <p id="feed-status" class="status">Loading latest scripts and images...</p>
+        <p id="feed-updated" class="status status-meta"></p>
         <div class="search-wrap">
           <input id="search-input" class="search-input" type="text" placeholder="Search scripts by title or tags..." />
         </div>
@@ -1079,6 +1091,29 @@
         return pick.replace("{n}", String(filteredCount));
       }
 
+      function setFeedUpdated(isoStamp, sourceLabel) {
+        const target = document.getElementById("feed-updated");
+        if (!target) return;
+        if (!isoStamp) {
+          target.textContent = "";
+          target.classList.remove("stale");
+          return;
+        }
+        const parsed = new Date(isoStamp);
+        if (Number.isNaN(parsed.getTime())) {
+          target.textContent = "";
+          target.classList.remove("stale");
+          return;
+        }
+        const ageMinutes = Math.round((Date.now() - parsed.getTime()) / 60000);
+        const ageLabel = ageMinutes >= 0 ? `${ageMinutes} min ago` : "just now";
+        const isStale = ageMinutes > 120;
+        const sourceText = sourceLabel ? ` • ${sourceLabel}` : "";
+        const staleText = isStale ? " • stale?" : "";
+        target.textContent = `Updated ${parsed.toLocaleString()} (${ageLabel})${sourceText}${staleText}`;
+        target.classList.toggle("stale", isStale);
+      }
+
       async function fetchJson(url) {
         const res = await fetch(url, { method: "GET", cache: "no-store" });
         if (!res.ok) throw new Error("HTTP " + res.status);
@@ -1097,6 +1132,7 @@
             if (scripts.length) {
               const filtered = Number(payload?.moderation?.filteredCount || 0);
               status.textContent = statusPhrase(filtered);
+              setFeedUpdated(payload?.generatedAt, "live feed");
               allScripts = scripts;
               applyTabs();
               return;
@@ -1108,11 +1144,13 @@
           const inlineFeed = window.SCRIPTBLOX_FEED;
           if (inlineFeed && Array.isArray(inlineFeed.scripts) && inlineFeed.scripts.length) {
             const filtered = Number(inlineFeed?.moderation?.filteredCount || 0);
-            status.textContent = statusPhrase(filtered);
+            status.textContent = "Live feed failed. Using cached backup.";
+            setFeedUpdated(inlineFeed?.generatedAt, "fallback cache");
             allScripts = inlineFeed.scripts;
             applyTabs();
           } else {
             status.textContent = "No feed data yet. Run refresh-scriptblox-feed.ps1 and reload.";
+            setFeedUpdated(null, "");
             document.getElementById("script-feed").innerHTML = "";
           }
         } finally {
@@ -1327,8 +1365,6 @@
     </script>
   </body>
 </html>
-
-
 
 
 
