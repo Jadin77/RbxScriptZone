@@ -8,11 +8,11 @@ on:
       max_pages:
         description: "Max pages for this run"
         required: false
-        default: "150"
+        default: "80"
       delay_ms:
         description: "Delay between page pulls (ms)"
         required: false
-        default: "1800"
+        default: "2200"
       target_pages:
         description: "Target visible pages to maintain"
         required: false
@@ -28,6 +28,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -77,10 +78,10 @@ jobs:
         shell: pwsh
         run: |
           $maxPages = "${{ github.event.inputs.max_pages }}"
-          if (-not $maxPages) { $maxPages = "150" }
+          if (-not $maxPages) { $maxPages = "80" }
           if ([int]$maxPages -lt 40) { $maxPages = "40" }
           $delayMs = "${{ github.event.inputs.delay_ms }}"
-          if (-not $delayMs) { $delayMs = "1800" }
+          if (-not $delayMs) { $delayMs = "2200" }
           $targetPages = "${{ github.event.inputs.target_pages }}"
           if (-not $targetPages) { $targetPages = "800" }
           if ([int]$targetPages -lt 1) { $targetPages = "400" }
