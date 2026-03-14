@@ -2,7 +2,7 @@ name: Refresh ScriptBlox Feed
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
       max_pages:
@@ -142,15 +142,16 @@ jobs:
             exit 0
           fi
 
-          # Avoid non-fast-forward failures when two scheduled runs overlap
-          if ! git pull --rebase origin "${GITHUB_REF_NAME}"; then
-            echo "Pull/rebase failed; skipping push to avoid failing the run."
-            git rebase --abort || true
-            exit 0
-          fi
-
           git commit -m "chore: auto-refresh ScriptBlox feed"
           if ! git push; then
-            echo "Push failed; skipping to avoid failing the run."
-            exit 0
+            echo "Push failed; attempting rebase + retry."
+            if ! git pull --rebase --autostash origin "${GITHUB_REF_NAME}"; then
+              echo "Rebase failed; skipping push to avoid failing the run."
+              git rebase --abort || true
+              exit 0
+            fi
+            if ! git push; then
+              echo "Push failed after retry; skipping to avoid failing the run."
+              exit 0
+            fi
           fi
