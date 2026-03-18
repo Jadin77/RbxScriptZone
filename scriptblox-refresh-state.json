@@ -1,5 +1,5 @@
 {
-  "lastRunUtc": "2026-03-18T04:41:56.5206750Z",
+  "lastRunUtc": "2026-03-18T06:09:53.8636273Z",
   "maxPagesUsed": 80,
   "delayMsUsed": 2200,
   "minIntervalMinutes": 10,
@@ -12,16 +12,16 @@
   "detailLookupsSucceeded": 6,
   "maxStaleValidationsPerRun": 120,
   "staleDetailValidationsTried": 120,
-  "removedInvalidDetail404Count": 42,
+  "removedInvalidDetail404Count": 34,
   "maxNewPostsPerAuthorPerRun": 2,
   "unresolvedNewPostQuarantineMinutes": 60,
-  "burstBlockedOwnerCount": 14,
-  "count": 10022,
-  "filteredByKeywordCount": 151,
+  "burstBlockedOwnerCount": 13,
+  "count": 10032,
+  "filteredByKeywordCount": 153,
   "filteredByUserCount": 16,
-  "filteredBySpamCount": 64,
-  "filteredByOwnerBurstCount": 63,
-  "filteredByRunAuthorBurstCount": 63,
-  "filteredByUnresolvedNewCount": 1,
-  "filteredCount": 231
+  "filteredBySpamCount": 65,
+  "filteredByOwnerBurstCount": 60,
+  "filteredByRunAuthorBurstCount": 60,
+  "filteredByUnresolvedNewCount": 5,
+  "filteredCount": 234
 }
