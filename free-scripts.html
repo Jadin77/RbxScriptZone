@@ -857,6 +857,8 @@
       let visibleScripts = [];
       let page = 1;
       const perPageStorageKey = "webpage_script_per_page_v1";
+      const filterModeStorageKey = "webpage_free_scripts_filter_v1";
+      const searchQueryStorageKey = "webpage_free_scripts_search_v1";
       let perPage = 24;
       const fallbackImage = "https://placehold.co/600x340/163a63/f5f7fb?text=Scam%20Blocked";
       let loadingFeed = false;
@@ -898,6 +900,34 @@
         const el = document.getElementById("page-size-select");
         if (!el) return;
         el.value = String(perPage);
+      }
+
+      function loadFilterMode() {
+        try {
+          const raw = String(localStorage.getItem(filterModeStorageKey) || "").trim();
+          if (raw === "recommend" || raw === "trustedUsers" || raw === "trending") return raw;
+        } catch (_) {}
+        return "all";
+      }
+
+      function saveFilterMode(value) {
+        try {
+          localStorage.setItem(filterModeStorageKey, String(value || "all"));
+        } catch (_) {}
+      }
+
+      function loadSearchQuery() {
+        try {
+          return String(localStorage.getItem(searchQueryStorageKey) || "");
+        } catch (_) {
+          return "";
+        }
+      }
+
+      function saveSearchQuery(value) {
+        try {
+          localStorage.setItem(searchQueryStorageKey, String(value || ""));
+        } catch (_) {}
       }
 
       function normalizeImageUrl(value) {
@@ -1035,7 +1065,11 @@
 
       localHideState = loadLocalToggleState();
       perPage = loadPerPage();
+      filterMode = loadFilterMode();
+      searchQuery = loadSearchQuery();
       syncPerPageSelect();
+      const searchInput = document.getElementById("search-input");
+      if (searchInput) searchInput.value = searchQuery;
 
       function buildCard(script) {
         const title = escapeHtml(script?.title || "Untitled Script");
@@ -1166,6 +1200,7 @@
         document.getElementById("tab-trusted-users").classList.toggle("active", filterMode === "trustedUsers");
         document.getElementById("tab-trending").classList.toggle("active", filterMode === "trending");
         document.getElementById("open-trusted-application").classList.toggle("visible", filterMode === "trustedUsers");
+        saveFilterMode(filterMode);
         renderKeywordToggles();
       }
 
@@ -1309,6 +1344,7 @@
       });
       document.getElementById("search-input").addEventListener("input", function (e) {
         searchQuery = String(e.target.value || "");
+        saveSearchQuery(searchQuery);
         if (filterMode === "trustedUsers") {
           renderPage();
         } else {

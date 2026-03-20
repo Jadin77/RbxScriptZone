@@ -50,6 +50,51 @@
       border-color: rgba(255,214,92,0.65);
       box-shadow: 0 0 0 2px rgba(255,214,92,0.16) inset;
     }
+    .settings-toggle-btn,
+    .settings-reset-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      cursor: pointer;
+      text-align: left;
+      padding: 12px 14px;
+      font-weight: 700;
+    }
+    .settings-toggle-btn.active {
+      border-color: rgba(255,214,92,0.65);
+      box-shadow: 0 0 0 2px rgba(255,214,92,0.16) inset;
+    }
+    .settings-toggle-copy,
+    .settings-reset-copy {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .settings-toggle-note,
+    .settings-reset-note {
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .settings-toggle-state {
+      flex: 0 0 auto;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+    .settings-reset-btn {
+      justify-content: center;
+      background: rgba(255, 132, 132, 0.08);
+    }
+    .settings-reset-btn:hover {
+      border-color: rgba(255, 168, 168, 0.45);
+    }
     .nav {
       display: flex !important;
       align-items: center !important;
@@ -143,6 +188,25 @@
       opacity: 0;
       transform: translateY(8px);
       transition: opacity .16s ease, transform .16s ease;
+    }
+    :root[data-reduced-motion="1"] body,
+    :root[data-reduced-motion="1"] body::before,
+    :root[data-reduced-motion="1"] .nav a.active,
+    :root[data-reduced-motion="1"] .rt-reveal {
+      animation: none !important;
+    }
+    :root[data-reduced-motion="1"] body.page-leaving main,
+    :root[data-reduced-motion="1"] .store-nudge,
+    :root[data-reduced-motion="1"] * {
+      scroll-behavior: auto !important;
+    }
+    :root[data-reduced-motion="1"] body.page-leaving main,
+    :root[data-reduced-motion="1"] .store-nudge,
+    :root[data-reduced-motion="1"] .nav a,
+    :root[data-reduced-motion="1"] .btn,
+    :root[data-reduced-motion="1"] .card,
+    :root[data-reduced-motion="1"] .card-link {
+      transition-duration: 0.01ms !important;
     }
     .theme-glow-wrap .volume-slider { accent-color: var(--accent-4); }
     .tab-shop {
@@ -517,6 +581,90 @@
 				scaleValue.textContent = next + "%";
 				if (tm.setTextScale) tm.setTextScale(next / 100);
 			});
+		}
+
+		if (!body.querySelector("#reduced-motion-toggle")) {
+			const motionHead = document.createElement("h3");
+			motionHead.className = "settings-subtitle";
+			motionHead.textContent = "\u26A1 Motion";
+			body.appendChild(motionHead);
+
+			const motionBtn = document.createElement("button");
+			motionBtn.type = "button";
+			motionBtn.id = "reduced-motion-toggle";
+			motionBtn.className = "settings-toggle-btn";
+			body.appendChild(motionBtn);
+
+			function renderReducedMotionButton() {
+				const enabled = tm.getReducedMotion ? tm.getReducedMotion() : false;
+				motionBtn.classList.toggle("active", enabled);
+				motionBtn.innerHTML = `
+					<span class="settings-toggle-copy">
+						<span>Reduce Motion</span>
+						<span class="settings-toggle-note">Turns down animated backgrounds and motion-heavy effects.</span>
+					</span>
+					<span class="settings-toggle-state">${enabled ? "ON" : "OFF"}</span>
+				`;
+			}
+
+			motionBtn.addEventListener("click", () => {
+				if (tm.setReducedMotion) tm.setReducedMotion(!(tm.getReducedMotion && tm.getReducedMotion()));
+				renderReducedMotionButton();
+			});
+
+			renderReducedMotionButton();
+		}
+
+		if (!body.querySelector("#settings-reset-btn")) {
+			const resetBtn = document.createElement("button");
+			resetBtn.type = "button";
+			resetBtn.id = "settings-reset-btn";
+			resetBtn.className = "settings-reset-btn";
+			resetBtn.innerHTML = `
+				<span class="settings-reset-copy">
+					<span>Reset Settings</span>
+					<span class="settings-reset-note">Restore theme, sound, motion, font, and text size defaults on this browser.</span>
+				</span>
+			`;
+			resetBtn.addEventListener("click", () => {
+				if (tm.resetSettings) tm.resetSettings();
+				if (window.UISounds) {
+					if (window.UISounds.setPreset) window.UISounds.setPreset("soft");
+					if (window.UISounds.setMasterVolume) window.UISounds.setMasterVolume(0.5);
+					if (window.UISounds.unmute) window.UISounds.unmute();
+				}
+				const glowSlider = body.querySelector("#theme-glow");
+				const glowValue = body.querySelector("#theme-glow-value");
+				if (glowSlider) glowSlider.value = "100";
+				if (glowValue) glowValue.textContent = "100%";
+				const scaleSlider = body.querySelector("#text-scale");
+				const scaleValue = body.querySelector("#text-scale-value");
+				if (scaleSlider) scaleSlider.value = "85";
+				if (scaleValue) scaleValue.textContent = "85%";
+				const soundVolume = body.querySelector("#sound-volume");
+				const soundVolumeValue = body.querySelector("#sound-volume-value");
+				if (soundVolume) soundVolume.value = "50";
+				if (soundVolumeValue) soundVolumeValue.textContent = "50%";
+				const soundGrid = body.querySelector("#sound-grid");
+				if (soundGrid) {
+					soundGrid.querySelectorAll(".sound-btn").forEach((el) => {
+						el.classList.toggle("active", el.getAttribute("data-sound-id") === "soft");
+					});
+				}
+				const fontGrid = body.querySelector("#font-grid");
+				if (fontGrid) {
+					fontGrid.querySelectorAll(".font-btn").forEach((el) => {
+						el.classList.toggle("active", el.getAttribute("data-font-id") === "modern");
+					});
+				}
+				const motionBtn = body.querySelector("#reduced-motion-toggle");
+				if (motionBtn && tm.getReducedMotion) {
+					motionBtn.classList.toggle("active", tm.getReducedMotion());
+					const state = motionBtn.querySelector(".settings-toggle-state");
+					if (state) state.textContent = tm.getReducedMotion() ? "ON" : "OFF";
+				}
+			});
+			body.appendChild(resetBtn);
 		}
 	}
 

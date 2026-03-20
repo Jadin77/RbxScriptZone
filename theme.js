@@ -222,6 +222,7 @@
 	const GLOW_KEY = "webpage_theme_glow";
 	const FONT_KEY = "webpage_font";
 	const SCALE_KEY = "webpage_text_scale";
+	const REDUCED_MOTION_KEY = "webpage_reduce_motion";
 	const FONTS = {
 		modern: {
 			label: "Clean Modern",
@@ -303,6 +304,38 @@
 		return safe;
 	}
 
+	function getReducedMotion() {
+		try {
+			return localStorage.getItem(REDUCED_MOTION_KEY) === "1";
+		} catch (_) {}
+		return false;
+	}
+
+	function setReducedMotion(enabled) {
+		const next = enabled === true;
+		try {
+			localStorage.setItem(REDUCED_MOTION_KEY, next ? "1" : "0");
+		} catch (_) {}
+		document.documentElement.setAttribute("data-reduced-motion", next ? "1" : "0");
+		return next;
+	}
+
+	function resetSettings() {
+		try {
+			localStorage.removeItem(STORAGE_KEY);
+			localStorage.removeItem(GLOW_KEY);
+			localStorage.removeItem(FONT_KEY);
+			localStorage.removeItem(SCALE_KEY);
+			localStorage.removeItem(REDUCED_MOTION_KEY);
+		} catch (_) {}
+		applyTheme("oceancore");
+		applyGlowIntensity(1);
+		setFont("modern");
+		setTextScale(0.85);
+		setReducedMotion(false);
+		return true;
+	}
+
 	function applyTheme(themeId) {
 		const id = THEMES[themeId] ? themeId : "oceancore";
 		const theme = THEMES[id];
@@ -325,6 +358,7 @@
 	}
 
 	applyTheme(getCurrentTheme());
+	setReducedMotion(getReducedMotion());
 
 	window.ThemeManager = {
 		themes: THEMES,
@@ -337,9 +371,13 @@
 		setFont,
 		getTextScale,
 		setTextScale,
+		getReducedMotion,
+		setReducedMotion,
+		resetSettings,
 		storageKey: STORAGE_KEY,
 		glowKey: GLOW_KEY,
 		fontKey: FONT_KEY,
 		textScaleKey: SCALE_KEY,
+		reducedMotionKey: REDUCED_MOTION_KEY,
 	};
 })();
