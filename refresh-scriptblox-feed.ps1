@@ -205,6 +205,57 @@ function Test-ScriptDetailAvailability {
   }
 }
 
+function Get-BurstBlockedSlugs {
+  param(
+    [object[]]$Scripts,
+    [scriptblock]$GroupKeySelector,
+    [int]$WindowMinutes,
+    [int]$Threshold
+  )
+  $blockedSlugs = New-Object 'System.Collections.Generic.HashSet[string]' ([StringComparer]::OrdinalIgnoreCase)
+  $blockedKeys = New-Object 'System.Collections.Generic.HashSet[string]' ([StringComparer]::OrdinalIgnoreCase)
+  if (-not $Scripts -or $Scripts.Count -eq 0) { return [PSCustomObject]@{ slugs = $blockedSlugs; keys = $blockedKeys } }
+  if ($WindowMinutes -le 0 -or $Threshold -le 1) { return [PSCustomObject]@{ slugs = $blockedSlugs; keys = $blockedKeys } }
+
+  $grouped = $Scripts | Group-Object $GroupKeySelector
+  foreach ($group in $grouped) {
+    $key = [string]$group.Name
+    if (-not $key) { continue }
+    $items = @(
+      $group.Group |
+        Where-Object { $_.createdAt } |
+        Sort-Object @{Expression = { Get-UtcDateOrNull $_.createdAt }; Descending = $false }
+    )
+    if ($items.Count -lt $Threshold) { continue }
+
+    for ($start = 0; $start -lt $items.Count; $start++) {
+      $startUtc = Get-UtcDateOrNull $items[$start].createdAt
+      if (-not $startUtc) { continue }
+      $windowItems = @()
+      for ($cursor = $start; $cursor -lt $items.Count; $cursor++) {
+        $cursorUtc = Get-UtcDateOrNull $items[$cursor].createdAt
+        if (-not $cursorUtc) { continue }
+        $ageMinutes = ($cursorUtc - $startUtc).TotalMinutes
+        if ($ageMinutes -lt 0) { continue }
+        if ($ageMinutes -gt $WindowMinutes) { break }
+        $windowItems += $items[$cursor]
+      }
+      if ($windowItems.Count -ge $Threshold) {
+        [void]$blockedKeys.Add($key)
+        foreach ($item in $windowItems) {
+          $slug = [string]$item.slug
+          if ($slug) { [void]$blockedSlugs.Add($slug) }
+        }
+      }
+    }
+  }
+
+  return [PSCustomObject]@{
+    slugs = $blockedSlugs
+    keys = $blockedKeys
+  }
+}
+
 function Get-BlockedSlugsByOwners {
   param(
     [object]$Users,
@@ -272,12 +323,12 @@ $autoLogPath = Join-Path $moderationDir "auto-blacklist-log.jsonl"
 
 Ensure-File -Path $settingsPath -DefaultContent @"
 {
-  "max_posts_per_window": 2,
-  "max_user_posts_per_window": 2,
+  "max_posts_per_window": 3,
+  "max_user_posts_per_window": 3,
   "max_new_posts_per_author_per_run": 2,
   "max_stale_validations_per_run": 120,
   "unresolved_new_post_quarantine_minutes": 60,
-  "window_minutes": 10
+  "window_minutes": 30
 }
 "@
 Ensure-File -Path $blacklistKeywordsPath -DefaultContent @"
@@ -318,7 +369,7 @@ IHeartCoding
 Ensure-File -Path $autoBlacklistTitlesPath -DefaultContent "# Auto-generated normalized titles`r`n"
 Ensure-File -Path $autoLogPath
 
-$settingsDefault = @{ max_posts_per_window = 2; max_user_posts_per_window = 2; max_new_posts_per_author_per_run = 2; max_stale_validations_per_run = 120; unresolved_new_post_quarantine_minutes = 60; window_minutes = 10 }
+$settingsDefault = @{ max_posts_per_window = 3; max_user_posts_per_window = 3; max_new_posts_per_author_per_run = 2; max_stale_validations_per_run = 120; unresolved_new_post_quarantine_minutes = 60; window_minutes = 30 }
 $settings = $settingsDefault
 try {
   $parsed = Get-Content $settingsPath -Raw | ConvertFrom-Json
@@ -636,23 +687,42 @@ try {
   Write-Warning "Could not write scriptblox-rolling-cache.json"
 }
 
-# Anti-spam: block only by new-post author burst per refresh run (trusted users bypass).
+# Anti-spam: block burst posting in a real rolling time window.
 $runBlockedOwners = New-Object 'System.Collections.Generic.HashSet[string]' ([StringComparer]::OrdinalIgnoreCase)
-$newOwnerGroups = $rawScripts | Where-Object { $_.isNewThisRun -and $_.ownerUsername } | Group-Object ownerUsername
-foreach ($group in $newOwnerGroups) {
-  $owner = [string]$group.Name
-  if (-not $owner) { continue }
-  if ($trustedUsers.Contains($owner)) { continue }
-  if ($group.Count -gt $maxNewPostsPerAuthorPerRun) {
-    [void]$runBlockedOwners.Add($owner)
-  }
+$nonTrustedOwnerScripts = @(
+  $rawScripts |
+    Where-Object {
+      $_.ownerUsername -and
+      (-not $_.trusted)
+    }
+)
+$ownerBurstResult = Get-BurstBlockedSlugs -Scripts $nonTrustedOwnerScripts -GroupKeySelector { [string]$_.ownerUsername } -WindowMinutes $windowMinutes -Threshold $maxUserPostsPerWindow
+$ownerWindowBlockedSlugs = $ownerBurstResult.slugs
+$ownerWindowBlockedOwners = $ownerBurstResult.keys
+foreach ($owner in $ownerWindowBlockedOwners) {
+  [void]$runBlockedOwners.Add([string]$owner)
 }
+
+$ownerlessTitleScripts = @(
+  $rawScripts |
+    Where-Object {
+      (-not $_.ownerUsername) -and
+      $_.titleKey -and
+      (-not $_.trusted)
+    }
+)
+$titleBurstThreshold = if ($maxPostsPerWindow -gt 0) { $maxPostsPerWindow } else { $maxUserPostsPerWindow }
+$titleBurstResult = Get-BurstBlockedSlugs -Scripts $ownerlessTitleScripts -GroupKeySelector { [string]$_.titleKey } -WindowMinutes $windowMinutes -Threshold $titleBurstThreshold
+$titleWindowBlockedSlugs = $titleBurstResult.slugs
+$titleWindowBlockedKeys = $titleBurstResult.keys
 
 $visibleScripts = @()
 $filteredKeywordCount = 0
 $filteredSpamCount = 0
 $filteredOwnerBurstCount = 0
 $filteredRunAuthorBurstCount = 0
+$filteredByOwnerWindowBurstCount = 0
+$filteredByTitleWindowBurstCount = 0
 $filteredUnresolvedNewCount = 0
 $filteredUserCount = 0
 $nowUtc = (Get-Date).ToUniversalTime()
@@ -666,8 +736,8 @@ foreach ($s in $rawScripts) {
     $s.trustedByUser = [bool]$s.trustedByUser
     $s.blocked_user = [bool]($s.blocked_user -or $blockedByOwnerSlug)
   }
-
-  $ownerBurstBlocked = $s.ownerUsername -and $runBlockedOwners.Contains([string]$s.ownerUsername)
+  $ownerBurstBlocked = $s.slug -and $ownerWindowBlockedSlugs.Contains([string]$s.slug)
+  $titleBurstBlocked = $s.slug -and $titleWindowBlockedSlugs.Contains([string]$s.slug)
 
   if ($s.blocked_user -and -not $s.trustedByUser) {
     $filteredUserCount++
@@ -679,7 +749,13 @@ foreach ($s in $rawScripts) {
     continue
   }
   if ($ownerBurstBlocked -and -not $s.trusted) {
-    $filteredRunAuthorBurstCount++
+    $filteredByOwnerWindowBurstCount++
+    $filteredOwnerBurstCount++
+    $filteredSpamCount++
+    continue
+  }
+  if ($titleBurstBlocked -and -not $s.trusted) {
+    $filteredByTitleWindowBurstCount++
     $filteredOwnerBurstCount++
     $filteredSpamCount++
     continue
@@ -723,12 +799,15 @@ $out = [PSCustomObject]@{
     filteredBySpamCount = $filteredSpamCount
     filteredByOwnerBurstCount = $filteredOwnerBurstCount
     filteredByRunAuthorBurstCount = $filteredRunAuthorBurstCount
+    filteredByOwnerWindowBurstCount = $filteredByOwnerWindowBurstCount
+    filteredByTitleWindowBurstCount = $filteredByTitleWindowBurstCount
     filteredByUnresolvedNewCount = $filteredUnresolvedNewCount
     removedByInvalidDetail404Count = $staleInvalidRemovedCount
     filteredCount = ($filteredKeywordCount + $filteredUserCount + $filteredSpamCount)
     autoBlacklistedTitleCount = $autoTitleKeys.Count
     newlyAutoBlacklistedTitleCount = 0
     burstBlockedOwnerCount = $runBlockedOwners.Count
+    burstBlockedTitleKeyCount = $titleWindowBlockedKeys.Count
     trustedKeywordRuleCount = $trustedRules.Count
     blacklistKeywordRuleCount = $blacklistRules.Count
     trustedUserCount = $trustedUsers.Count
@@ -789,6 +868,8 @@ $stateOut = [PSCustomObject]@{
   retentionDays = $RetentionDays
   maxVisibleScripts = $MaxVisibleScripts
   totalPagesAtSource = $totalPages
+  maxPostsPerWindow = $maxPostsPerWindow
+  maxUserPostsPerWindow = $maxUserPostsPerWindow
   maxDetailLookupsPerRun = $MaxDetailLookupsPerRun
   detailDelayMs = $DetailDelayMs
   detailLookupsTried = $detailLookupsTried
@@ -797,6 +878,7 @@ $stateOut = [PSCustomObject]@{
   staleDetailValidationsTried = $staleValidatedCount
   removedInvalidDetail404Count = $staleInvalidRemovedCount
   maxNewPostsPerAuthorPerRun = $maxNewPostsPerAuthorPerRun
+  windowMinutes = $windowMinutes
   unresolvedNewPostQuarantineMinutes = $unresolvedQuarantineMinutes
   burstBlockedOwnerCount = $runBlockedOwners.Count
   count = $visibleScripts.Count
@@ -805,7 +887,10 @@ $stateOut = [PSCustomObject]@{
   filteredBySpamCount = $filteredSpamCount
   filteredByOwnerBurstCount = $filteredOwnerBurstCount
   filteredByRunAuthorBurstCount = $filteredRunAuthorBurstCount
+  filteredByOwnerWindowBurstCount = $filteredByOwnerWindowBurstCount
+  filteredByTitleWindowBurstCount = $filteredByTitleWindowBurstCount
   filteredByUnresolvedNewCount = $filteredUnresolvedNewCount
   filteredCount = ($filteredKeywordCount + $filteredUserCount + $filteredSpamCount)
+  burstBlockedTitleKeyCount = $titleWindowBlockedKeys.Count
 }
 $stateOut | ConvertTo-Json -Depth 4 | Set-Content -Path $statePath -Encoding utf8
