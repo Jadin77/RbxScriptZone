@@ -227,14 +227,6 @@
 			label: "Clean Modern",
 			stack: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
 		},
-		arcade: {
-			label: "Arcade Pixel",
-			stack: '"Press Start 2P", "Lucida Console", "Courier New", monospace',
-		},
-		michroma: {
-			label: "Michroma",
-			stack: '"Michroma", "Trebuchet MS", "Segoe UI", sans-serif',
-		},
 		orbitron: {
 			label: "Orbitron",
 			stack: '"Orbitron", "Segoe UI", Tahoma, sans-serif',

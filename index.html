@@ -107,6 +107,15 @@
         padding: 10px 14px;
         border-radius: 10px;
         font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease, background 0.18s ease;
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 28px rgba(255,122,0,0.28);
+        filter: brightness(1.03);
       }
       
       .tab-shop {
@@ -128,6 +137,9 @@
         background: transparent;
         color: var(--text);
         border: 1px solid rgba(255,255,255,0.2);
+      }
+      .btn.ghost:hover {
+        box-shadow: 0 12px 28px rgba(0,0,0,0.18);
       }
                         .help-store-cta {
         display: inline-block;
@@ -211,13 +223,14 @@
         margin-bottom: 14px;
         padding: 8px 12px;
         border-radius: 999px;
-        border: 1px solid rgba(255,255,255,0.1);
-        background: rgba(255,255,255,0.05);
-        color: var(--accent-2);
+        border: 1px solid rgba(124,255,107,0.28);
+        background: rgba(124,255,107,0.12);
+        color: #9cff8f;
         font-size: 12px;
         font-weight: 800;
         letter-spacing: 0.08em;
         text-transform: uppercase;
+        box-shadow: 0 0 0 1px rgba(124,255,107,0.08) inset, 0 0 18px rgba(124,255,107,0.12);
       }
       .subtitle {
         display: inline-block;
@@ -238,6 +251,9 @@
       .btn.ghost.soft {
         background: rgba(255,255,255,0.06);
         border-color: rgba(255,255,255,0.16);
+      }
+      .btn.ghost.soft:hover {
+        background: rgba(255,255,255,0.1);
       }
       .hero-logo-wrap {
         display: grid;
@@ -922,10 +938,10 @@
       <section class="hero">
         <div class="hero-grid">
           <div class="hero-copy">
-            <span class="hero-eyebrow">Live Hub Preview</span>
-            <h1 id="home-hero-title">Roblox Tweaks</h1>
-            <span class="subtitle" id="home-hero-badge">Beta</span>
-            <p id="home-hero-text">Scripts, free picks, and executors in one place with featured drops that rotate across the site.</p>
+            <span class="hero-eyebrow" id="home-hero-eyebrow">Live</span>
+            <h1 id="home-hero-title">Improve Your Gameplay</h1>
+            <span class="subtitle" id="home-hero-badge" hidden></span>
+            <p id="home-hero-text">Stop using Cracked/Deacted Cheats and Scripts. Dont Risk Your Info, Use Trusted Up to Date Scripts or Check Out Are Public Free Script Tab.</p>
             <div class="actions">
               <a class="btn" id="home-cta-primary" href="roblox-scripts.html">Browse Scripts</a>
               <a class="btn ghost soft" id="home-cta-secondary" href="programs.html">See Executors</a>
@@ -1248,6 +1264,25 @@
         const partnerMessage = document.getElementById("partner-message");
         const partnerStatus = document.getElementById("partner-status");
         const partnerWebhook = "https://discord.com/api/webhooks/1483978714298716273/W1ftWkxFVGv2a55ZMLq70-5CSFIhdu2TuzS_11YRl8zWsetFTflXBND7uPXQ3ztBXX2V";
+        const partnerCooldownKey = "partner_webhook_cooldown_ts";
+        const partnerCooldownMs = 60000;
+
+        function getPartnerCooldownRemaining() {
+          try {
+            const ts = Number.parseInt(localStorage.getItem(partnerCooldownKey) || "0", 10);
+            if (!Number.isFinite(ts) || ts <= 0) return 0;
+            const diff = ts + partnerCooldownMs - Date.now();
+            return diff > 0 ? diff : 0;
+          } catch (_) {
+            return 0;
+          }
+        }
+
+        function setPartnerCooldownNow() {
+          try {
+            localStorage.setItem(partnerCooldownKey, String(Date.now()));
+          } catch (_) {}
+        }
 
         if (helpButton && navHelp) {
           helpButton.addEventListener("click", function () {
@@ -1259,6 +1294,10 @@
           openPartner.addEventListener("click", function () {
             partnerModal.classList.add("open");
             partnerModal.setAttribute("aria-hidden", "false");
+            if (getPartnerCooldownRemaining() > 0) {
+              partnerStatus.textContent = "You on cooldown. Please wait 60 seconds.";
+              partnerStatus.className = "partner-status err";
+            }
           });
           closePartner.addEventListener("click", function () {
             partnerModal.classList.remove("open");
@@ -1274,6 +1313,11 @@
             const message = (partnerMessage.value || "").trim();
             if (!message) {
               partnerStatus.textContent = "Write a partner request first.";
+              partnerStatus.className = "partner-status err";
+              return;
+            }
+            if (getPartnerCooldownRemaining() > 0) {
+              partnerStatus.textContent = "You on cooldown. Please wait 60 seconds.";
               partnerStatus.className = "partner-status err";
               return;
             }
@@ -1294,6 +1338,7 @@
 
               if (!response.ok) throw new Error("Failed");
 
+              setPartnerCooldownNow();
               partnerMessage.value = "";
               partnerStatus.textContent = "Partner request sent.";
               partnerStatus.className = "partner-status ok";

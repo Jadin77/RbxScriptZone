@@ -1,3 +1,5 @@
 # One trusted keyword phrase per line.
 drivehub
+drive hub
 ragerhub
+rager hub

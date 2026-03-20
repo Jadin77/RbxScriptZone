@@ -1,21 +1,13 @@
 (() => {
 	const style = document.createElement("style");
 	style.textContent = `
-    @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron:wght@500;700&family=Press+Start+2P&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
     body {
       position: relative;
       font-family: var(--ui-font, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif) !important;
       font-size: calc(16px * var(--ui-text-scale, 1));
       background-size: 160% 160%, 180% 180%, 180% 180%;
       animation: rtBgFlow var(--theme-motion-speed, 24s) ease-in-out infinite alternate;
-    }
-    html[data-ui-font="arcade"] body {
-      line-height: 1.45;
-    }
-    html[data-ui-font="arcade"] p,
-    html[data-ui-font="arcade"] .theme-name,
-    html[data-ui-font="arcade"] .settings-subtitle {
-      line-height: 1.55;
     }
     body::before {
       content: "";

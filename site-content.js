@@ -112,6 +112,7 @@
 
 	function renderHero(data) {
 		const hero = data.hero || {};
+		const eyebrow = document.getElementById("home-hero-eyebrow");
 		const title = document.getElementById("home-hero-title");
 		const badge = document.getElementById("home-hero-badge");
 		const text = document.getElementById("home-hero-text");
@@ -120,8 +121,23 @@
 		const chips = document.getElementById("home-hero-chips");
 		const stats = document.getElementById("home-stats");
 
+		if (eyebrow) {
+			if (hero.eyebrow) {
+				eyebrow.textContent = hero.eyebrow;
+				eyebrow.hidden = false;
+			} else {
+				eyebrow.hidden = true;
+			}
+		}
 		if (title && hero.title) title.textContent = hero.title;
-		if (badge && hero.badge) badge.textContent = hero.badge;
+		if (badge) {
+			if (hero.badge) {
+				badge.textContent = hero.badge;
+				badge.hidden = false;
+			} else {
+				badge.hidden = true;
+			}
+		}
 		if (text && hero.text) text.textContent = hero.text;
 		if (primary && hero.primaryCta) {
 			primary.textContent = hero.primaryCta.label || "Open";

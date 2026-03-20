@@ -287,6 +287,10 @@
 			}, 4000);
 		}
 
+		function showCooldownToast() {
+			showToast("You on cooldown. Please wait 60 seconds.", "err");
+		}
+
 		/* ── Send Logic ─── */
 		sendBtn.addEventListener("click", () => {
 			if (sendBtn.disabled) return;
@@ -296,6 +300,7 @@
 				return;
 			}
 			if (getCooldownRemaining() > 0) {
+				showCooldownToast();
 				startCooldownTick();
 				return;
 			}
@@ -376,6 +381,16 @@
 				e.preventDefault();
 				modal.classList.add("open");
 				modal.setAttribute("aria-hidden", "false");
+				if (getCooldownRemaining() > 0) {
+					var toast = modal.querySelector(".help-status-toast");
+					if (toast) {
+						toast.textContent = "You on cooldown. Please wait 60 seconds.";
+						toast.className = "help-status-toast show toast-err";
+						setTimeout(() => {
+							toast.classList.remove("show");
+						}, 4000);
+					}
+				}
 			}
 		});
 

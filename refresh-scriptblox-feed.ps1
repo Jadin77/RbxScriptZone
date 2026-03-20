@@ -124,6 +124,49 @@ function Test-MatchByRules {
   return $false
 }
 
+function Test-TrustedMatchByRules {
+  param([string]$Title, [object[]]$Rules)
+  if (-not $Title) { return $false }
+  $wordParts = @(
+    ($Title.ToLowerInvariant() -split "[^a-z0-9]+") |
+    ForEach-Object { Normalize-Text $_ } |
+    Where-Object { $_ }
+  )
+  if ($wordParts.Count -eq 0) { return $false }
+
+  foreach ($tokens in $Rules) {
+    if (-not $tokens -or $tokens.Count -eq 0) { continue }
+
+    if ($tokens.Count -eq 1) {
+      $token = [string]$tokens[0]
+      foreach ($word in $wordParts) {
+        if ($word -eq $token) { return $true }
+      }
+      for ($start = 0; $start -lt $wordParts.Count; $start++) {
+        $joined = ""
+        for ($end = $start; $end -lt [Math]::Min($wordParts.Count, $start + 4); $end++) {
+          $joined += $wordParts[$end]
+          if ($joined -eq $token) { return $true }
+          if ($joined.Length -gt $token.Length) { break }
+        }
+      }
+      continue
+    }
+
+    for ($start = 0; $start -le ($wordParts.Count - $tokens.Count); $start++) {
+      $ok = $true
+      for ($offset = 0; $offset -lt $tokens.Count; $offset++) {
+        if ($wordParts[$start + $offset] -ne [string]$tokens[$offset]) {
+          $ok = $false
+          break
+        }
+      }
+      if ($ok) { return $true }
+    }
+  }
+  return $false
+}
+
 function Invoke-JsonWithRetry {
   param([string]$Uri, [int]$MaxAttempts = 5)
   $attempt = 0
@@ -241,13 +284,22 @@ Ensure-File -Path $blacklistKeywordsPath -DefaultContent @"
 # One keyword phrase per line.
 # Any variation containing all words is blocked.
 mm2 dupe
+mm2
+mml2
+mmi2
+adoptme
+aimbot
+silent aim
+overdrive hub
 autodrive
 auto drive
 "@
 Ensure-File -Path $trustedKeywordsPath -DefaultContent @"
 # One trusted keyword phrase per line.
 drivehub
+drive hub
 ragerhub
+rager hub
 "@
 Ensure-File -Path $blacklistUsersPath -DefaultContent @"
 # One username per line (case-insensitive).
@@ -257,6 +309,7 @@ ccapi1337
 palacescriptz
 xtvoo
 xwxwzxwxwzx
+kurbywtw
 "@
 Ensure-File -Path $trustedUsersPath -DefaultContent @"
 # One username per line (case-insensitive).
@@ -356,7 +409,7 @@ for ($page = 1; $page -le $MaxPages; $page++) {
     $tags = @()
     if ($s.tags) { $tags = @($s.tags | Where-Object { $_ -ne $null -and "$_".Trim() -ne "" }) }
 
-    $trusted = Test-MatchByRules -Title $title -Rules $trustedRules
+    $trusted = Test-TrustedMatchByRules -Title $title -Rules $trustedRules
     $manualBlacklisted = Test-MatchByRules -Title $title -Rules $blacklistRules
     $trustedByUser = $ownerUsername -and $trustedUsers.Contains($ownerUsername)
     $blockedByUser = ($ownerUsername -and $blacklistUsers.Contains($ownerUsername)) -or ($slug -and $blockedSlugsByOwner.Contains($slug))
@@ -416,7 +469,7 @@ foreach ($t in $trendScripts) {
   $ownerProfilePicture = Normalize-ImageUrl $t.owner.profilePicture
   $tags = @()
   if ($t.tags) { $tags = @($t.tags | Where-Object { $_ -ne $null -and "$_".Trim() -ne "" }) }
-  $trusted = Test-MatchByRules -Title $title -Rules $trustedRules
+  $trusted = Test-TrustedMatchByRules -Title $title -Rules $trustedRules
   $manualBlacklisted = Test-MatchByRules -Title $title -Rules $blacklistRules
   $trustedByUser = $ownerUsername -and $trustedUsers.Contains($ownerUsername)
   $blockedByUser = ($ownerUsername -and $blacklistUsers.Contains($ownerUsername)) -or ($slug -and $blockedSlugsByOwner.Contains($slug))
@@ -454,7 +507,7 @@ foreach ($c in $rollingCacheItems) {
   $titleKey = if ($c.titleKey) { [string]$c.titleKey } else { Normalize-Text $title }
   $ownerUsername = Normalize-OwnerUsername $c.ownerUsername
   $trustedByUser = [bool]($ownerUsername -and $trustedUsers.Contains($ownerUsername))
-  $trustedByKeyword = Test-MatchByRules -Title $title -Rules $trustedRules
+  $trustedByKeyword = Test-TrustedMatchByRules -Title $title -Rules $trustedRules
   $trusted = [bool]($trustedByKeyword -or $trustedByUser)
   $blockedByUser = [bool](($ownerUsername -and $blacklistUsers.Contains($ownerUsername)) -or ($slug -and $blockedSlugsByOwner.Contains($slug)))
   $manualBlacklisted = [bool](Test-MatchByRules -Title $title -Rules $blacklistRules)
