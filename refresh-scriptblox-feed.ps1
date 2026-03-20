@@ -641,7 +641,31 @@ foreach ($s in $rawScripts) {
 $detailLookupsTried = 0
 $detailLookupsSucceeded = 0
 if ($MaxDetailLookupsPerRun -gt 0) {
-  $needOwner = @($rawScripts | Where-Object { -not $_.ownerUsername } | Select-Object -First $MaxDetailLookupsPerRun)
+  $priorityOwnerlessCount = [Math]::Max($MaxDetailLookupsPerRun, 120)
+  $recentOwnerless = @(
+    $rawScripts |
+      Where-Object {
+        (-not $_.ownerUsername) -and
+        $_.slug
+      } |
+      Sort-Object @{Expression = { Get-UtcDateOrNull $_.createdAt }; Descending = $true } |
+      Select-Object -First $priorityOwnerlessCount
+  )
+  $recentOwnerlessSlugs = New-Object 'System.Collections.Generic.HashSet[string]' ([StringComparer]::OrdinalIgnoreCase)
+  foreach ($s in $recentOwnerless) {
+    if ($s.slug) { [void]$recentOwnerlessSlugs.Add([string]$s.slug) }
+  }
+  $remainingOwnerlessSlots = [Math]::Max(0, $MaxDetailLookupsPerRun - $recentOwnerless.Count)
+  $remainingOwnerless = @(
+    $rawScripts |
+      Where-Object {
+        (-not $_.ownerUsername) -and
+        $_.slug -and
+        (-not $recentOwnerlessSlugs.Contains([string]$_.slug))
+      } |
+      Select-Object -First $remainingOwnerlessSlots
+  )
+  $needOwner = @($recentOwnerless + $remainingOwnerless)
   foreach ($s in $needOwner) {
     $slug = [string]$s.slug
     if (-not $slug) { continue }
