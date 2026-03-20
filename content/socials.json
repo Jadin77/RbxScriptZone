@@ -1,8 +1,57 @@
-﻿{
-  "heroDescription": "Dedicated page for your social links and communities.",
-  "items": [
-    { "title": "Discord", "description": "Add your invite link and short intro.", "image": "images/socials/Product A.svg", "link": "#" },
-    { "title": "YouTube", "description": "Add your invite link and short intro.", "image": "images/socials/Product B.svg", "link": "#" },
-    { "title": "TikTok", "description": "Add your invite link and short intro.", "image": "images/socials/Product C.svg", "link": "#" }
-  ]
+{
+	"heroDescription": "Direct links to the main socials, plus a video section where people can watch tutorials or open them on YouTube.",
+	"tabs": ["Links", "Videos"],
+	"items": [
+		{
+			"tab": "Links",
+			"title": "Discord Community",
+			"description": "Join the server for updates, help, and direct support.",
+			"image": "images/socials/discord.svg",
+			"coverType": "discord",
+			"link": "https://discord.gg/TybFD4Sm2C",
+			"buttonLabel": "Join My Discord",
+			"openInNewTab": true
+		},
+		{
+			"tab": "Links",
+			"title": "YouTube Channel",
+			"description": "Open my channel in a new tab for uploads, showcases, and future tutorials.",
+			"image": "",
+			"coverType": "youtube",
+			"link": "https://www.youtube.com/@JayBloxStudios",
+			"buttonLabel": "Open My YouTube",
+			"openInNewTab": true
+		},
+		{
+			"tab": "Links",
+			"title": "My Scripts Direct Key Link",
+			"description": "Ad Task to get key takes less than 5 mins",
+			"image": "",
+			"coverType": "key",
+			"link": "https://jnkie.com/overview/ilovecodinglua",
+			"buttonLabel": "Open Key Link",
+			"openInNewTab": true
+		},
+		{
+			"tab": "Videos",
+			"title": "How To Get A Key For My Scripts",
+			"description": "Takes Less Than 5 Mins",
+			"image": "https://img.youtube.com/vi/pIys-IFaEhA/maxresdefault.jpg",
+			"coverType": "video",
+			"link": "#",
+			"buttonLabel": "Watch Video",
+			"showcase": {
+				"title": "How To Get A Key For My Scripts",
+				"description": "Takes Less Than 5 Mins",
+				"video": "https://youtu.be/pIys-IFaEhA?si=dCKP0durCNg2JF2I",
+				"features": [
+					"Watch directly on the site",
+					"Fullscreen support in the player",
+					"Open on YouTube anytime"
+				],
+				"buyLink": "https://youtu.be/pIys-IFaEhA?si=dCKP0durCNg2JF2I",
+				"buyLabel": "Open In YouTube"
+			}
+		}
+	]
 }

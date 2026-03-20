@@ -1,0 +1,33 @@
+================================================================================
+                           PRODUCT VIDEO LINKS DRAFT PAD
+================================================================================
+Keep track of your YouTube showcase links here. 
+NOTE: To actually apply these links to your website, you still need to paste 
+them into the corresponding JSON files in the 'content' folder 
+(roblox-scripts.json and roblox-studio.json).
+================================================================================
+
+--------------------------------------------------------------------------------
+ROBLOX SCRIPTS TAB
+--------------------------------------------------------------------------------
+Spot 1 (Premium Script 1):
+Link: https://youtu.be/ceKpAjXFay0?si=Er0jGfEcmbezQKWh
+
+Spot 2 (Premium Script 2):
+Link: https://youtu.be/dQw4w9WgXcQ
+
+Spot 3 (Premium Script 3):
+Link: https://youtu.be/dQw4w9WgXcQ
+
+
+--------------------------------------------------------------------------------
+ROBLOX STUDIO TAB
+--------------------------------------------------------------------------------
+Spot 1 (Studio Product 1):
+Link: https://youtu.be/dQw4w9WgXcQ
+
+Spot 2 (Studio Product 2):
+Link: https://youtu.be/dQw4w9WgXcQ
+
+Spot 3 (Studio Product 3):
+Link: https://youtu.be/dQw4w9WgXcQ

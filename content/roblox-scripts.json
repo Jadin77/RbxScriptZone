@@ -1,8 +1,151 @@
-﻿{
-  "heroDescription": "Dedicated page for script products.",
-  "items": [
-    { "title": "Script Product A", "description": "Add details, proof, and feature list.", "image": "images/roblox-scripts/Product A.svg", "link": "#" },
-    { "title": "Script Product B", "description": "Add details, proof, and feature list.", "image": "images/roblox-scripts/Product B.svg", "link": "#" },
-    { "title": "Script Product C", "description": "Add details, proof, and feature list.", "image": "images/roblox-scripts/Product C.svg", "link": "#" }
-  ]
+{
+	"heroDescription": "Dedicated page for script products.",
+	"tabs": ["Hub", "Games", "Tools"],
+	"items": [
+		{
+			"tab": "Hub",
+			"title": "RagerHub Script",
+			"description": "Platform Pc/Mobile / Cost - Free",
+			"image": "images/Icons/Scripts/RagerHub.png",
+			"link": "#",
+			"showcase": {
+				"title": "RagerHub Script",
+				"description": "Platform Pc/Mobile / Cost - Free",
+				"video": "https://youtu.be/FvCLPBmHaAw",
+				"gallery": ["images/Icons/Scripts/RagerHub.png"],
+				"features": [
+					"Universal - Works on most game menus",
+					"Rager Universal Aimbot - Works in 95% of pvp games",
+					"Rager Universal - All base player options and some dev tools",
+					"Game Tab - Customized menus for certain hard to hack games we bypassed",
+					"Updates Often"
+				],
+				"scriptCode": "loadstring(game:HttpGet(\"https://api.jnkie.com/api/v1/luascripts/public/184bf1e6ddadf4c78c9bee629ec7e76600526568771bae8d0fd5de3fe8a155f4/download\"))()",
+				"buyLink": "https://shoppy.gg/@jadin77"
+			}
+		},
+		{
+			"tab": "Hub",
+			"title": "DriveHub Script",
+			"description": "Platform Pc/Mobile / Cost - Free",
+			"image": "images/Icons/Scripts/DriveHub.png",
+			"link": "#",
+			"showcase": {
+				"title": "DriveHub Script",
+				"description": "Platform Pc/Mobile / Cost - Free",
+				"gallery": ["images/Icons/Scripts/DriveHub.png"],
+				"features": [
+					"DriveHub Offers Tons Of Games and is always updating and adding more",
+					"Get into action with the most advanced/popular Hub for Roblox driving games"
+				],
+				"scriptCode": "loadstring(game:HttpGet(\"https://api.jnkie.com/api/v1/luascripts/public/2574f470b049894effcfc5bd4e6d7cbe9345b6b6a2927df0a852abc15642512e/download\"))()",
+				"buyLink": "https://shoppy.gg/@jadin77"
+			}
+		},
+		{
+			"tab": "Hub",
+			"title": "Premium Script 3",
+			"description": "Add details, proof, and feature list.",
+			"image": "images/Icons/Scripts/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Premium Script 3",
+				"description": "Add details, proof, and feature list.",
+				"gallery": ["images/Icons/Scripts/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Games",
+			"title": "Phantom Forces Script ✅",
+			"description": "Platform-Pc / Cost - Free",
+			"image": "images/Icons/Scripts/PhantomForces.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Phantom Forces Script ✅",
+				"description": "Platform-Pc / Cost - Free",
+				"video": "https://youtu.be/ceKpAjXFay0?si=Er0jGfEcmbezQKWh",
+				"gallery": ["images/Icons/Scripts/PhantomForces.jpg"],
+				"features": [
+					"Aimbot - Fully Customizeable",
+					"Esp - Safe and Lag Free Box Esp",
+					"SnipeMode- Complex Sniper Aimbot",
+					"Best On Market"
+				],
+				"scriptCode": "loadstring(game:HttpGet(\"https://api.jnkie.com/api/v1/luascripts/public/184bf1e6ddadf4c78c9bee629ec7e76600526568771bae8d0fd5de3fe8a155f4/download\"))()",
+				"buyLink": "https://shoppy.gg/@jadin77"
+			}
+		},
+		{
+			"tab": "Games",
+			"title": "HyperShot Script",
+			"description": "Add details, proof, and feature list.",
+			"image": "images/Icons/Scripts/HypershotScript.webp",
+			"link": "#",
+			"showcase": {
+				"title": "HyperShot Script",
+				"description": "Add details, proof, and feature list.",
+				"gallery": ["images/Icons/Scripts/HypershotScript.webp"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Games",
+			"title": "Game Script 3",
+			"description": "Add details, proof, and feature list.",
+			"image": "images/Icons/Scripts/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Game Script 3",
+				"description": "Add details, proof, and feature list.",
+				"gallery": ["images/Icons/Scripts/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Tools",
+			"title": "Performance Script",
+			"description": "Works on Pc/Mobile And Free!",
+			"image": "images/Icons/Scripts/PerformanceTool.png",
+			"link": "#",
+			"showcase": {
+				"title": "Performance Script",
+				"description": "Works on Pc/Mobile And Free!",
+				"gallery": ["images/Icons/Scripts/PerformanceTool.png"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Tools",
+			"title": "Tool 2",
+			"description": "Coming soon.",
+			"image": "images/Icons/Scripts/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Tool 2",
+				"description": "Coming soon.",
+				"gallery": ["images/Icons/Scripts/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Tools",
+			"title": "Tool 3",
+			"description": "Coming soon.",
+			"image": "images/Icons/Scripts/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Tool 3",
+				"description": "Coming soon.",
+				"gallery": ["images/Icons/Scripts/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		}
+	]
 }

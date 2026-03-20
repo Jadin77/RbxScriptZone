@@ -1,31 +1,119 @@
-﻿{
-  "slides": [
-    {
-      "title": "Roblox Scripts",
-      "kicker": "FEATURED DROP",
-      "text": "Main script products and packs with dedicated detail sections.",
-      "cta": "Open Scripts Page",
-      "href": "roblox-scripts.html",
-      "image": "images/roblox-scripts/Product A.svg",
-      "imageLabel": "Featured Scripts"
-    },
-    {
-      "title": "Roblox Studio",
-      "kicker": "FEATURED DROP",
-      "text": "Studio services, tools, and resources with room for full listings.",
-      "cta": "Open Studio Page",
-      "href": "roblox-studio.html",
-      "image": "images/roblox-studio/Product A.svg",
-      "imageLabel": "Studio Assets"
-    },
-    {
-      "title": "Programs",
-      "kicker": "FEATURED DROP",
-      "text": "External apps and program bundles in a dedicated full page.",
-      "cta": "Open Programs Page",
-      "href": "programs.html",
-      "image": "images/programs/Product A.svg",
-      "imageLabel": "Desktop Tools"
-    }
-  ]
+{
+	"hero": {
+		"title": "Roblox Tweaks",
+		"badge": "Beta Command Center",
+		"text": "A sharper homepage that rotates real posts, spotlights stronger visuals, and keeps unfinished drops in their own lane instead of leaving the page empty.",
+		"primaryCta": {
+			"label": "Browse Scripts",
+			"href": "roblox-scripts.html"
+		},
+		"secondaryCta": {
+			"label": "See Executors",
+			"href": "programs.html"
+		},
+		"chips": [
+			{
+				"title": "Randomized Feed",
+				"text": "Pulls eye-catching posts from across the site"
+			},
+			{
+				"title": "Better Balance",
+				"text": "Real content stays featured, placeholders get separated"
+			},
+			{
+				"title": "Brand Lift",
+				"text": "A stronger hero with a neon RT mark"
+			}
+		]
+	},
+	"stats": [
+		{
+			"value": "102",
+			"label": "Visits"
+		},
+		{
+			"value": "Updated today",
+			"label": "Updated"
+		},
+		{
+			"value": "Scripts",
+			"label": "Trending now"
+		}
+	],
+	"slides": [
+		{
+			"title": "Roblox Scripts",
+			"kicker": "FEATURED DROP",
+			"text": "Main script products and packs with dedicated detail sections.",
+			"cta": "Open Scripts Page",
+			"href": "roblox-scripts.html",
+			"image": "images/Icons/Scripts/RagerHub.png",
+			"imageLabel": "Featured Scripts",
+			"tags": ["Scripts", "Featured"]
+		},
+		{
+			"title": "Free Scripts",
+			"kicker": "FEATURED DROP",
+			"text": "Jump straight into the live free scripts feed with search, filters, and trending picks.",
+			"cta": "Open Free Scripts",
+			"href": "free-scripts.html",
+			"image": "images/Icons/Scripts/PerformanceTool.png",
+			"imageLabel": "Free Picks",
+			"tags": ["Free Picks", "Live Feed"]
+		},
+		{
+			"title": "Programs",
+			"kicker": "FEATURED DROP",
+			"text": "External apps and program bundles in a dedicated full page.",
+			"cta": "Open Programs Page",
+			"href": "programs.html",
+			"image": "images/programs/Delta.jpg",
+			"imageLabel": "Desktop Tools",
+			"tags": ["Executors", "Desktop"]
+		}
+	],
+	"quickLinks": [
+		{
+			"badge": "Scripts",
+			"title": "Roblox Scripts",
+			"text": "Universal hubs, game scripts, and free tools with real preview images.",
+			"href": "roblox-scripts.html",
+			"image": "images/Icons/Scripts/DriveHub.png"
+		},
+		{
+			"badge": "Free",
+			"title": "Free Scripts",
+			"text": "Live feed, trending scripts, and fast access to free picks without placeholder cards.",
+			"href": "free-scripts.html",
+			"image": "images/Icons/Scripts/PerformanceTool.png"
+		},
+		{
+			"badge": "Executors",
+			"title": "Programs",
+			"text": "Official site links, Discord access, and the executors people click first.",
+			"href": "programs.html",
+			"image": "images/programs/Velocity.png"
+		}
+	],
+	"pillItems": [
+		"Filtered featured rotation",
+		"Separate coming soon section",
+		"Quick access cards",
+		"3D-style RT hero mark",
+		"Better use of real images"
+	],
+	"comingSoon": [
+		{
+			"title": "Studio Asset Packs",
+			"text": "Give Roblox Studio a stronger visual lane with actual banners and polished previews."
+		},
+		{
+			"title": "More Free Picks",
+			"text": "Pull more free scripts onto the homepage once there are enough polished images to support them."
+		},
+		{
+			"title": "Hero Scene Art",
+			"text": "Swap the logo panel for a custom branded hero render if you want the homepage to feel even bigger."
+		}
+	]
 }

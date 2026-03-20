@@ -1,27 +1,28 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Socials</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <script src="theme.js"></script>
     <script src="ui-sounds.js"></script>
     <script src="site-ui.js"></script>
     <script src="site-content.js"></script>
+    <script src="help-modal.js"></script>
     <style>
       :root { --bg1:#0b1f3a; --bg2:#0f3b5f; --text:#f5f7fb; --muted:#c7d2e0; --card:rgba(8,18,32,0.7); --border:rgba(255,255,255,0.08); --accent:#ff7a00; --glow1:rgba(22,58,99,0.9); --glow2:rgba(29,75,122,0.9); }
       * { box-sizing: border-box; }
       body { margin:0; font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif; color:var(--text); min-height:100vh; background:radial-gradient(1200px 600px at 20% 10%, var(--glow1) 0%, transparent 60%), radial-gradient(900px 500px at 80% 20%, var(--glow2) 0%, transparent 55%), linear-gradient(160deg, var(--bg1), var(--bg2)); }
       header { backdrop-filter:blur(8px); background:rgba(6,14,26,0.7); border-bottom:1px solid var(--border); }
       .nav { max-width:1100px; margin:0 auto; padding:14px 20px; display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
-      .brand { display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; border-radius:10px; background:rgba(255,255,255,0.08); border:1px solid var(--border); margin-right:6px; overflow:hidden; font-size:12px; font-weight:700; }
+      .brand { display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; border-radius:10px; background:#000; border:1px solid var(--border); margin-right:6px; overflow:hidden; font-size:12px; font-weight:700; }
       .brand img { width:100%; height:100%; object-fit:cover; display:block; }
       .nav a { color:var(--text); text-decoration:none; padding:8px 12px; border-radius:999px; border:1px solid transparent; font-size:14px; font-weight:600; }
       .nav a:hover { border-color:var(--border); background:rgba(255,255,255,0.04); }
       .nav a.active { border-color: rgba(255,255,255,0.55); box-shadow: 0 0 0 1px rgba(255,255,255,0.22) inset; background: rgba(255,255,255,0.22); }
       .tab-home { background: rgba(83, 227, 255, 0.26); }
       .tab-scripts { background: rgba(255, 140, 77, 0.28); }
-      .tab-studio { background: rgba(145, 255, 120, 0.28); }
       .tab-programs { background: rgba(255, 126, 190, 0.26); }
       .tab-socials { background: rgba(255, 255, 255, 0.16); }
       .tab-free { background: rgba(126, 245, 255, 0.26); }
@@ -73,6 +74,116 @@
       .thumb img { width:100%; height:100%; object-fit:cover; display:block; }
       .card h3 { margin:12px 0 6px; }
       .card p { margin:0 0 12px; color:var(--muted); font-size:14px; }
+      .social-card {
+        padding: 0;
+        overflow: hidden;
+        border-radius: 18px;
+      }
+      .social-cover {
+        position: relative;
+        height: 170px;
+        overflow: hidden;
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+        background: linear-gradient(135deg, rgba(17,37,62,0.95), rgba(11,24,40,0.92));
+      }
+      .social-cover::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(9,18,31,0.32));
+        pointer-events: none;
+      }
+      .social-cover img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .social-cover.discord {
+        background: radial-gradient(circle at 20% 20%, rgba(88,101,242,0.28), transparent 30%), linear-gradient(135deg, #162652, #223c82);
+      }
+      .social-cover.youtube {
+        background: radial-gradient(circle at 18% 20%, rgba(255,68,68,0.34), transparent 30%), linear-gradient(135deg, #35111a, #7c1d1d);
+      }
+      .social-cover.key {
+        background: radial-gradient(circle at 80% 18%, rgba(255,189,68,0.28), transparent 30%), linear-gradient(135deg, #322716, #675528);
+      }
+      .social-cover.video {
+        background: linear-gradient(135deg, #101827, #233554);
+      }
+      .social-cover-fallback {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+      }
+      .social-cover-badge {
+        align-self: flex-start;
+        margin-bottom: 12px;
+        padding: 7px 10px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.14);
+        color: #fff;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .social-cover-icon {
+        font-size: 50px;
+        line-height: 1;
+        margin-bottom: 10px;
+      }
+      .social-cover-icon.discord-icon img {
+        width: 54px;
+        height: 54px;
+        object-fit: contain;
+        filter: drop-shadow(0 0 10px rgba(255,255,255,0.16));
+      }
+      .social-cover-title {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1;
+        letter-spacing: -0.04em;
+      }
+      .social-cover-subtitle {
+        margin-top: 8px;
+        max-width: 260px;
+        color: rgba(255,255,255,0.8);
+        font-size: 13px;
+        font-weight: 600;
+      }
+      .social-body {
+        padding: 16px;
+      }
+      .social-body h3 {
+        margin: 0 0 8px;
+        font-size: 28px;
+      }
+      .social-body p {
+        margin: 0 0 14px;
+        min-height: 48px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.45;
+      }
+      .social-body .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .social-card.video-card .social-cover {
+        height: 220px;
+      }
+      .social-card.video-card .social-body h3 {
+        font-size: 34px;
+      }
+      .social-card.video-card .btn {
+        min-width: 148px;
+      }
       footer { margin-top:44px; color:var(--muted); font-size:13px; text-align:center; }
       .settings-modal { position:fixed; inset:0; background:rgba(3,8,18,0.62); backdrop-filter:blur(4px); display:none; align-items:center; justify-content:center; z-index:90; padding:18px; }
       .settings-modal.open { display:flex; }
@@ -130,17 +241,23 @@
       @media (max-width: 760px) {
         .nav { gap: 6px; padding: 10px 12px; }
         .nav a { padding: 7px 10px; font-size: 13px; }
+        .social-card.video-card .social-cover {
+          height: 170px;
+        }
+        .social-body h3,
+        .social-card.video-card .social-body h3 {
+          font-size: 24px;
+        }
       }
     </style>
   </head>
   <body>
     <header>
       <nav class="nav">
-        <div class="brand"><img src="images/logo/Logo.svg" alt="Logo" onerror="this.style.display='none'; this.parentElement.textContent='RT';" /></div>
+        <div class="brand"><img src="images/favicon.png" alt="Logo" onerror="this.style.display='none'; this.parentElement.textContent='RT';" /></div>
         <a class="tab-home " href="index.html">🏠 Home</a>
         <a class="tab-scripts " href="roblox-scripts.html">🧩 Roblox Scripts</a>
-        <a class="tab-studio " href="roblox-studio.html">🛠 Roblox Studio</a>
-        <a class="tab-programs " href="programs.html">💻 Programs</a>
+        <a class="tab-programs " href="programs.html">💻 Executors</a>
         <a class="tab-socials active" href="socials.html">🌐 Socials</a>
         <a class="tab-free" href="free-scripts.html">🆓 Free Scripts</a>
         <a class="tab-settings settings-trigger" id="open-settings" href="#">⚙ Settings</a>
@@ -161,15 +278,14 @@
       </section>
       <footer>&copy; 2026 Roblox Tweaks. All rights reserved.</footer>
     </main>
-    <div id="settings-modal" class="settings-modal" aria-hidden="true"><section class="settings-panel"><div class="settings-head"><h2 style="margin:0;">Theme Settings</h2><button id="close-settings" class="btn ghost" type="button">Back</button></div><div id="theme-grid" class="settings-grid"></div><h3 style="margin:14px 0 8px;">Sound Preset</h3><div id="sound-grid" class="settings-grid"></div><div class="volume-wrap"><div class="volume-head"><span>🔊 Site Sounds</span><span id="sound-volume-value">50%</span></div><input id="sound-volume" class="volume-slider" type="range" min="0" max="100" step="1" value="50" aria-label="Website Volume"></div></section></div>
-    <div id="help-modal" class="settings-modal" aria-hidden="true"><section class="settings-panel"><div class="settings-head"><h2 style="margin:0;">Help info</h2><button id="close-help" class="btn ghost" type="button">Close</button></div><p style="margin:0; color:var(--muted); line-height:1.6;">If you need support, direct message and add me on Discord: <strong>Jadin7380</strong></p><p class="help-store-hint">Tap here to open the official store ↓</p>
-        <a class="btn help-store-cta" href="https://shoppy.gg/@jadin77" target="_blank" rel="noopener noreferrer">Check Out Store</a></section></div>
+    <div id="settings-modal" class="settings-modal" aria-hidden="true"><section class="settings-panel"><div class="settings-head"><h2 style="margin:0;">Theme Settings</h2><button id="close-settings" class="btn ghost" type="button">Back</button></div><div id="theme-grid" class="settings-grid"></div><h3 style="margin:14px 0 8px;">Sound Preset</h3><div id="sound-grid" class="settings-grid"></div><div class="volume-wrap"><div class="volume-head"><span>&#128266; Site Sounds</span><span id="sound-volume-value">50%</span></div><input id="sound-volume" class="volume-slider" type="range" min="0" max="100" step="1" value="50" aria-label="Website Volume"></div></section></div>
+    <div id="help-modal" class="settings-modal" aria-hidden="true"><section class="settings-panel"><div class="settings-head"><h2 style="margin:0;">Help info</h2><button id="close-help" class="btn ghost" type="button">Close</button></div></section></div>
     <script>
-      (function(){const h=document.getElementById('open-help'),m=document.getElementById('help-modal'),c=document.getElementById('close-help'),s=document.querySelector('.tab-shop');if(h){h.addEventListener('click',function(e){e.preventDefault();m.classList.add('open');m.setAttribute('aria-hidden','false');if(s)s.classList.add('shop-highlight');});c.addEventListener('click',function(){m.classList.remove('open');m.setAttribute('aria-hidden','true');if(s)s.classList.remove('shop-highlight');});m.addEventListener('click',function(e){if(e.target===m)c.click();});}})();
       (function(){const o=document.getElementById('open-settings'),c=document.getElementById('close-settings'),m=document.getElementById('settings-modal'),g=document.getElementById('theme-grid'),sg=document.getElementById('sound-grid'),sv=document.getElementById('sound-volume'),svv=document.getElementById('sound-volume-value'),tm=window.ThemeManager,sm=window.UISounds;if(!tm)return;function a(id){g.querySelectorAll('.theme-btn').forEach(function(el){el.classList.toggle('active',el.getAttribute('data-theme-id')===id);});}function sa(id){if(!sg)return;sg.querySelectorAll('.sound-btn').forEach(function(el){el.classList.toggle('active',el.getAttribute('data-sound-id')===id);});}function s(v){return 'linear-gradient(135deg, '+v['--bg1']+', '+v['--bg2']+')';}Object.keys(tm.themes).forEach(function(id){const t=tm.themes[id],b=document.createElement('button');b.type='button';b.className='theme-btn';b.setAttribute('data-theme-id',id);b.innerHTML='<div class="theme-swatch" style="background:'+s(t.vars)+'"></div><div class="theme-name">'+t.label+'</div>';b.addEventListener('click',function(){tm.applyTheme(id);a(id);});g.appendChild(b);});a(tm.getCurrentTheme());if(sm&&sg){sm.listPresets().forEach(function(p){const b=document.createElement('button');b.type='button';b.className='sound-btn';b.setAttribute('data-sound-id',p.id);b.textContent=p.label;b.addEventListener('click',function(){sm.setPreset(p.id);sa(p.id);});sg.appendChild(b);});sa(sm.getPreset());if(sv&&svv&&sm.getMasterVolume){const startVol=Math.round(sm.getMasterVolume()*100);sv.value=String(startVol);svv.textContent=startVol+"%";sv.addEventListener("input",function(){const next=Math.max(0,Math.min(100,parseInt(sv.value||"0",10)));if(sm.setMasterVolume)sm.setMasterVolume(next/100);svv.textContent=next+"%";});}}o.addEventListener('click',function(e){e.preventDefault();m.classList.add('open');m.setAttribute('aria-hidden','false');});c.addEventListener('click',function(){m.classList.remove('open');m.setAttribute('aria-hidden','true');});m.addEventListener('click',function(e){if(e.target===m)c.click();});})();
     </script>
   </body>
 </html>
+
 
 
 

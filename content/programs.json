@@ -1,8 +1,26 @@
-﻿{
-  "heroDescription": "Dedicated page for apps and tools.",
-  "items": [
-    { "title": "Program A", "description": "Add details, proof, and feature list.", "image": "images/programs/Product A.svg", "link": "#" },
-    { "title": "Program B", "description": "Add details, proof, and feature list.", "image": "images/programs/Product B.svg", "link": "#" },
-    { "title": "Program C", "description": "Add details, proof, and feature list.", "image": "images/programs/Product C.svg", "link": "#" }
-  ]
+{
+	"heroDescription": "Dedicated page for Roblox Executors.",
+	"items": [
+		{
+			"title": "Velocity (Pc Only)",
+			"description": "Official Discord is down. Join my server and DM for more info/support.",
+			"image": "images/programs/Velocity.png",
+			"siteLink": "https://work.ink/1Yct/velocitydownload/",
+			"discordLink": "https://discord.gg/TybFD4Sm2C"
+		},
+		{
+			"title": "Delta (IOS/Android)",
+			"description": "Powerful execution for mobile platforms. Join the community for regular updates.",
+			"image": "images/programs/Delta.jpg",
+			"siteLink": "https://deltaexploits.gg/",
+			"discordLink": "https://discord.gg/deltacommunity"
+		},
+		{
+			"title": "Xeno (Pc Only)",
+			"description": "Fast and reliable PC executor. Connect with the developers on Discord.",
+			"image": "images/programs/Xeno.jpg",
+			"siteLink": "https://xeno.onl/download",
+			"discordLink": "https://discord.gg/xe-no"
+		}
+	]
 }

@@ -1,13 +1,15 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Roblox Tweaks</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <script src="theme.js"></script>
     <script src="ui-sounds.js"></script>
     <script src="site-ui.js"></script>
     <script src="site-content.js"></script>
+    <script src="help-modal.js"></script>
     <style>
       :root {
         --bg1: #0b1f3a;
@@ -52,21 +54,24 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 42px;
-        height: 42px;
-        border-radius: 10px;
-        background: rgba(255,255,255,0.08);
+        width: 46px;
+        height: 46px;
+        border-radius: 12px;
+        background: #000;
         border: 1px solid var(--border);
         margin-right: 6px;
         overflow: hidden;
         font-size: 12px;
         font-weight: 700;
+        box-shadow: 0 0 0 1px rgba(255,255,255,0.05) inset, 0 10px 24px rgba(0,0,0,0.28);
       }
       .brand img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         display: block;
+        transform: scale(1.28);
+        transform-origin: center;
       }
       .nav a {
         color: var(--text);
@@ -88,7 +93,6 @@
       }
       .tab-home { background: rgba(83, 227, 255, 0.26); }
       .tab-scripts { background: rgba(255, 140, 77, 0.28); }
-      .tab-studio { background: rgba(145, 255, 120, 0.28); }
       .tab-programs { background: rgba(255, 126, 190, 0.26); }
       .tab-socials { background: rgba(255, 255, 255, 0.16); }
       .tab-free { background: rgba(126, 245, 255, 0.26); }
@@ -149,25 +153,223 @@
         padding: 40px 20px 80px;
       }
       .hero {
-        padding: 32px;
-        background: var(--card);
+        position: relative;
+        overflow: hidden;
+        padding: 34px;
+        background:
+          linear-gradient(135deg, rgba(9, 21, 40, 0.92), rgba(13, 31, 54, 0.82)),
+          var(--card);
         border: 1px solid var(--border);
-        border-radius: 20px;
+        border-radius: 28px;
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
       }
-      .hero h1 {
-        margin: 0 0 10px;
-        font-size: clamp(30px, 4vw, 46px);
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: -20% auto auto -12%;
+        width: 360px;
+        height: 360px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(33,212,253,0.24) 0%, rgba(33,212,253,0) 68%);
+        pointer-events: none;
       }
-      .hero p {
-        margin: 0 0 18px;
+      .hero::after {
+        content: "";
+        position: absolute;
+        right: -80px;
+        bottom: -120px;
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(255,122,0,0.16) 0%, rgba(255,122,0,0) 72%);
+        pointer-events: none;
+      }
+      .hero-grid {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: minmax(0, 1.15fr) minmax(280px, 420px);
+        gap: 24px;
+        align-items: center;
+      }
+      .hero-copy h1 {
+        margin: 0 0 12px;
+        font-size: clamp(38px, 5vw, 62px);
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+      }
+      .hero-copy p {
+        margin: 0 0 20px;
         color: var(--muted);
         font-size: 18px;
+        max-width: 640px;
+      }
+      .hero-eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 14px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(255,255,255,0.1);
+        background: rgba(255,255,255,0.05);
+        color: var(--accent-2);
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .subtitle {
+        display: inline-block;
+        margin-top: -2px;
+        margin-bottom: 18px;
+        color: var(--accent-2);
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
       }
       .hero .actions {
         display: flex;
-        gap: 10px;
+        gap: 12px;
         flex-wrap: wrap;
+        margin-bottom: 18px;
+      }
+      .btn.ghost.soft {
+        background: rgba(255,255,255,0.06);
+        border-color: rgba(255,255,255,0.16);
+      }
+      .hero-logo-wrap {
+        display: grid;
+        place-items: center;
+      }
+      .hero-logo {
+        position: relative;
+        width: min(100%, 360px);
+        aspect-ratio: 1 / 1;
+        display: grid;
+        place-items: center;
+        border-radius: 30px;
+        background:
+          linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.03)),
+          linear-gradient(145deg, rgba(12, 27, 48, 0.95), rgba(10, 18, 36, 0.84));
+        border: 1px solid rgba(255,255,255,0.12);
+        box-shadow:
+          inset 0 1px 0 rgba(255,255,255,0.08),
+          0 28px 80px rgba(0,0,0,0.45),
+          0 0 60px rgba(33,212,253,0.12);
+        transform: perspective(1200px) rotateX(8deg) rotateY(-10deg);
+        overflow: hidden;
+      }
+      .hero-logo::before {
+        content: "";
+        position: absolute;
+        inset: 18px;
+        border-radius: 26px;
+        border: 1px solid rgba(255,255,255,0.08);
+        background:
+          linear-gradient(120deg, rgba(255,255,255,0.11), rgba(255,255,255,0) 38%),
+          radial-gradient(circle at 20% 18%, rgba(33,212,253,0.24), transparent 34%),
+          radial-gradient(circle at 82% 78%, rgba(255,122,0,0.22), transparent 36%);
+      }
+      .hero-logo::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(115deg, transparent 0%, rgba(255,255,255,0.08) 46%, transparent 62%);
+        transform: translateX(-60%);
+        animation: heroSweep 5.5s ease-in-out infinite;
+      }
+      .hero-logo-core {
+        position: relative;
+        width: 62%;
+        aspect-ratio: 1 / 1;
+        border-radius: 28px;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at 50% 42%, rgba(76, 210, 255, 0.22), rgba(76, 210, 255, 0) 50%),
+          linear-gradient(145deg, rgba(0, 0, 0, 0.98), rgba(8, 16, 30, 0.96));
+        border: 1px solid rgba(255,255,255,0.14);
+        box-shadow:
+          0 0 0 1px rgba(255,255,255,0.06) inset,
+          0 18px 44px rgba(0,0,0,0.42),
+          0 0 34px rgba(33,212,253,0.22);
+      }
+      .hero-logo-ring,
+      .hero-logo-ring::before,
+      .hero-logo-ring::after {
+        position: absolute;
+        content: "";
+        border-radius: 24px;
+      }
+      .hero-logo-ring {
+        inset: -16px;
+        border: 1px solid rgba(33,212,253,0.28);
+        transform: rotate(14deg);
+      }
+      .hero-logo-ring::before {
+        inset: -10px;
+        border: 1px solid rgba(255,122,0,0.28);
+        transform: rotate(-26deg);
+      }
+      .hero-logo-ring::after {
+        inset: 18px;
+        border: 1px dashed rgba(255,255,255,0.14);
+      }
+      .hero-logo-mark {
+        position: relative;
+        z-index: 1;
+        width: 48%;
+        max-width: 112px;
+        aspect-ratio: 1 / 1;
+        object-fit: contain;
+        filter:
+          drop-shadow(0 0 12px rgba(76, 210, 255, 0.55))
+          drop-shadow(0 0 28px rgba(76, 210, 255, 0.28));
+      }
+      @keyframes heroSweep {
+        0%, 100% { transform: translateX(-60%); opacity: 0; }
+        30% { opacity: 1; }
+        55% { transform: translateX(65%); opacity: 1; }
+        80% { opacity: 0; }
+      }
+      .stats-grid {
+        margin-top: 18px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+      }
+      .stat-card {
+        padding: 18px;
+        border-radius: 18px;
+        border: 1px solid var(--border);
+        background: rgba(6, 16, 30, 0.52);
+        box-shadow: 0 16px 40px rgba(0,0,0,0.18);
+      }
+      .stat-card.stat-link {
+        display: block;
+        color: var(--text);
+        text-decoration: none;
+        transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+      }
+      .stat-card.stat-link:hover {
+        transform: translateY(-2px);
+        border-color: rgba(126,245,255,0.32);
+        box-shadow: 0 20px 42px rgba(0,0,0,0.22), 0 0 0 1px rgba(126,245,255,0.12) inset;
+      }
+      .stat-card strong {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 22px;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+      }
+      .stat-card span {
+        display: block;
+        color: var(--muted);
+        font-size: 13px;
       }
       .feature {
         margin-top: 24px;
@@ -175,25 +377,259 @@
         overflow: hidden;
         border-radius: 18px;
         border: 1px solid var(--border);
+        background: rgba(7, 18, 31, 0.6);
+        box-shadow: 0 24px 60px rgba(0,0,0,0.24);
+      }
+      .section-head {
+        margin: 30px 0 14px;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 18px;
+      }
+      .section-head h2 {
+        margin: 0 0 4px;
+        font-size: clamp(24px, 3vw, 34px);
+      }
+      .section-head p {
+        margin: 0;
+        color: var(--muted);
+      }
+      .spotlight-grid,
+      .quick-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .spotlight-card,
+      .quick-card {
+        position: relative;
+        overflow: hidden;
+        padding: 18px;
+        border-radius: 20px;
+        border: 1px solid var(--border);
+        background: rgba(8, 18, 32, 0.68);
+        color: var(--text);
+        text-decoration: none;
+        min-height: 220px;
+        box-shadow: 0 18px 48px rgba(0,0,0,0.22);
+      }
+      .spotlight-card::before,
+      .quick-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(255,255,255,0) 28%, rgba(4,10,18,0.72) 100%);
+        pointer-events: none;
+      }
+      .spotlight-media,
+      .quick-media {
+        position: absolute;
+        inset: 0;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.42;
+        transform: scale(1.02);
+      }
+      .spotlight-content,
+      .quick-content {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 100%;
+      }
+      .spotlight-badge,
+      .quick-badge {
+        display: inline-flex;
+        align-items: center;
+        align-self: flex-start;
+        margin-bottom: 12px;
+        padding: 7px 10px;
+        border-radius: 999px;
+        background: rgba(8, 18, 32, 0.7);
+        border: 1px solid rgba(255,255,255,0.12);
+        color: var(--accent-2);
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .spotlight-card h3,
+      .quick-card h3 {
+        margin: 0 0 8px;
+        font-size: 24px;
+      }
+      .spotlight-card p,
+      .quick-card p {
+        margin: 0;
+        color: #d8e2ee;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .spotlight-meta {
+        margin-top: 12px;
+        color: var(--accent-3);
+        font-size: 13px;
+        font-weight: 700;
+      }
+      .home-strip {
+        margin-top: 26px;
+        padding: 18px;
+        border-radius: 18px;
+        border: 1px solid var(--border);
+        background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+      }
+      .home-strip-list {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .home-pill {
+        padding: 10px 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(255,255,255,0.1);
+        background: rgba(7, 18, 31, 0.56);
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+      }
+      .contact-grid {
+        margin-top: 26px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .contact-card {
+        position: relative;
+        overflow: hidden;
+        min-height: 220px;
+        padding: 22px;
+        border-radius: 22px;
+        border: 1px solid var(--border);
+        background: linear-gradient(145deg, rgba(10, 22, 38, 0.9), rgba(13, 28, 48, 0.8));
+        box-shadow: 0 20px 54px rgba(0,0,0,0.24);
+      }
+      .contact-card.blue {
+        background: linear-gradient(145deg, rgba(20, 62, 145, 0.72), rgba(15, 37, 82, 0.92));
+      }
+      .contact-card::before {
+        content: "";
+        position: absolute;
+        inset: auto -12% -28% auto;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(255,255,255,0.12), rgba(255,255,255,0) 68%);
+        pointer-events: none;
+      }
+      .contact-card-head {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 16px;
+      }
+      .contact-icon {
+        width: 48px;
+        height: 48px;
+        flex: 0 0 48px;
+        display: grid;
+        place-items: center;
+        border-radius: 14px;
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.14);
+        font-size: 24px;
+      }
+      .contact-icon img {
+        width: 28px;
+        height: 28px;
+        object-fit: contain;
+      }
+      .contact-card h3 {
+        margin: 0 0 10px;
+        font-size: 24px;
+      }
+      .contact-card p {
+        margin: 0 0 18px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.55;
+      }
+      .contact-card .btn,
+      .contact-card button.btn {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        border: 0;
+        cursor: pointer;
+      }
+      .contact-card .btn.blue {
+        color: #fff;
+        background: linear-gradient(135deg, #4d73ff, #2e53d7);
+        box-shadow: 0 10px 26px rgba(63, 98, 255, 0.28);
+      }
+      .partner-modal-body {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .partner-form-area {
+        width: 100%;
+        min-height: 150px;
+        padding: 14px;
+        border-radius: 14px;
+        border: 1px solid rgba(255,255,255,0.14);
+        background: rgba(255,255,255,0.05);
+        color: var(--text);
+        font: inherit;
+        resize: vertical;
+        outline: none;
+      }
+      .partner-form-area:focus {
+        border-color: rgba(88,101,242,0.5);
+        box-shadow: 0 0 0 2px rgba(88,101,242,0.14) inset;
+      }
+      .partner-actions {
+        display: flex;
+        gap: 10px;
+      }
+      .partner-status {
+        margin: 0;
+        min-height: 20px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+      }
+      .partner-status.ok {
+        color: #9dffb0;
+      }
+      .partner-status.err {
+        color: #ffb0b0;
       }
       .slides {
         position: relative;
-        min-height: 300px;
+        min-height: 380px;
       }
       .slide {
         position: absolute;
         inset: 0;
         display: grid;
         grid-template-columns: 1.1fr 1fr;
-        gap: 16px;
+        gap: 20px;
         align-items: stretch;
-        padding: 18px;
+        padding: 22px;
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.35s ease;
         text-decoration: none;
         color: var(--text);
-        background: rgba(10, 20, 34, 0.68);
+        background:
+          linear-gradient(135deg, rgba(10, 20, 34, 0.94), rgba(9, 18, 30, 0.76)),
+          rgba(10, 20, 34, 0.68);
       }
       .slide.active {
         opacity: 1;
@@ -209,6 +645,16 @@
         place-items: center;
         font-weight: 700;
         font-size: 22px;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+      .slide-image::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(7,18,31,0.22));
       }
       .slide-image.s1 { background: linear-gradient(135deg, rgba(255,122,0,0.55), rgba(255,94,168,0.35)); }
       .slide-image.s2 { background: linear-gradient(135deg, rgba(124,255,107,0.45), rgba(33,212,253,0.35)); }
@@ -238,6 +684,21 @@
         font-size: 14px;
         font-weight: 700;
       }
+      .slide-tags {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-top: 16px;
+      }
+      .slide-tag {
+        padding: 7px 10px;
+        border-radius: 999px;
+        border: 1px solid rgba(255,255,255,0.14);
+        background: rgba(255,255,255,0.05);
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
       .slide-controls {
         position: absolute;
         right: 12px;
@@ -259,15 +720,27 @@
       .slide-controls button:hover {
         background: rgba(6, 14, 26, 0.9);
       }
-      .subtitle {
+      .coming-grid {
+        margin-top: 14px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+      }
+      .coming-card {
+        padding: 18px;
+        border-radius: 18px;
+        border: 1px dashed rgba(255,255,255,0.14);
+        background: rgba(255,255,255,0.03);
+      }
+      .coming-card strong {
         display: inline-block;
-        margin-top: -2px;
-        margin-bottom: 18px;
-        color: var(--accent-2);
+        margin-bottom: 8px;
+      }
+      .coming-card p {
+        margin: 0;
+        color: var(--muted);
         font-size: 14px;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
+        line-height: 1.45;
       }
       footer {
         margin-top: 60px;
@@ -382,19 +855,34 @@
         .slide-image {
           min-height: 150px;
         }
+        .hero {
+          padding: 24px;
+        }
+        .hero-grid,
+        .stats-grid,
+        .spotlight-grid,
+        .quick-grid,
+        .coming-grid,
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+        .hero-logo {
+          width: min(100%, 280px);
+          margin: 0 auto;
+        }
+        .slides {
+          min-height: 480px;
+        }
       }
     </style>
   </head>
   <body>
     <header>
       <nav class="nav">
-        <div class="brand">
-          <img src="images/logo/Logo.svg" alt="Logo" onerror="this.style.display='none'; this.parentElement.textContent='RT';" />
-        </div>
+        <div class="brand"><img src="images/favicon.png" alt="Logo" onerror="this.style.display='none'; this.parentElement.textContent='RT';" /></div>
         <a class="tab-home active" href="index.html">🏠 Home</a>
         <a class="tab-scripts" href="roblox-scripts.html">🧩 Roblox Scripts</a>
-        <a class="tab-studio" href="roblox-studio.html">🛠 Roblox Studio</a>
-        <a class="tab-programs" href="programs.html">💻 Programs</a>
+        <a class="tab-programs" href="programs.html">💻 Executors</a>
         <a class="tab-socials" href="socials.html">🌐 Socials</a>
         <a class="tab-free" href="free-scripts.html">🆓 Free Scripts</a>
         <a class="tab-settings settings-trigger" id="open-settings" href="#">⚙ Settings</a>
@@ -406,11 +894,39 @@
 
     <main class="container">
       <section class="hero">
-        <h1>Roblox Tweaks</h1>
-        <span class="subtitle">Beta</span>
-        <p>Launching Soon!</p>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <span class="hero-eyebrow">Live Hub Preview</span>
+            <h1 id="home-hero-title">Roblox Tweaks</h1>
+            <span class="subtitle" id="home-hero-badge">Beta</span>
+            <p id="home-hero-text">Scripts, free picks, and executors in one place with featured drops that rotate across the site.</p>
+            <div class="actions">
+              <a class="btn" id="home-cta-primary" href="roblox-scripts.html">Browse Scripts</a>
+              <a class="btn ghost soft" id="home-cta-secondary" href="programs.html">See Executors</a>
+            </div>
+          </div>
+          <div class="hero-logo-wrap">
+            <div class="hero-logo" aria-hidden="true">
+              <div class="hero-logo-core">
+                <div class="hero-logo-ring"></div>
+                <img class="hero-logo-mark" src="images/favicon.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stats-grid" id="home-stats">
+          <div class="stat-card"><strong>3</strong><span>Featured lanes</span></div>
+          <div class="stat-card"><strong>Live</strong><span>Rotating homepage feed</span></div>
+          <div class="stat-card"><strong>Fresh</strong><span>Curated high-visual posts</span></div>
+        </div>
       </section>
 
+      <div class="section-head">
+        <div>
+          <h2>Featured Now</h2>
+          <p>Randomized highlights from across the site, with weaker placeholder posts pushed out of the main spotlight.</p>
+        </div>
+      </div>
       <section class="feature" aria-label="Featured products carousel">
         <div class="slides" id="slides">
           <a class="slide active" data-index="0" href="roblox-scripts.html">
@@ -420,15 +936,23 @@
               <h2>Roblox Scripts</h2>
               <p>Main script products and packs with dedicated detail sections.</p>
               <span class="slide-cta">Open Scripts Page</span>
+              <div class="slide-tags">
+                <span class="slide-tag">Scripts</span>
+                <span class="slide-tag">Featured</span>
+              </div>
             </div>
           </a>
-          <a class="slide" data-index="1" href="roblox-studio.html">
-            <div class="slide-image s2">Studio Assets</div>
+          <a class="slide" data-index="1" href="free-scripts.html">
+            <div class="slide-image s2">Free Picks</div>
             <div class="slide-copy">
               <span class="slide-kicker">ROTATING FEATURE</span>
-              <h2>Roblox Studio</h2>
-              <p>Studio services, tools, and resources with room for full listings.</p>
-              <span class="slide-cta">Open Studio Page</span>
+              <h2>Free Scripts</h2>
+              <p>Jump into the live free scripts feed with filters, trending picks, and fast browsing.</p>
+              <span class="slide-cta">Open Free Scripts</span>
+              <div class="slide-tags">
+                <span class="slide-tag">Free Picks</span>
+                <span class="slide-tag">Live Feed</span>
+              </div>
             </div>
           </a>
           <a class="slide" data-index="2" href="programs.html">
@@ -438,6 +962,10 @@
               <h2>Programs</h2>
               <p>External apps and program bundles in a dedicated full page.</p>
               <span class="slide-cta">Open Programs Page</span>
+              <div class="slide-tags">
+                <span class="slide-tag">Executors</span>
+                <span class="slide-tag">Desktop</span>
+              </div>
             </div>
           </a>
         </div>
@@ -445,6 +973,80 @@
           <button id="slide-prev" type="button" aria-label="Previous slide">&larr;</button>
           <button id="slide-next" type="button" aria-label="Next slide">&rarr;</button>
         </div>
+      </section>
+
+      <div class="section-head">
+        <div>
+          <h2>Quick Access</h2>
+          <p>Jump straight into the sections people are most likely to open first.</p>
+        </div>
+      </div>
+      <section class="quick-grid" id="home-quick-grid">
+        <a class="quick-card" href="roblox-scripts.html">
+          <div class="quick-media" style="background-image:url('images/Icons/Scripts/RagerHub.png');"></div>
+          <div class="quick-content">
+            <span class="quick-badge">Scripts</span>
+            <h3>Roblox Scripts</h3>
+            <p>Universal hubs, game scripts, and tool picks with dedicated detail pages.</p>
+          </div>
+        </a>
+        <a class="quick-card" href="free-scripts.html">
+          <div class="quick-media" style="background-image:url('images/Icons/Scripts/PerformanceTool.png');"></div>
+          <div class="quick-content">
+            <span class="quick-badge">Free</span>
+            <h3>Free Scripts</h3>
+            <p>Live feed, trending scripts, and quick access to free picks without placeholder sections.</p>
+          </div>
+        </a>
+        <a class="quick-card" href="programs.html">
+          <div class="quick-media" style="background-image:url('images/programs/Delta.jpg');"></div>
+          <div class="quick-content">
+            <span class="quick-badge">Executors</span>
+            <h3>Programs</h3>
+            <p>Desktop and mobile executors with official links and community access.</p>
+          </div>
+        </a>
+      </section>
+
+      <div class="section-head">
+        <div>
+          <h2>Extra Spotlight</h2>
+          <p>Secondary picks that still look strong even when the homepage rotates to different posts.</p>
+        </div>
+      </div>
+      <section class="spotlight-grid" id="home-spotlights"></section>
+
+      <div class="section-head">
+        <div>
+          <h2>Connect With Me</h2>
+          <p>Join the server, get direct help, or send a partner request if you want to build together.</p>
+        </div>
+      </div>
+      <section class="contact-grid">
+        <article class="contact-card blue">
+          <div class="contact-card-head">
+            <div class="contact-icon">&#127908;</div>
+          </div>
+          <h3>Official Discord</h3>
+          <p>Join the main server for updates, support, and direct access.</p>
+          <a class="btn blue" href="https://discord.gg/TybFD4Sm2C" target="_blank" rel="noopener noreferrer">Official Discord</a>
+        </article>
+        <article class="contact-card">
+          <div class="contact-card-head">
+            <div class="contact-icon">&#129309;</div>
+          </div>
+          <h3>Need Help</h3>
+          <p>Need direct help or more info? Open the help panel and send your message there.</p>
+          <button class="btn ghost soft" id="home-open-help-panel" type="button">Need Help</button>
+        </article>
+        <article class="contact-card">
+          <div class="contact-card-head">
+            <div class="contact-icon">&#129309;</div>
+          </div>
+          <h3>Wanna Parnter</h3>
+          <p>You Make Good Scripts/Executors/Roblox Studio Assets Etc Lets Team up Click here.</p>
+          <button class="btn ghost soft" id="open-partner-modal" type="button">Open Partner Request</button>
+        </article>
       </section>
 
       <footer>
@@ -460,7 +1062,7 @@
         </div>
         <div id="theme-grid" class="settings-grid"></div>
         <h3 style="margin:14px 0 8px;">Sound Preset</h3>
-        <div id="sound-grid" class="settings-grid"></div><div class="volume-wrap"><div class="volume-head"><span>🔊 Site Sounds</span><span id="sound-volume-value">50%</span></div><input id="sound-volume" class="volume-slider" type="range" min="0" max="100" step="1" value="50" aria-label="Website Volume"></div>
+        <div id="sound-grid" class="settings-grid"></div><div class="volume-wrap"><div class="volume-head"><span>&#128266; Site Sounds</span><span id="sound-volume-value">50%</span></div><input id="sound-volume" class="volume-slider" type="range" min="0" max="100" step="1" value="50" aria-label="Website Volume"></div>
       </section>
     </div>
     <div id="help-modal" class="settings-modal" aria-hidden="true">
@@ -469,11 +1071,23 @@
           <h2 style="margin:0;">Help info</h2>
           <button id="close-help" class="btn ghost" type="button">Close</button>
         </div>
-        <p style="margin:0; color:var(--muted); line-height:1.6;">
-          If you need support, direct message and add me on Discord: <strong>Jadin7380</strong>
-        </p>
-        <p class="help-store-hint">Tap here to open the official store ↓</p>
-        <a class="btn help-store-cta" href="https://shoppy.gg/@jadin77" target="_blank" rel="noopener noreferrer">Check Out Store</a>
+        </div>
+      </section>
+    </div>
+    <div id="partner-modal" class="settings-modal" aria-hidden="true">
+      <section class="settings-panel">
+        <div class="settings-head">
+          <h2 style="margin:0;">Partner Request</h2>
+          <button id="close-partner-modal" class="btn ghost" type="button">Close</button>
+        </div>
+        <div class="partner-modal-body">
+          <p style="margin:0;color:var(--muted);">Send a message if you make strong scripts, executors, or Roblox Studio assets and want to team up.</p>
+          <textarea id="partner-message" class="partner-form-area" maxlength="700" placeholder="Write your partner request here..."></textarea>
+          <p id="partner-status" class="partner-status"></p>
+          <div class="partner-actions">
+            <button id="send-partner-request" class="btn" type="button">Send Partner Request</button>
+          </div>
+        </div>
       </section>
     </div>
 
@@ -510,27 +1124,8 @@
         startRotation();
       })();
 
-      (function () {
-        const helpBtn = document.getElementById("open-help");
-        const helpModal = document.getElementById("help-modal");
-        const closeHelp = document.getElementById("close-help");
-        const shopTab = document.querySelector(".tab-shop");
-        if (!helpBtn) return;
-        helpBtn.addEventListener("click", function (e) {
-          e.preventDefault();
-          helpModal.classList.add("open");
-          helpModal.setAttribute("aria-hidden", "false");
-          if (shopTab) shopTab.classList.add("shop-highlight");
-        });
-        closeHelp.addEventListener("click", function () {
-          helpModal.classList.remove("open");
-          helpModal.setAttribute("aria-hidden", "true");
-          if (shopTab) shopTab.classList.remove("shop-highlight");
-        });
-        helpModal.addEventListener("click", function (e) {
-          if (e.target === helpModal) closeHelp.click();
-        });
-      })();
+      
+
 
       (function () {
         const openBtn = document.getElementById("open-settings");
@@ -612,14 +1207,78 @@
           if (e.target === modal) closeBtn.click();
         });
       })();
+
+      (function () {
+        const helpButton = document.getElementById("home-open-help-panel");
+        const navHelp = document.getElementById("open-help");
+        const partnerModal = document.getElementById("partner-modal");
+        const openPartner = document.getElementById("open-partner-modal");
+        const closePartner = document.getElementById("close-partner-modal");
+        const sendPartner = document.getElementById("send-partner-request");
+        const partnerMessage = document.getElementById("partner-message");
+        const partnerStatus = document.getElementById("partner-status");
+        const partnerWebhook = "https://discord.com/api/webhooks/1483978714298716273/W1ftWkxFVGv2a55ZMLq70-5CSFIhdu2TuzS_11YRl8zWsetFTflXBND7uPXQ3ztBXX2V";
+
+        if (helpButton && navHelp) {
+          helpButton.addEventListener("click", function () {
+            navHelp.click();
+          });
+        }
+
+        if (openPartner && partnerModal && closePartner) {
+          openPartner.addEventListener("click", function () {
+            partnerModal.classList.add("open");
+            partnerModal.setAttribute("aria-hidden", "false");
+          });
+          closePartner.addEventListener("click", function () {
+            partnerModal.classList.remove("open");
+            partnerModal.setAttribute("aria-hidden", "true");
+          });
+          partnerModal.addEventListener("click", function (e) {
+            if (e.target === partnerModal) closePartner.click();
+          });
+        }
+
+        if (sendPartner && partnerMessage && partnerStatus) {
+          sendPartner.addEventListener("click", async function () {
+            const message = (partnerMessage.value || "").trim();
+            if (!message) {
+              partnerStatus.textContent = "Write a partner request first.";
+              partnerStatus.className = "partner-status err";
+              return;
+            }
+
+            sendPartner.disabled = true;
+            partnerStatus.textContent = "Sending partner request...";
+            partnerStatus.className = "partner-status";
+
+            try {
+              const response = await fetch(partnerWebhook, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                  username: "Roblox Tweaks Partner Form",
+                  content: "**Partner Request**\n" + message,
+                }),
+              });
+
+              if (!response.ok) throw new Error("Failed");
+
+              partnerMessage.value = "";
+              partnerStatus.textContent = "Partner request sent.";
+              partnerStatus.className = "partner-status ok";
+            } catch (err) {
+              partnerStatus.textContent = "Could not send partner request right now.";
+              partnerStatus.className = "partner-status err";
+            } finally {
+              sendPartner.disabled = false;
+            }
+          });
+        }
+      })();
     </script>
   </body>
 </html>
-
-
-
-
-
 
 
 

@@ -1,8 +1,132 @@
-﻿{
-  "heroDescription": "Dedicated page for Studio services and assets.",
-  "items": [
-    { "title": "Studio Product A", "description": "Add details, proof, and feature list.", "image": "images/roblox-studio/Product A.svg", "link": "#" },
-    { "title": "Studio Product B", "description": "Add details, proof, and feature list.", "image": "images/roblox-studio/Product B.svg", "link": "#" },
-    { "title": "Studio Product C", "description": "Add details, proof, and feature list.", "image": "images/roblox-studio/Product C.svg", "link": "#" }
-  ]
+{
+	"heroDescription": "Dedicated page for Studio services and assets.",
+	"tabs": ["Assets", "Studio Scripts", "Game"],
+	"items": [
+		{
+			"tab": "Assets",
+			"title": "Studio Product 1",
+			"description": "Add details, proof, and feature list.",
+			"image": "images/Icons/Studio/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Studio Product 1",
+				"description": "Add details, proof, and feature list.",
+				"gallery": ["images/Icons/Studio/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Assets",
+			"title": "Studio Product 2",
+			"description": "Add details, proof, and feature list.",
+			"image": "images/Icons/Studio/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Studio Product 2",
+				"description": "Add details, proof, and feature list.",
+				"gallery": ["images/Icons/Studio/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Assets",
+			"title": "Studio Product 3",
+			"description": "Add details, proof, and feature list.",
+			"image": "images/Icons/Studio/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Studio Product 3",
+				"description": "Add details, proof, and feature list.",
+				"gallery": ["images/Icons/Studio/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Studio Scripts",
+			"title": "Studio Script 1",
+			"description": "Add details, proof, and feature list.",
+			"image": "images/Icons/Studio/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Studio Script 1",
+				"description": "Add details, proof, and feature list.",
+				"gallery": ["images/Icons/Studio/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Studio Scripts",
+			"title": "Studio Script 2",
+			"description": "Add details, proof, and feature list.",
+			"image": "images/Icons/Studio/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Studio Script 2",
+				"description": "Add details, proof, and feature list.",
+				"gallery": ["images/Icons/Studio/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Studio Scripts",
+			"title": "Studio Script 3",
+			"description": "Add details, proof, and feature list.",
+			"image": "images/Icons/Studio/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Studio Script 3",
+				"description": "Add details, proof, and feature list.",
+				"gallery": ["images/Icons/Studio/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Game",
+			"title": "Game Asset 1",
+			"description": "Coming soon.",
+			"image": "images/Icons/Studio/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Game Asset 1",
+				"description": "Coming soon.",
+				"gallery": ["images/Icons/Studio/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Game",
+			"title": "Game Asset 2",
+			"description": "Coming soon.",
+			"image": "images/Icons/Studio/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Game Asset 2",
+				"description": "Coming soon.",
+				"gallery": ["images/Icons/Studio/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		},
+		{
+			"tab": "Game",
+			"title": "Game Asset 3",
+			"description": "Coming soon.",
+			"image": "images/Icons/Studio/ComingSoon.jpg",
+			"link": "#",
+			"showcase": {
+				"title": "Game Asset 3",
+				"description": "Coming soon.",
+				"gallery": ["images/Icons/Studio/ComingSoon.jpg"],
+				"features": ["Coming Soon"],
+				"buyLink": "#"
+			}
+		}
+	]
 }

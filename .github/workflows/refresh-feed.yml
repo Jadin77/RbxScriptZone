@@ -175,13 +175,99 @@ jobs:
           }
           Write-Host ("Feed freshness OK: {0:N0} minutes old." -f $age.TotalMinutes)
 
+      - name: Update homepage pulse
+        shell: pwsh
+        run: |
+          $pulsePath = "./content/home-pulse.json"
+          $feedPath = "./scriptblox-feed.json"
+          $pulseIntervalHours = 2
+          $trendingLabels = @("Scripts", "Executors", "Free Picks")
+
+          $pulse = $null
+          if (Test-Path $pulsePath) {
+            try {
+              $pulse = Get-Content $pulsePath -Raw | ConvertFrom-Json
+            } catch {
+              $pulse = $null
+            }
+          }
+
+          if (-not $pulse) {
+            $pulse = [pscustomobject]@{
+              visitCount = 102
+              lastPulseUpdateAt = $null
+              lastContentUpdateAt = $null
+              trendingLabel = $trendingLabels[0]
+            }
+          }
+
+          $now = (Get-Date).ToUniversalTime()
+          $lastPulse = $null
+          if ($pulse.lastPulseUpdateAt) {
+            try {
+              $lastPulse = [datetime]::Parse($pulse.lastPulseUpdateAt).ToUniversalTime()
+            } catch {
+              $lastPulse = $null
+            }
+          }
+
+          $contentStamp = $now.ToString("o")
+          if (Test-Path $feedPath) {
+            try {
+              $feed = Get-Content $feedPath -Raw | ConvertFrom-Json
+              if ($feed.generatedAt) {
+                $contentStamp = ([datetime]::Parse($feed.generatedAt).ToUniversalTime()).ToString("o")
+              }
+            } catch {
+              $contentStamp = $now.ToString("o")
+            }
+          }
+
+          $visitCount = 0
+          try {
+            $visitCount = [int]$pulse.visitCount
+          } catch {
+            $visitCount = 102
+          }
+          if ($visitCount -lt 0) { $visitCount = 102 }
+
+          $nextVisitCount = $visitCount
+          $nextPulseStamp = $pulse.lastPulseUpdateAt
+          $nextTrending = [string]$pulse.trendingLabel
+          if (-not $nextTrending) {
+            $nextTrending = $trendingLabels[0]
+          }
+
+          if ($lastPulse -and (($now - $lastPulse).TotalHours -lt $pulseIntervalHours)) {
+            Write-Host "Skipping visit/trending pulse bump; 2-hour window has not elapsed."
+          } else {
+            $increment = Get-Random -Minimum 3 -Maximum 28
+            $nextVisitCount = $visitCount + $increment
+
+            $currentLabel = [string]$pulse.trendingLabel
+            $currentIndex = [array]::IndexOf($trendingLabels, $currentLabel)
+            if ($currentIndex -lt 0) { $currentIndex = -1 }
+            $nextTrending = $trendingLabels[($currentIndex + 1) % $trendingLabels.Count]
+            $nextPulseStamp = $now.ToString("o")
+            Write-Host ("Homepage pulse updated: +{0} visits, trending={1}" -f $increment, $nextTrending)
+          }
+
+          $nextPulse = [pscustomobject]@{
+            visitCount = $nextVisitCount
+            lastPulseUpdateAt = $nextPulseStamp
+            lastContentUpdateAt = $contentStamp
+            trendingLabel = $nextTrending
+          }
+
+          $nextPulse | ConvertTo-Json -Depth 4 | Set-Content -Path $pulsePath -Encoding utf8
+
       - name: Commit updated feed files
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          for f in scriptblox-feed.json scriptblox-feed.js scriptblox-owner-cache.json scriptblox-refresh-state.json scriptblox-rolling-cache.json moderation/auto-blacklist-titles.txt moderation/auto-blacklist-log.jsonl; do
+          for f in scriptblox-feed.json scriptblox-feed.js scriptblox-owner-cache.json scriptblox-refresh-state.json scriptblox-rolling-cache.json moderation/auto-blacklist-titles.txt moderation/auto-blacklist-log.jsonl content/home-pulse.json; do
             if [ -f "$f" ]; then
               git add "$f"
             fi

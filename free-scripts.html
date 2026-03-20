@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -7,9 +7,11 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>Roblox Tweaks - Free Scripts</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <script src="theme.js"></script>
     <script src="ui-sounds.js"></script>
     <script src="site-ui.js"></script>
+    <script src="help-modal.js"></script>
     <style>
       :root {
         --bg1: #0b1f3a;
@@ -66,7 +68,7 @@
         width: 42px;
         height: 42px;
         border-radius: 10px;
-        background: rgba(255,255,255,0.08);
+        background: #000;
         border: 1px solid var(--border);
         margin-right: 6px;
         overflow: hidden;
@@ -99,7 +101,6 @@
       }
       .tab-home { background: rgba(83, 227, 255, 0.26); }
       .tab-scripts { background: rgba(255, 140, 77, 0.28); }
-      .tab-studio { background: rgba(145, 255, 120, 0.28); }
       .tab-programs { background: rgba(255, 126, 190, 0.26); }
       .tab-socials { background: rgba(255, 255, 255, 0.16); }
       .tab-free { background: rgba(126, 245, 255, 0.26); }
@@ -688,12 +689,11 @@
     <header>
       <nav class="nav">
         <div class="brand">
-          <img src="images/logo/Logo.svg" alt="Logo" onerror="this.style.display='none'; this.parentElement.textContent='RT';" />
+          <img src="images/favicon.png" alt="Logo" onerror="this.style.display='none'; this.parentElement.textContent='RT';" />
         </div>
         <a class="tab-home" href="index.html">🏠 Home</a>
         <a class="tab-scripts" href="roblox-scripts.html">🧩 Roblox Scripts</a>
-        <a class="tab-studio" href="roblox-studio.html">🛠 Roblox Studio</a>
-        <a class="tab-programs" href="programs.html">💻 Programs</a>
+        <a class="tab-programs" href="programs.html">💻 Executors</a>
         <a class="tab-socials" href="socials.html">🌐 Socials</a>
         <a class="tab-free active" href="free-scripts.html">🆓 Free Scripts</a>
         <a class="tab-settings settings-trigger" id="open-settings" href="#">⚙ Settings</a>
@@ -759,18 +759,18 @@
       </div>
 
       <footer>
-        © 2026 Roblox Tweaks. All rights reserved.
+        Â© 2026 Roblox Tweaks. All rights reserved.
       </footer>
     </main>
     <div id="settings-modal" class="settings-modal" aria-hidden="true">
       <section class="settings-panel">
         <div class="settings-head">
           <h2 style="margin:0;">Theme Settings</h2>
-          <button id="close-settings" class="btn ghost" type="button">← Back</button>
+          <button id="close-settings" class="btn ghost" type="button">â† Back</button>
         </div>
         <div id="theme-grid" class="settings-grid"></div>
         <h3 style="margin:14px 0 8px;">Sound Preset</h3>
-        <div id="sound-grid" class="settings-grid"></div><div class="volume-wrap"><div class="volume-head"><span>🔊 Site Sounds</span><span id="sound-volume-value">50%</span></div><input id="sound-volume" class="volume-slider" type="range" min="0" max="100" step="1" value="50" aria-label="Website Volume"></div>
+        <div id="sound-grid" class="settings-grid"></div><div class="volume-wrap"><div class="volume-head"><span>&#128266; Site Sounds</span><span id="sound-volume-value">50%</span></div><input id="sound-volume" class="volume-slider" type="range" min="0" max="100" step="1" value="50" aria-label="Website Volume"></div>
       </section>
     </div>
     <div id="help-modal" class="settings-modal" aria-hidden="true">
@@ -779,11 +779,7 @@
           <h2 style="margin:0;">Help info</h2>
           <button id="close-help" class="btn ghost" type="button">Close</button>
         </div>
-        <p style="margin:0; color:var(--muted); line-height:1.6;">
-          If you need support, direct message and add me on Discord: <strong>Jadin7380</strong>
-        </p>
-        <p class="help-store-hint">Tap here to open the official store ↓</p>
-        <a class="btn help-store-cta" href="https://shoppy.gg/@jadin77" target="_blank" rel="noopener noreferrer">Check Out Store</a>
+        </div>
       </section>
     </div>
     <script src="scriptblox-feed.js"></script>
@@ -934,9 +930,9 @@
         if (!bar) return;
         bar.innerHTML = localHidePresets.map((preset) => {
           const active = localHideState[preset.id] === true;
-          const mark = active ? "☑" : "☐";
+          const mark = active ? "\u2611" : "\u2610";
           const labelHtml = preset.labelHtml ? preset.labelHtml : escapeHtml(preset.label);
-          return `<button class="keyword-toggle${active ? " active" : ""}" type="button" data-preset-id="${escapeHtml(preset.id)}"><span class="toggle-mark">${mark}</span><span class="toggle-icon">⛔</span>${labelHtml}</button>`;
+          return `<button class="keyword-toggle${active ? " active" : ""}" type="button" data-preset-id="${escapeHtml(preset.id)}"><span class="toggle-mark">${mark}</span><span class="toggle-icon">&#9940;</span>${labelHtml}</button>`;
         }).join("");
         bar.style.display = filterMode === "all" ? "flex" : "none";
       }
@@ -959,10 +955,10 @@
           <a class="card card-link" href="${href}" target="_blank" rel="noopener noreferrer">
             <div class="thumb-wrap">
               <img src="${image}" alt="${title}" loading="lazy" onerror="this.onerror=null;this.src='${fallbackImage}'">
-              <span class="view-chip">👁 ${views}</span>
+              <span class="view-chip">&#128065; ${views}</span>
             </div>
             <h3>${title}</h3>
-            ${(trusted || postTime) ? `<p class="meta">${trusted ? `<span class="trusted-badge">Trusted ✔</span>` : `<span></span>`}${postTime ? `<span class="post-time">${postTime}</span>` : ""}</p>` : ""}
+            ${(trusted || postTime) ? `<p class="meta">${trusted ? `<span class="trusted-badge">Trusted &#10004;</span>` : `<span></span>`}${postTime ? `<span class="post-time">${postTime}</span>` : ""}</p>` : ""}
             <p>${tags}</p>
           </a>
         `;
@@ -1015,7 +1011,7 @@
                   <img class="trusted-user-pfp" src="${pfp}" alt="${name}" loading="lazy">
                   <div>
                     <p class="trusted-user-name">@${name}</p>
-                    <p class="trusted-user-sub">Trusted creator • Open ScriptBlox profile</p>
+                    <p class="trusted-user-sub">Trusted creator &#8226; Open ScriptBlox profile</p>
                   </div>
                 </div>
               </a>
@@ -1108,8 +1104,8 @@
         const ageMinutes = Math.round((Date.now() - parsed.getTime()) / 60000);
         const ageLabel = ageMinutes >= 0 ? `${ageMinutes} min ago` : "just now";
         const isStale = ageMinutes > 120;
-        const sourceText = sourceLabel ? ` • ${sourceLabel}` : "";
-        const staleText = isStale ? " • stale?" : "";
+        const sourceText = sourceLabel ? ` \u2022 ${sourceLabel}` : "";
+        const staleText = isStale ? " \u2022 stale?" : "";
         target.textContent = `Updated ${parsed.toLocaleString()} (${ageLabel})${sourceText}${staleText}`;
         target.classList.toggle("stale", isStale);
       }
@@ -1257,27 +1253,8 @@
         applyTabs();
       });
 
-      (function () {
-        const helpBtn = document.getElementById("open-help");
-        const helpModal = document.getElementById("help-modal");
-        const closeHelp = document.getElementById("close-help");
-        const shopTab = document.querySelector(".tab-shop");
-        if (!helpBtn) return;
-        helpBtn.addEventListener("click", function (e) {
-          e.preventDefault();
-          helpModal.classList.add("open");
-          helpModal.setAttribute("aria-hidden", "false");
-          if (shopTab) shopTab.classList.add("shop-highlight");
-        });
-        closeHelp.addEventListener("click", function () {
-          helpModal.classList.remove("open");
-          helpModal.setAttribute("aria-hidden", "true");
-          if (shopTab) shopTab.classList.remove("shop-highlight");
-        });
-        helpModal.addEventListener("click", function (e) {
-          if (e.target === helpModal) closeHelp.click();
-        });
-      })();
+      
+
 
       (function () {
         const openBtn = document.getElementById("open-settings");
@@ -1365,6 +1342,8 @@
     </script>
   </body>
 </html>
+
+
 
 
 
