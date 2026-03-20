@@ -237,23 +237,24 @@
 		].join("");
 	}
 
-	function renderQuickLinks(data) {
+	function renderWhyUse(data) {
 		const grid = document.getElementById("home-quick-grid");
-		if (!grid || !Array.isArray(data.quickLinks) || !data.quickLinks.length) return;
-		grid.innerHTML = data.quickLinks
+		const section = data && data.whyUseSection;
+		if (!grid || !section || !Array.isArray(section.items) || !section.items.length) return;
+		const title = document.getElementById("home-why-title");
+		const text = document.getElementById("home-why-text");
+		if (title && section.title) title.textContent = section.title;
+		if (text && section.text) text.textContent = section.text;
+		grid.innerHTML = section.items
 			.map(
 				(item) =>
-					'<a class="quick-card" href="' +
-					esc(item.href || "#") +
-					'"><div class="quick-media" style="background-image:url(\'' +
-					esc(item.image || "") +
-					'\');"></div><div class="quick-content"><span class="quick-badge">' +
+					'<article class="quick-card why-card"><div class="quick-content"><span class="quick-badge">' +
 					esc(item.badge || "") +
 					"</span><h3>" +
 					esc(item.title || "") +
 					"</h3><p>" +
 					esc(item.text || "") +
-					"</p></div></a>",
+					"</p></div></article>",
 			)
 			.join("");
 	}
@@ -372,7 +373,7 @@
 			pulse = null;
 		}
 		renderPulseStats(data, pulse);
-		renderQuickLinks(data);
+		renderWhyUse(data);
 		renderPills(data);
 
 		let pool = [];
@@ -494,7 +495,8 @@
 				return '<div class="social-cover ' + esc(coverType || "video") + '"><img src="' + img + '" alt="' + title + '" loading="lazy"></div>';
 			}
 
-			let icon = "ðŸ”—";
+			let icon =
+				'<span class="social-cover-icon social-symbol">&#128279;</span>';
 			let badge = "Link";
 			let coverTitle = title;
 			let subtitle = "";
@@ -504,12 +506,14 @@
 				coverTitle = "Join Up";
 				subtitle = "Server access, updates, and direct support";
 			} else if (coverType === "youtube") {
-				icon = "â–¶";
+				icon =
+					'<span class="social-cover-icon social-symbol youtube-symbol">&#9654;</span>';
 				badge = "YouTube";
 				coverTitle = "Watch";
 				subtitle = "Uploads, showcases, and future tutorials";
 			} else if (coverType === "key") {
-				icon = "ðŸ”‘";
+				icon =
+					'<span class="social-cover-icon social-symbol key-symbol">&#128273;</span>';
 				badge = "Key Link";
 				coverTitle = "Direct Key";
 				subtitle = "Fast access to the script key page";

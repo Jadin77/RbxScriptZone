@@ -72,33 +72,36 @@
 			"tags": ["Executors", "Desktop"]
 		}
 	],
-	"quickLinks": [
-		{
-			"badge": "Scripts",
-			"title": "Roblox Scripts",
-			"text": "Universal hubs, game scripts, and free tools with real preview images.",
-			"href": "roblox-scripts.html",
-			"image": "images/Icons/Scripts/DriveHub.png"
-		},
-		{
-			"badge": "Free",
-			"title": "Free Scripts",
-			"text": "Live feed, trending scripts, and fast access to free picks without placeholder cards.",
-			"href": "free-scripts.html",
-			"image": "images/Icons/Scripts/PerformanceTool.png"
-		},
-		{
-			"badge": "Executors",
-			"title": "Programs",
-			"text": "Official site links, Discord access, and the executors people click first.",
-			"href": "programs.html",
-			"image": "images/programs/Velocity.png"
-		}
-	],
+	"whyUseSection": {
+		"title": "Why People Use My Scripts",
+		"text": "Built to keep browsing cleaner, updates consistent, and support close when you need it.",
+		"items": [
+			{
+				"badge": "Cleaner",
+				"title": "Cleaner Browsing",
+				"text": "Safer discovery, better organization, and less clutter while browsing scripts."
+			},
+			{
+				"badge": "Updated",
+				"title": "Consistent Updates",
+				"text": "Fresh content and regular upkeep keep the site active instead of feeling abandoned."
+			},
+			{
+				"badge": "Discord",
+				"title": "Thriving Community",
+				"text": "Stay active in Discord for updates, announcements, support, and direct access."
+			},
+			{
+				"badge": "Support",
+				"title": "Direct Support",
+				"text": "Need help or info? Reach out fast through Discord and the built-in support flow."
+			}
+		]
+	},
 	"pillItems": [
 		"Filtered featured rotation",
 		"Separate coming soon section",
-		"Quick access cards",
+		"Why-use value section",
 		"3D-style RT hero mark",
 		"Better use of real images"
 	],

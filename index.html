@@ -414,6 +414,32 @@
         min-height: 220px;
         box-shadow: 0 18px 48px rgba(0,0,0,0.22);
       }
+      .why-card {
+        min-height: 0;
+        padding: 22px;
+        background:
+          linear-gradient(180deg, rgba(255,255,255,0.05), rgba(8,18,32,0.82)),
+          rgba(8, 18, 32, 0.68);
+      }
+      .why-card::before {
+        display: none;
+      }
+      .why-card .quick-content {
+        justify-content: flex-start;
+      }
+      .why-card .quick-badge {
+        margin-bottom: 14px;
+      }
+      .why-card h3 {
+        margin: 0 0 10px;
+        font-size: 24px;
+        line-height: 1.08;
+      }
+      .why-card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
       .spotlight-card::before,
       .quick-card::before {
         content: "";
@@ -977,35 +1003,39 @@
 
       <div class="section-head">
         <div>
-          <h2>Quick Access</h2>
-          <p>Jump straight into the sections people are most likely to open first.</p>
+          <h2 id="home-why-title">Why People Use My Scripts</h2>
+          <p id="home-why-text">Built to keep browsing cleaner, updates consistent, and support close when you need it.</p>
         </div>
       </div>
       <section class="quick-grid" id="home-quick-grid">
-        <a class="quick-card" href="roblox-scripts.html">
-          <div class="quick-media" style="background-image:url('images/Icons/Scripts/RagerHub.png');"></div>
+        <article class="quick-card why-card">
           <div class="quick-content">
-            <span class="quick-badge">Scripts</span>
-            <h3>Roblox Scripts</h3>
-            <p>Universal hubs, game scripts, and tool picks with dedicated detail pages.</p>
+            <span class="quick-badge">Cleaner</span>
+            <h3>Cleaner Browsing</h3>
+            <p>Safer discovery, better organization, and less clutter while browsing scripts.</p>
           </div>
-        </a>
-        <a class="quick-card" href="free-scripts.html">
-          <div class="quick-media" style="background-image:url('images/Icons/Scripts/PerformanceTool.png');"></div>
+        </article>
+        <article class="quick-card why-card">
           <div class="quick-content">
-            <span class="quick-badge">Free</span>
-            <h3>Free Scripts</h3>
-            <p>Live feed, trending scripts, and quick access to free picks without placeholder sections.</p>
+            <span class="quick-badge">Updated</span>
+            <h3>Consistent Updates</h3>
+            <p>Fresh content and regular upkeep keep the site active instead of feeling abandoned.</p>
           </div>
-        </a>
-        <a class="quick-card" href="programs.html">
-          <div class="quick-media" style="background-image:url('images/programs/Delta.jpg');"></div>
+        </article>
+        <article class="quick-card why-card">
           <div class="quick-content">
-            <span class="quick-badge">Executors</span>
-            <h3>Programs</h3>
-            <p>Desktop and mobile executors with official links and community access.</p>
+            <span class="quick-badge">Discord</span>
+            <h3>Thriving Community</h3>
+            <p>Stay active in Discord for updates, announcements, support, and direct access.</p>
           </div>
-        </a>
+        </article>
+        <article class="quick-card why-card">
+          <div class="quick-content">
+            <span class="quick-badge">Support</span>
+            <h3>Direct Support</h3>
+            <p>Need help or info? Reach out fast through Discord and the built-in support flow.</p>
+          </div>
+        </article>
       </section>
 
       <div class="section-head">
