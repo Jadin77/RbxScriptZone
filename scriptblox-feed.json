@@ -1,9 +1,9 @@
 {
   "source": "scriptblox",
-  "generatedAt": "2026-03-27T20:49:26.9700143Z",
+  "generatedAt": "2026-03-27T21:45:17.6812033Z",
   "maxPagesRequested": 80,
-  "totalPagesAtSource": 3336,
-  "count": 10965,
+  "totalPagesAtSource": 3358,
+  "count": 10994,
   "moderation": {
     "max_posts_per_window": 2,
     "max_user_posts_per_window": 2,
@@ -11,37 +11,455 @@
     "max_stale_validations_per_run": 120,
     "unresolved_new_post_quarantine_minutes": 60,
     "window_minutes": 30,
-    "filteredByKeywordCount": 6431,
+    "filteredByKeywordCount": 6439,
     "filteredByUserCount": 48,
-    "filteredBySpamCount": 6528,
-    "filteredByOwnerBurstCount": 6521,
+    "filteredBySpamCount": 6911,
+    "filteredByOwnerBurstCount": 6820,
     "filteredByRunAuthorBurstCount": 0,
-    "filteredByOwnerWindowBurstCount": 4330,
-    "filteredByTitleWindowBurstCount": 2191,
-    "filteredByUnresolvedNewCount": 7,
-    "removedByInvalidDetail404Count": 0,
-    "filteredCount": 13007,
+    "filteredByOwnerWindowBurstCount": 4441,
+    "filteredByTitleWindowBurstCount": 2379,
+    "filteredByUnresolvedNewCount": 91,
+    "removedByInvalidDetail404Count": 14,
+    "filteredCount": 13398,
     "autoBlacklistedTitleCount": 3,
     "newlyAutoBlacklistedTitleCount": 0,
-    "burstBlockedOwnerCount": 510,
-    "burstBlockedTitleKeyCount": 246,
+    "burstBlockedOwnerCount": 514,
+    "burstBlockedTitleKeyCount": 247,
     "trustedKeywordRuleCount": 4,
     "blacklistKeywordRuleCount": 12,
     "trustedUserCount": 1,
     "blacklistedUserCount": 8,
     "blacklistedOwnerSlugCount": 46,
     "trendingCount": 20,
-    "ownerResolvedCount": 8381,
+    "ownerResolvedCount": 8501,
     "detailLookupsTried": 120,
     "detailLookupsSucceeded": 120,
     "staleDetailValidationsTried": 120
   },
   "scripts": [
     {
+      "title": "BEST OP PVP DUEL INFINITE JUMP 10 MORE FEATURES",
+      "titleKey": "bestoppvpduelinfinitejump10morefeatures",
+      "slug": "Universal-Script-BEST-OP-PVP-DUEL-INFINITE-JUMP-10-MORE-FEATURES-153221",
+      "views": 5,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1774647244832.webp",
+      "createdAt": "2026-03-27T21:34:04.8540000Z",
+      "ownerUsername": "Et1xbbx6b3",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Auto Clicker",
+      "titleKey": "autoclicker",
+      "slug": "Universal-Script-Auto-Clicker-153212",
+      "views": 5,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1774647193747.png",
+      "createdAt": "2026-03-27T21:33:13.7660000Z",
+      "ownerUsername": "Thiagoago189",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "MoneyPlexity",
+      "titleKey": "moneyplexity",
+      "slug": "Prison-Life-MoneyPlexity-153199",
+      "views": 8,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-8e16b433df6f2c94391865bc438e076a/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T21:31:01.1250000Z",
+      "ownerUsername": "fannutsenboy",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "pls script",
+      "titleKey": "plsscript",
+      "slug": "Oil-Empire-pls-script-153181",
+      "views": 7,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/107095834793267-1774646851328.webp",
+      "createdAt": "2026-03-27T21:27:31.3530000Z",
+      "ownerUsername": "Terror_Noturno",
+      "ownerProfilePicture": "https://scriptblox.com/images/photo/693ba2e1062c3834e28822d3-1767551792633.png",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Kawatan hub",
+      "titleKey": "kawatanhub",
+      "slug": "Universal-Script-Kawatan-hub-153136",
+      "views": 23,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1774646438578.png",
+      "createdAt": "2026-03-27T21:20:38.6110000Z",
+      "ownerUsername": "Ryoumen0_0",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "AUTO Quest Auto Event Auto Sell AUTO OPEN LOCK",
+      "titleKey": "autoquestautoeventautosellautoopenlock",
+      "slug": "Case-Paradise-AUTO-Quest-Auto-Event-Auto-Sell-AUTO-OPEN-LOCK-153103",
+      "views": 8,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-546e4db21c7bdb3f0a34bccc71bd5352/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T21:17:38.6500000Z",
+      "ownerUsername": "niezlyskon",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Deploy Formation Banner Troop Rally Strategy",
+      "titleKey": "scriptdeployformationbannertrooprallystrategy",
+      "slug": "2X-+-UPD-2.5-Anime-Tactical-Simulator-Script-Deploy-Formation-Banner-Troop-Rally-Strategy-152827",
+      "views": 11,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-a96a85c644d4a70685a7ae320fe7b2f2/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:44:35.1730000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Haki Bounty Pirate Crew Anchor Voyage",
+      "titleKey": "scripthakibountypiratecrewanchorvoyage",
+      "slug": "Massive-Update-Sailor-Piece-Script-Haki-Bounty-Pirate-Crew-Anchor-Voyage-152825",
+      "views": 26,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-650531a10328e7318905bfc95af50860/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:44:23.1200000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Dragon Soul Awakening Quest Grind Rebirth",
+      "titleKey": "scriptdragonsoulawakeningquestgrindrebirth",
+      "slug": "2x-Dragon-Soul-or-Anime-MMO-Script-Dragon-Soul-Awakening-Quest-Grind-Rebirth-152822",
+      "views": 9,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-b521f35de49988c3d0a89d1fc4418f94/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:44:03.1290000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Karaoke Vocal Lyrics Pitch Melody Harmony",
+      "titleKey": "scriptkaraokevocallyricspitchmelodyharmony",
+      "slug": "SERVER-BROWSER-Sing-It!-Karaoke-Battles-VC-Script-Karaoke-Vocal-Lyrics-Pitch-Melody-Harmony-152819",
+      "views": 10,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-de0c9d9f9565192343be9dadd2bfc9a9/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:43:50.8300000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Crusher Shredder Compactor Wreckage Junkyard",
+      "titleKey": "scriptcrushershreddercompactorwreckagejunkyard",
+      "slug": "New-Car!-Car-Crushers-2-Physics-Simulation-Script-Crusher-Shredder-Compactor-Wreckage-Junkyard-152818",
+      "views": 10,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-72583dbcbd972c63a9ade8e1db98f7ce/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:43:36.4760000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Frontline Warfare Troop Barrage Platoon",
+      "titleKey": "scriptfrontlinewarfaretroopbarrageplatoon",
+      "slug": "100M-soon..-ST-:-Blockade-Battlefront-Script-Frontline-Warfare-Troop-Barrage-Platoon-152815",
+      "views": 14,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-7327da7c1cee313116aaa298ff803f5a/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:43:20.9540000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Knockback Shove Push Rampage Crowd Pummel",
+      "titleKey": "scriptknockbackshovepushrampagecrowdpummel",
+      "slug": "100-Player-Knockoff-Script-Knockback-Shove-Push-Rampage-Crowd-Pummel-152812",
+      "views": 7,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-06a3c8ffd27a35f6dd8ab225fd004a63/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:43:05.2040000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Sail Ocean Raft Voyage Storm",
+      "titleKey": "scriptsailoceanraftvoyagestorm",
+      "slug": "100-Days-At-Sea-Script-Sail-Ocean-Raft-Voyage-Storm-152808",
+      "views": 8,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-1bc7cc1aece6df237469946b8d1ad778/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:42:49.0230000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Motorcycle Wave Nitro Rider Throttle Velocity",
+      "titleKey": "scriptmotorcyclewavenitroriderthrottlevelocity",
+      "slug": "+1-Speed-Motorcycle-Tsunami-Escape-Script-Motorcycle-Wave-Nitro-Rider-Throttle-Velocity-152806",
+      "views": 7,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-fa7eba17cdd798b1ab1e214104f433d9/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:42:31.5400000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Motorcycle Throttle Flood Ride Acceleration Lane",
+      "titleKey": "scriptmotorcyclethrottlefloodrideaccelerationlane",
+      "slug": "+1-Speed-Motorcycle-Tsunami-Escape-Script-Motorcycle-Throttle-Flood-Ride-Acceleration-Lane-152804",
+      "views": 6,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-fa7eba17cdd798b1ab1e214104f433d9/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:42:14.4260000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Muscle Bulk Strength Gym Physique Grind",
+      "titleKey": "scriptmusclebulkstrengthgymphysiquegrind",
+      "slug": "+1-Muscle-Per-Step-Script-Muscle-Bulk-Strength-Gym-Physique-Grind-152799",
+      "views": 7,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-d8bcd2ea03b02cc59cbea4fb79e9533c/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:41:58.3570000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Auto lvl farm Low unc support Qwenzy hub",
+      "titleKey": "autolvlfarmlowuncsupportqwenzyhub",
+      "slug": "Massive-Update-Sailor-Piece-Auto-lvl-farm-Low-unc-support-Qwenzy-hub-152798",
+      "views": 14,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-650531a10328e7318905bfc95af50860/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:41:41.2010000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Coaster Rail Thrill Loop Cart Crest",
+      "titleKey": "scriptcoasterrailthrillloopcartcrest",
+      "slug": "+1-Highest-Roller-Coaster-Script-Coaster-Rail-Thrill-Loop-Cart-Crest-152797",
+      "views": 8,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-85b986f31e77579474a590a9fd7cee29/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:41:26.7320000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Waterwall Rising Submerge Lifeboat Rooftop Haven",
+      "titleKey": "scriptwaterwallrisingsubmergelifeboatrooftophaven",
+      "slug": "+1-Escape-Tsunami-for-Poppy-Playtime-Script-Waterwall-Rising-Submerge-Lifeboat-Rooftop-Haven-152787",
+      "views": 8,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-231eb587b718a7421485efabb90a7c5a/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:40:40.9740000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Duct Machinery Plushie Sentry Animatronic",
+      "titleKey": "scriptductmachineryplushiesentryanimatronic",
+      "slug": "UPD!-+1-Escape-Guards-for-Poppy-Playtime-Script-Duct-Machinery-Plushie-Sentry-Animatronic-152786",
+      "views": 6,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-4a67adc064c6639966ed2f22b2749b6a/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:40:24.3940000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script Ascend Climber Summit Rhythm Pulse Vertical",
+      "titleKey": "scriptascendclimbersummitrhythmpulsevertical",
+      "slug": "+1-Aura-Phonk-Edit-Tower-Script-Ascend-Climber-Summit-Rhythm-Pulse-Vertical-152784",
+      "views": 6,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-6723b411218a5684cbcb9298d6eddf9f/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:39:55.0140000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
       "title": "Team Armed Gui f3x",
       "titleKey": "teamarmedguif3x",
       "slug": "Universal-Script-Team-Armed-Gui-f3x-152756",
-      "views": 13,
+      "views": 23,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774643437016.png",
@@ -57,10 +475,10 @@
       "trending": false
     },
     {
-      "title": "FREEZE BEST TRADE KEYLESS",
-      "titleKey": "freezebesttradekeyless",
+      "title": "Best Freeze Trade script",
+      "titleKey": "bestfreezetradescript",
       "slug": "Universal-Script-FREEZE-BEST-TRADE-KEYLESS-152700",
-      "views": 14,
+      "views": 25,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774642869122.png",
@@ -79,7 +497,7 @@
       "title": "Volley Ball Legends Inf Spin",
       "titleKey": "volleyballlegendsinfspin",
       "slug": "Universal-Script-Volley-Ball-Legends-Inf-Spin-152691",
-      "views": 22,
+      "views": 46,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774642771461.jpg",
@@ -98,7 +516,7 @@
       "title": "AUTO ARREST CASH FARM GOD MODE ESP and More",
       "titleKey": "autoarrestcashfarmgodmodeespandmore",
       "slug": "UPD-Jailbreak-AUTO-ARREST-CASH-FARM-GOD-MODE-ESP-and-More-152664",
-      "views": 25,
+      "views": 31,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-55b6a8f847cdca2ed16ad2e13a972893/480/270/Image/Png/noFilter",
@@ -114,10 +532,143 @@
       "trending": false
     },
     {
+      "title": "AUTO POPCORN BURST AND CANDYPOP AUTO WIN Mystrix Hub",
+      "titleKey": "autopopcornburstandcandypopautowinmystrixhub",
+      "slug": "Universal-Script-AUTO-POPCORN-BURST-AND-CANDYPOP-AUTO-WIN-Mystrix-Hub-152657",
+      "views": 23,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1774642210159.jpg",
+      "createdAt": "2026-03-27T20:10:10.1750000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "BBC HUB",
+      "titleKey": "bbchub",
+      "slug": "Abyss-GLOOM-SPORE-BBC-HUB-152656",
+      "views": 26,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/127794225497302-1774642170546.png",
+      "createdAt": "2026-03-27T20:09:30.5590000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "AUTO ROB MONEY FARM CASH FARM GOD MODE ANTI COPS",
+      "titleKey": "autorobmoneyfarmcashfarmgodmodeanticops",
+      "slug": "UPD-Jailbreak-AUTO-ROB-MONEY-FARM-CASH-FARM-GOD-MODE-ANTI-COPS-152654",
+      "views": 32,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-55b6a8f847cdca2ed16ad2e13a972893/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:07:20.7100000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Keyless OP",
+      "titleKey": "keylessop",
+      "slug": "Demonology-Keyless-OP-152649",
+      "views": 14,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/18199615050-1774641768732.jpg",
+      "createdAt": "2026-03-27T20:02:48.7460000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "TAKUCARE",
+      "titleKey": "takucare",
+      "slug": "UPD-+1-Health-Per-Click-TAKUCARE-152639",
+      "views": 13,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-5cfdb25d5cba2c1030cb2e22b7baeea6/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-27T20:01:23.1930000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Team Wind0ws Gui V3 and V4",
+      "titleKey": "teamwind0wsguiv3andv4",
+      "slug": "Universal-Script-Team-Wind0ws-Gui-V3-and-V4-152633",
+      "views": 29,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1774641490751.png",
+      "createdAt": "2026-03-27T19:58:10.7660000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "TakaWare",
+      "titleKey": "takaware",
+      "slug": "RIVALS-TakaWare-152616",
+      "views": 48,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/17625359962-1774641268193.png",
+      "createdAt": "2026-03-27T19:54:28.2060000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
       "title": "Auto Farm Auto Sell",
       "titleKey": "autofarmautosell",
       "slug": "Cursed-BladeALPHA-Auto-Farm-Auto-Sell-152607",
-      "views": 28,
+      "views": 32,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ecf7361a98cf4b0099bfa620abb9cf1b/480/270/Image/Png/noFilter",
@@ -136,7 +687,7 @@
       "title": "Script coolgui no visual",
       "titleKey": "scriptcoolguinovisual",
       "slug": "Universal-Script-Script-coolgui-no-visual-152604",
-      "views": 32,
+      "views": 34,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774640582929.png",
@@ -155,7 +706,7 @@
       "title": "FREE Beta Script",
       "titleKey": "freebetascript",
       "slug": "OVERKILL-FREE-Beta-Script-152594",
-      "views": 31,
+      "views": 35,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/74996816424339-1774640359446.png",
@@ -174,7 +725,7 @@
       "title": "OP admin Fe script",
       "titleKey": "opadminfescript",
       "slug": "Universal-Script-OP-admin-Fe-script-152581",
-      "views": 42,
+      "views": 43,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774639972859.jpg",
@@ -193,7 +744,7 @@
       "title": "open source kill all players",
       "titleKey": "opensourcekillallplayers",
       "slug": "THA-BRONX-3-open-source-kill-all-players-152578",
-      "views": 31,
+      "views": 38,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-d554b73876f4097179cb08d19a74f91f/480/270/Image/Png/noFilter",
@@ -212,7 +763,7 @@
       "title": "Dedsamodell crack Clyde",
       "titleKey": "dedsamodellcrackclyde",
       "slug": "Trident-Survival-Dedsamodell-crack-Clyde-152545",
-      "views": 43,
+      "views": 53,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/13253735473-1774639612251.png",
@@ -231,7 +782,7 @@
       "title": "Anti LoveStrukTrap",
       "titleKey": "antilovestruktrap",
       "slug": "Piggy-LOVE-HEARTS-Anti-LoveStrukTrap-152497",
-      "views": 26,
+      "views": 27,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/4623386862-1774638779477.jpg",
@@ -250,7 +801,7 @@
       "title": "Automoreira. [ FREE VERSION ] KEYLESS. l w",
       "titleKey": "automoreirafreeversionkeylesslw",
       "slug": "Universal-Script-best-keyless-152461",
-      "views": 40,
+      "views": 41,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774637852192.webp",
@@ -269,7 +820,7 @@
       "title": "AUTO FARM EASTER TOKEN BY ARES",
       "titleKey": "autofarmeastertokenbyares",
       "slug": "Brookhaven-RP-AUTO-FARM-EASTER-TOKEN-BY-ARES-152454",
-      "views": 32,
+      "views": 35,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c66a88ba9ba649fcc8b7ea6cb61e1f78/480/270/Image/Png/noFilter",
@@ -288,7 +839,7 @@
       "title": "Auto green Open source",
       "titleKey": "autogreenopensource",
       "slug": "SPRING-Basketball-Legends-Auto-green-Open-source-152408",
-      "views": 26,
+      "views": 31,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-9050df3f8d131d30af817bb6427a65a6/480/270/Image/Png/noFilter",
@@ -307,7 +858,7 @@
       "title": "idk",
       "titleKey": "idk",
       "slug": "RIVALS-idk-152364",
-      "views": 64,
+      "views": 78,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-60c154f21752ff4cb520340183edb77a/480/270/Image/Png/noFilter",
@@ -345,7 +896,7 @@
       "title": "Script Drift Turbo Garage Vehicle Cruise Highway",
       "titleKey": "scriptdriftturbogaragevehiclecruisehighway",
       "slug": "UseCode-:-200M-or-Realistic-Car-Drivingtm-Script-Drift-Turbo-Garage-Vehicle-Cruise-Highway-152329",
-      "views": 13,
+      "views": 18,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ccd360fab34620f32342bec42e1ddad7/480/270/Image/Png/noFilter",
@@ -364,7 +915,7 @@
       "title": "Script Steering Throttle Commute Traffic Signal Horn",
       "titleKey": "scriptsteeringthrottlecommutetrafficsignalhorn",
       "slug": "(UPDATE!)-Car-Driving-Indonesia-Script-Steering-Throttle-Commute-Traffic-Signal-Horn-152323",
-      "views": 13,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-d051293deb069dd98f3f11a6af6113b7/480/270/Image/Png/noFilter",
@@ -459,7 +1010,7 @@
       "title": "Script Javelin Lance Polearm Stab Impale Lunge",
       "titleKey": "scriptjavelinlancepolearmstabimpalelunge",
       "slug": "Spear-Training!-Script-Javelin-Lance-Polearm-Stab-Impale-Lunge-152315",
-      "views": 16,
+      "views": 18,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-2d1a5c97df276941e5537112aef87bc8/480/270/Image/Png/noFilter",
@@ -497,7 +1048,7 @@
       "title": "Script Hood Grind Re*tion Block Hustle Territory",
       "titleKey": "scripthoodgrindretionblockhustleterritory",
       "slug": "UPD-South-Bronx:-The-Trenches-Script-Hood-Grind-Re*tion-Block-Hustle-Territory-152313",
-      "views": 22,
+      "views": 24,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-3e52b4da3a1ef13248eb212835249993/480/270/Image/Png/noFilter",
@@ -516,7 +1067,7 @@
       "title": "Script Egg Hatch Crack Rarity Collection Incubator",
       "titleKey": "scriptegghatchcrackraritycollectionincubator",
       "slug": "Break-a-Brainrot-Egg!-Script-Egg-Hatch-Crack-Rarity-Collection-Incubator-152302",
-      "views": 17,
+      "views": 18,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-cd7ce6321cede5e82cba83763bba3793/480/270/Image/Png/noFilter",
@@ -535,7 +1086,7 @@
       "title": "Script Egg Crack Hatch Collector Rarity Incubator Fortune",
       "titleKey": "scripteggcrackhatchcollectorrarityincubatorfortune",
       "slug": "Break-a-Brainrot-Egg!-Script-Egg-Crack-Hatch-Collector-Rarity-Incubator-Fortune-152302",
-      "views": 18,
+      "views": 19,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-cd7ce6321cede5e82cba83763bba3793/480/270/Image/Png/noFilter",
@@ -554,7 +1105,7 @@
       "title": "Script Dunk Crossover Rebound Alley Oop Ankle",
       "titleKey": "scriptdunkcrossoverreboundalleyoopankle",
       "slug": "Basketball:-Zero-Script-Dunk-Crossover-Rebound-Alley-Oop-Ankle-152301",
-      "views": 23,
+      "views": 25,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-eb73581e95aeeb22c98dbcb9d272e138/480/270/Image/Png/noFilter",
@@ -573,7 +1124,7 @@
       "title": "Script Tower Placement Wave Sentinel Summon",
       "titleKey": "scripttowerplacementwavesentinelsummon",
       "slug": "UGC-SUMO-EVENT-Anime-Guardians-Script-Tower-Placement-Wave-Sentinel-Summon-152296",
-      "views": 15,
+      "views": 16,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-3a76a53b94be5fffe8e805dfb5f87dd1/480/270/Image/Png/noFilter",
@@ -592,7 +1143,7 @@
       "title": "Script Ranger Morph Megazord Power Crystal Command",
       "titleKey": "scriptrangermorphmegazordpowercrystalcommand",
       "slug": "UPD-2.5-+-50percent-Re:Rangers-X-Script-Ranger-Morph-Megazord-Power-Crystal-Command-152293",
-      "views": 12,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-cdcda9a05b6908b18eb6e8bddb2913cd/480/270/Image/Png/noFilter",
@@ -611,7 +1162,7 @@
       "title": "Script Vanguard Placement Upgrade Garrison Deploy Summon",
       "titleKey": "scriptvanguardplacementupgradegarrisondeploysummon",
       "slug": "UPD-11.5-Anime-Vanguards-Script-Vanguard-Placement-Upgrade-Garrison-Deploy-Summon-152290",
-      "views": 15,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-bc06a1e13f31024b1bb791b7ae7165a3/480/270/Image/Png/noFilter",
@@ -630,7 +1181,7 @@
       "title": "X3rathGUI HUB [ House Cloner. Undetectable Freeze Trade. ] w",
       "titleKey": "x3rathguihubhouseclonerundetectablefreezetradew",
       "slug": "Universal-Script-best-keyless-152285",
-      "views": 32,
+      "views": 33,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774635970987.webp",
@@ -649,7 +1200,7 @@
       "title": "Script Fruit Mastery Sea Quest Armament Observation",
       "titleKey": "scriptfruitmasteryseaquestarmamentobservation",
       "slug": "UPD-10-King-Legacy-Script-Fruit-Mastery-Sea-Quest-Armament-Observation-152284",
-      "views": 21,
+      "views": 25,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-f6bc0d8615f68d2b3ced13bf3edcacd8/480/270/Image/Png/noFilter",
@@ -706,7 +1257,7 @@
       "title": "Script Runaway Corridor Pace Shortcut Hazard Drift P*age",
       "titleKey": "scriptrunawaycorridorpaceshortcuthazarddriftpage",
       "slug": "UPD-+1-Speed-Escape-for-Brainrots!-Script-Runaway-Corridor-Pace-Shortcut-Hazard-Drift-P*age-152276",
-      "views": 13,
+      "views": 15,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ebd0b6c587e70bb5a1bca6664bbcc6b7/480/270/Image/Png/noFilter",
@@ -725,7 +1276,7 @@
       "title": "KEYLESS 1 CLICK AUTO SMART FARM",
       "titleKey": "keyless1clickautosmartfarm",
       "slug": "Aura-Ascension-KEYLESS-1-CLICK-AUTO-SMART-FARM-152275",
-      "views": 40,
+      "views": 51,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5d308388ca0967300250bf99a5d8bf60/480/270/Image/Png/noFilter",
@@ -763,7 +1314,7 @@
       "title": "Script Bunker Warhead Missile Silo Radiation Detonation",
       "titleKey": "scriptbunkerwarheadmissilesiloradiationdetonation",
       "slug": "Underground-War-2.0-NUKE-Script-Bunker-Warhead-Missile-Silo-Radiation-Detonation-152273",
-      "views": 7,
+      "views": 8,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-4d6540e68ba850a1b14fb9f3c6ae4010/480/270/Image/Png/noFilter",
@@ -782,7 +1333,7 @@
       "title": "Script Watchtower Militia Sentry Rampart Battlement",
       "titleKey": "scriptwatchtowermilitiasentryrampartbattlement",
       "slug": "ULTIMATE-REWORKS-Skibi-Defense-Script-Watchtower-Militia-Sentry-Rampart-Battlement-152272",
-      "views": 8,
+      "views": 12,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e63c0b0a95f697f693dc3519ca59ee60/480/270/Image/Png/noFilter",
@@ -801,7 +1352,7 @@
       "title": "Script Gladiator Coliseum Valor Warlord Champion Triumph",
       "titleKey": "scriptgladiatorcoliseumvalorwarlordchampiontriumph",
       "slug": "Ultimate-Battlegrounds-Script-Gladiator-Coliseum-Valor-Warlord-Champion-Triumph-152272",
-      "views": 12,
+      "views": 13,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-6c7c967bc1aff9ca29e99555757bed06/480/270/Image/Png/noFilter",
@@ -858,7 +1409,7 @@
       "title": "Script En*y Tracker Hallway Flashlight Survival Horror",
       "titleKey": "scriptenytrackerhallwayflashlightsurvivalhorror",
       "slug": "Twisted-BETA-Script-En*y-Tracker-Hallway-Flashlight-Survival-Horror-152268",
-      "views": 29,
+      "views": 35,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-7b963e2e172a8306508ffdb28d526e67/480/270/Image/Png/noFilter",
@@ -877,7 +1428,7 @@
       "title": "Script Nursery Toddler Caretaker Crib Playroom Snack",
       "titleKey": "scriptnurserytoddlercaretakercribplayroomsnack",
       "slug": "Twilight-Daycare!RP-Script-Nursery-Toddler-Caretaker-Crib-Playroom-Snack-152266",
-      "views": 10,
+      "views": 12,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-68adf77dd1b33244483aad74f7c0565e/480/270/Image/Png/noFilter",
@@ -896,7 +1447,7 @@
       "title": "Script Bastion Sentinel Fortification Shield Garrison",
       "titleKey": "scriptbastionsentinelfortificationshieldgarrison",
       "slug": "Trolls-cannot-break-this-tower-Script-Bastion-Sentinel-Fortification-Shield-Garrison-152257",
-      "views": 9,
+      "views": 10,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-97604ccb2452008e943d7b0eba0e37de/480/270/Image/Png/noFilter",
@@ -934,7 +1485,7 @@
       "title": "Script Gymnasium Sparring Conditioning Bout Regimen",
       "titleKey": "scriptgymnasiumsparringconditioningboutregimen",
       "slug": "Train-to-Fight-Script-Gymnasium-Sparring-Conditioning-Bout-Regimen-152256",
-      "views": 8,
+      "views": 10,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-7399ba22fa0062edcb1cdfeda8605e63/480/270/Image/Png/noFilter",
@@ -991,7 +1542,7 @@
       "title": "Script Loadout Minigun Mortar Range Damage Output",
       "titleKey": "scriptloadoutminigunmortarrangedamageoutput",
       "slug": "Tower-Defense-Simulator-Script-Loadout-Minigun-Mortar-Range-Damage-Output-152253",
-      "views": 16,
+      "views": 19,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-6175ccfb55a3b066418457da272edde3/480/270/Image/Png/noFilter",
@@ -1029,7 +1580,7 @@
       "title": "Script Vote Immunity Contestant Backstab Jury Alliance",
       "titleKey": "scriptvoteimmunitycontestantbackstabjuryalliance",
       "slug": "Total-Roblox-Drama-Script-Vote-Immunity-Contestant-Backstab-Jury-Alliance-152240",
-      "views": 10,
+      "views": 11,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-38c8028c60926e8a3c5e53e459965b40/480/270/Image/Png/noFilter",
@@ -1067,7 +1618,7 @@
       "title": "Script Relay Minigame Podium Crown Victor Festive",
       "titleKey": "scriptrelayminigamepodiumcrownvictorfestive",
       "slug": "Together-Party-Game-Script-Relay-Minigame-Podium-Crown-Victor-Festive-152234",
-      "views": 6,
+      "views": 8,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-cf440732ec3c3467ec0a88cff05d41d3/480/270/Image/Png/noFilter",
@@ -1086,7 +1637,7 @@
       "title": "Script Territory Claimer Army Deploy Resource Conquest",
       "titleKey": "scriptterritoryclaimerarmydeployresourceconquest",
       "slug": "Tiny-Empires-WEATHER-Script-Territory-Claimer-Army-Deploy-Resource-Conquest-152232",
-      "views": 12,
+      "views": 13,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-395d3193d09128b2a89becf7eabdcca1/480/270/Image/Png/noFilter",
@@ -1143,7 +1694,7 @@
       "title": "Script Rollercoaster Attraction Ticket Carnival Ride Booth",
       "titleKey": "scriptrollercoasterattractionticketcarnivalridebooth",
       "slug": "Theme-Park-Tycoon-2-Script-Rollercoaster-Attraction-Ticket-Carnival-Ride-Booth-152223",
-      "views": 16,
+      "views": 18,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-f2486ba6848d0507da2511b01e2d4889/480/270/Image/Png/noFilter",
@@ -1162,7 +1713,7 @@
       "title": "Script Combo Parry Smash Hitbox Fury Overdrive",
       "titleKey": "scriptcomboparrysmashhitboxfuryoverdrive",
       "slug": "The-Strongest-Battlegrounds-Script-Combo-Parry-Smash-Hitbox-Fury-Overdrive-152220",
-      "views": 17,
+      "views": 23,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ccd8bcf9f66dc37834534d2cb3cfd1b9/480/270/Image/Png/noFilter",
@@ -1276,7 +1827,7 @@
       "title": "Script Molten Quench Alloy Temper Crucible Blacksmith",
       "titleKey": "scriptmoltenquenchalloytempercrucibleblacksmith",
       "slug": "The-Forge-BETA-Script-Molten-Quench-Alloy-Temper-Crucible-Blacksmith-152185",
-      "views": 8,
+      "views": 9,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-897c6bd9aea157370f2cadb3dfa2cdad/480/270/Image/Png/noFilter",
@@ -1314,7 +1865,7 @@
       "title": "Script Trebuchet Garrison Palisade Stronghold Bulwark",
       "titleKey": "scripttrebuchetgarrisonpalisadestrongholdbulwark",
       "slug": "The-Battle-Bricks-Script-Trebuchet-Garrison-Palisade-Stronghold-Bulwark-152179",
-      "views": 18,
+      "views": 22,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-a50d50b624706f5c40f67bb9cc77559a/480/270/Image/Png/noFilter",
@@ -1333,7 +1884,7 @@
       "title": "Script Turf Hustle Corner Graffiti Lowrider Cruisin",
       "titleKey": "scriptturfhustlecornergraffitilowridercruisin",
       "slug": "THA-BRONX-3-Script-Turf-Hustle-Corner-Graffiti-Lowrider-Cruisin-152166",
-      "views": 17,
+      "views": 22,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-d554b73876f4097179cb08d19a74f91f/480/270/Image/Png/noFilter",
@@ -1352,7 +1903,7 @@
       "title": "Script Elimination Round Challenge Survive Contest",
       "titleKey": "scripteliminationroundchallengesurvivecontest",
       "slug": "(Testing)-Squid-Game-X-Script-Elimination-Round-Challenge-Survive-Contest-152163",
-      "views": 11,
+      "views": 13,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c1f7f620281d6a776b1c08dc822a29f2/480/270/Image/Png/noFilter",
@@ -1371,7 +1922,7 @@
       "title": "Script Corridor P*age Hostile Containment Ward Anomaly",
       "titleKey": "scriptcorridorpagehostilecontainmentwardanomaly",
       "slug": "Testing-DMvsS-Script-Corridor-P*age-Hostile-Containment-Ward-Anomaly-152158",
-      "views": 7,
+      "views": 8,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b4c26b8c8b52dcf2697da439a8af2929/480/270/Image/Png/noFilter",
@@ -1390,7 +1941,7 @@
       "title": "Script Shadow Shikigami Cursed Conjure Exorcism Ritual",
       "titleKey": "scriptshadowshikigamicursedconjureexorcismritual",
       "slug": "Ten-Shadows-KAIZEN-Script-Shadow-Shikigami-Cursed-Conjure-Exorcism-Ritual-152131",
-      "views": 27,
+      "views": 38,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b3a1ce33652621e78b67b430b33ab570/480/270/Image/Png/noFilter",
@@ -1466,7 +2017,7 @@
       "title": "Script Fare P*enger Pickup Cab Drive Meter",
       "titleKey": "scriptfarepengerpickupcabdrivemeter",
       "slug": "Taxi-Boss-Script-Fare-P*enger-Pickup-Cab-Drive-Meter-152120",
-      "views": 17,
+      "views": 18,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c9f1eb029889cd5960b8491a915f9450/480/270/Image/Png/noFilter",
@@ -1485,7 +2036,7 @@
       "title": "Script Cannon Armor Shell Caliber Bombard Shrapnel",
       "titleKey": "scriptcannonarmorshellcaliberbombardshrapnel",
       "slug": "Tank-Game!-Script-Cannon-Armor-Shell-Caliber-Bombard-Shrapnel-152118",
-      "views": 13,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c854de065556b3adf7ae4f8754690fd1/480/270/Image/Png/noFilter",
@@ -1523,7 +2074,7 @@
       "title": "Best Op Spam Admin Panel Script",
       "titleKey": "bestopspamadminpanelscript",
       "slug": "Universal-Script-Best-Op-Spam-Admin-Panel-Script-152113",
-      "views": 16,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774635061830.png",
@@ -1656,7 +2207,7 @@
       "title": "Script Undead Arena Rampage Annihilate Grenade Loadout",
       "titleKey": "scriptundeadarenarampageannihilategrenadeloadout",
       "slug": "Survive-Zombie-Arena-Script-Undead-Arena-Rampage-Annihilate-Grenade-Loadout-152090",
-      "views": 15,
+      "views": 16,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-43d2ce8ef1487a0866293a34862078c0/480/270/Image/Png/noFilter",
@@ -1694,7 +2245,7 @@
       "title": "Script Warmth Shelter Frost Endure Blizzard Thermal",
       "titleKey": "scriptwarmthshelterfrostendureblizzardthermal",
       "slug": "Survive-the-Cold-Script-Warmth-Shelter-Frost-Endure-Blizzard-Thermal-152087",
-      "views": 6,
+      "views": 8,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8c63b223b0888bd0074c83f478473d2a/480/270/Image/Png/noFilter",
@@ -1732,7 +2283,7 @@
       "title": "Script Aisle Nightfall Employee Shelf Escape",
       "titleKey": "scriptaislenightfallemployeeshelfescape",
       "slug": "Survive-Overnight-in-a-Mega-Store-Script-Aisle-Nightfall-Employee-Shelf-Escape-152066",
-      "views": 9,
+      "views": 10,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-1b7bb400dfc0b920c47f5abca17f665f/480/270/Image/Png/noFilter",
@@ -1808,7 +2359,7 @@
       "title": "Script Checkout Register Grocery Stocker Trolley Restock",
       "titleKey": "scriptcheckoutregistergrocerystockertrolleyrestock",
       "slug": "Supermarket-Together-Script-Checkout-Register-Grocery-Stocker-Trolley-Restock-152050",
-      "views": 8,
+      "views": 11,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-1d499a2d788f5f34ac494f30fbff8c6c/480/270/Image/Png/noFilter",
@@ -1827,7 +2378,7 @@
       "title": "Script Cashier Aisle Checkout Wholesale Shelf Restock",
       "titleKey": "scriptcashieraislecheckoutwholesaleshelfrestock",
       "slug": "Supermarket-Simulator-Script-Cashier-Aisle-Checkout-Wholesale-Shelf-Restock-152046",
-      "views": 8,
+      "views": 9,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-abda6c35b655da07d49b07955fa0ef3a/480/270/Image/Png/noFilter",
@@ -1846,7 +2397,7 @@
       "title": "Script Banish Purge Exorcist Ritual Radiance Sacred",
       "titleKey": "scriptbanishpurgeexorcistritualradiancesacred",
       "slug": "SUNLIGHT-SISTERS-KPop-Demon-Hunters-Script-Banish-Purge-Exorcist-Ritual-Radiance-Sacred-152044",
-      "views": 10,
+      "views": 11,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-7cf19047469935e80a4b690edf3a4485/480/270/Image/Png/noFilter",
@@ -1865,7 +2416,7 @@
       "title": "Script Heist Stealth Loot Infiltrate Raid Plunder",
       "titleKey": "scriptheiststealthlootinfiltrateraidplunder",
       "slug": "Steal-The-Brainrot-Base-Script-Heist-Stealth-Loot-Infiltrate-Raid-Plunder-152020",
-      "views": 16,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-f5533630828ab06296bd6d744758c5db/480/270/Image/Png/noFilter",
@@ -1922,7 +2473,7 @@
       "title": "Script Thief Prowl Pickpocket Extraction Swiftly",
       "titleKey": "scriptthiefprowlpickpocketextractionswiftly",
       "slug": "Steal-From-Brainrots-Script-Thief-Prowl-Pickpocket-Extraction-Swiftly-152013",
-      "views": 10,
+      "views": 12,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-f39aed6055e9281d86e9ba0316242b05/480/270/Image/Png/noFilter",
@@ -1941,7 +2492,7 @@
       "title": "Script Plaza Booth Merchant Barter Figurine Stash",
       "titleKey": "scriptplazaboothmerchantbarterfigurinestash",
       "slug": "Steal-Brainrots-Trading-Plaza-Script-Plaza-Booth-Merchant-Barter-Figurine-Stash-152012",
-      "views": 13,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-2dd63c9ea1629e23f37820fb12d69e25/480/270/Image/Png/noFilter",
@@ -1960,7 +2511,7 @@
       "title": "Script Saiyan Transformation Ki Charge Aura Beam",
       "titleKey": "scriptsaiyantransformationkichargeaurabeam",
       "slug": "Dragon-Ball-Rage-Script-Saiyan-Transformation-Ki-Charge-Aura-Beam-152011",
-      "views": 15,
+      "views": 16,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-fac6eb615a8751004fd04effe04af136/480/270/Image/Png/noFilter",
@@ -1979,7 +2530,7 @@
       "title": "Script Round Elimination Endure Challenge Gl* Bridge",
       "titleKey": "scriptroundeliminationendurechallengeglbridge",
       "slug": "Squid-Game-X-Script-Round-Elimination-Endure-Challenge-Gl*-Bridge-152010",
-      "views": 15,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ddb3b634d418ae90b22ed9412b84fc9f/480/270/Image/Png/noFilter",
@@ -2017,7 +2568,7 @@
       "title": "Script Drift Nitro Garage Tuning Cruise Vehicle",
       "titleKey": "scriptdriftnitrogaragetuningcruisevehicle",
       "slug": "Spring-Polish-Car-Driving-Script-Drift-Nitro-Garage-Tuning-Cruise-Vehicle-152004",
-      "views": 11,
+      "views": 12,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-828e803c3bd8d2007a7e2bc8ad3e0f01/480/270/Image/Png/noFilter",
@@ -2055,7 +2606,7 @@
       "title": "Script Dunk Rebound Court Positioning Slam Scoring",
       "titleKey": "scriptdunkreboundcourtpositioningslamscoring",
       "slug": "SPRING-Basketball-Legends-Script-Dunk-Rebound-Court-Positioning-Slam-Scoring-151994",
-      "views": 11,
+      "views": 12,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-9050df3f8d131d30af817bb6427a65a6/480/270/Image/Png/noFilter",
@@ -2131,7 +2682,7 @@
       "title": "Script Spinner Pack Rarity Deck Album Trade",
       "titleKey": "scriptspinnerpackraritydeckalbumtrade",
       "slug": "Spin-a-Soccer-Card-Script-Spinner-Pack-Rarity-Deck-Album-Trade-151984",
-      "views": 20,
+      "views": 23,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5e2d4c187a07a777fbf3a8a6909bb5e7/480/270/Image/Png/noFilter",
@@ -2169,7 +2720,7 @@
       "title": "Script Web Fang Venom Cocoon Lair Arachnid",
       "titleKey": "scriptwebfangvenomcocoonlairarachnid",
       "slug": "Spider-Script-Web-Fang-Venom-Cocoon-Lair-Arachnid-151980",
-      "views": 16,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-02f3542386b16a9b92e7d8389c181718/480/270/Image/Png/noFilter",
@@ -2188,7 +2739,7 @@
       "title": "Script Alphabet Typo Grammar Lexicon Spellcheck Dictation",
       "titleKey": "scriptalphabettypogrammarlexiconspellcheckdictation",
       "slug": "Spelling-Race-Script-Alphabet-Typo-Grammar-Lexicon-Spellcheck-Dictation-151976",
-      "views": 30,
+      "views": 34,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-2004d1cee180c67f0c5798357a8df16d/480/270/Image/Png/noFilter",
@@ -2207,7 +2758,7 @@
       "title": "Aimlock script open source",
       "titleKey": "aimlockscriptopensource",
       "slug": "Universal-Script-Aimlock-script-open-source-151975",
-      "views": 27,
+      "views": 31,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774634100469.png",
@@ -2226,7 +2777,7 @@
       "title": "Script Doodle Guess Prompt Streak Crayon",
       "titleKey": "scriptdoodleguesspromptstreakcrayon",
       "slug": "Speed-Draw!-Script-Doodle-Guess-Prompt-Streak-Crayon-151974",
-      "views": 13,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-982ca8e2b6235258c0fa9944ce0ee0c2/480/270/Image/Png/noFilter",
@@ -2245,7 +2796,7 @@
       "title": "Script Autoclicker Cursor Tap Multiplier Prestige Upgrade",
       "titleKey": "scriptautoclickercursortapmultiplierprestigeupgrade",
       "slug": "Speed-Clicker-Script-Autoclicker-Cursor-Tap-Multiplier-Prestige-Upgrade-151973",
-      "views": 8,
+      "views": 10,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e886defb5bc34d647f9de5ed97293b05/480/270/Image/Png/noFilter",
@@ -2283,7 +2834,7 @@
       "title": "Script Aura Roll Lucky Biome Glitch Catalyst",
       "titleKey": "scriptaurarollluckybiomeglitchcatalyst",
       "slug": "Sol's-RNG-BOSS-RAID-2-Script-Aura-Roll-Lucky-Biome-Glitch-Catalyst-151970",
-      "views": 14,
+      "views": 16,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-d69a6fb55e52a0f027bf500fd6335ab3/480/270/Image/Png/noFilter",
@@ -2340,7 +2891,7 @@
       "title": "Script Slap Power Climb Tower Smack Ascend",
       "titleKey": "scriptslappowerclimbtowersmackascend",
       "slug": "Slap-Tower-8-Script-Slap-Power-Climb-Tower-Smack-Ascend-151967",
-      "views": 10,
+      "views": 11,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ec2e0674f831b10fa0ac612e35271c06/480/270/Image/Png/noFilter",
@@ -2359,7 +2910,7 @@
       "title": "Script Finder Detect Outline Locate Scan Proximity",
       "titleKey": "scriptfinderdetectoutlinelocatescanproximity",
       "slug": "Find-The.HOjMER-Script-Finder-Detect-Outline-Locate-Scan-Proximity-151966",
-      "views": 17,
+      "views": 18,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-1ab10d26d3342f06524231f0ed0f2556/480/270/Image/Png/noFilter",
@@ -2454,7 +3005,7 @@
       "title": "Script Bloodline Jutsu Kekkei Genkai Shi*i Clan",
       "titleKey": "scriptbloodlinejutsukekkeigenkaishiiclan",
       "slug": "Shindo-Life-242-Script-Bloodline-Jutsu-Kekkei-Genkai-Shi*i-Clan-151939",
-      "views": 23,
+      "views": 26,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-21edb0bfe5cc0f55fe1b238537994ae3/480/270/Image/Png/noFilter",
@@ -2492,7 +3043,7 @@
       "title": "Script Containment Facility Anomaly Specimen Protocol",
       "titleKey": "scriptcontainmentfacilityanomalyspecimenprotocol",
       "slug": "SCP:-Roleplay-Script-Containment-Facility-Anomaly-Specimen-Protocol-151924",
-      "views": 18,
+      "views": 19,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e8cfcfb7229060badf179ce67352b3c5/480/270/Image/Png/noFilter",
@@ -2511,7 +3062,7 @@
       "title": "Script Anomaly Kiosk Nightshift Detect En*y Survive",
       "titleKey": "scriptanomalykiosknightshiftdetectenysurvive",
       "slug": "Scary-Shawarma-Kiosk:-the-ANOMALY-horror-Script-Anomaly-Kiosk-Nightshift-Detect-En*y-Survive-151920",
-      "views": 13,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5c2e0c56084502e1208963a510fb207b/480/270/Image/Png/noFilter",
@@ -2606,7 +3157,7 @@
       "title": "Script S* Weld Plating Propeller Mooring Buoy",
       "titleKey": "scriptsweldplatingpropellermooringbuoy",
       "slug": "Rusty-Rafts-Script-S*-Weld-Plating-Propeller-Mooring-Buoy-151882",
-      "views": 13,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c47192ca3cdbb1e971e372c862633260/480/270/Image/Png/noFilter",
@@ -2644,7 +3195,7 @@
       "title": "Script Prism Chromatic Polygon Arcade Pixel Geometric",
       "titleKey": "scriptprismchromaticpolygonarcadepixelgeometric",
       "slug": "ROBOT-BEAT-BOUNCE-(GEOMETRY-DASH)-Script-Prism-Chromatic-Polygon-Arcade-Pixel-Geometric-151846",
-      "views": 11,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ff7abdc0a7ce37d1f4d99c57eadd57e1/480/270/Image/Png/noFilter",
@@ -2663,7 +3214,7 @@
       "title": "Script Muni*l Trooper Citation Highway Dispatch Precinct",
       "titleKey": "scriptmuniltroopercitationhighwaydispatchprecinct",
       "slug": "(-SPRING-UPDATE!)-Rensselaer-County-Script-Muni*l-Trooper-Citation-Highway-Dispatch-Precinct-151827",
-      "views": 9,
+      "views": 10,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c4b6b2e7eebcf1210b19510256d09104/480/270/Image/Png/noFilter",
@@ -2739,7 +3290,7 @@
       "title": "Script Downtown Precinct Residential Muni*l Commerce",
       "titleKey": "scriptdowntownprecinctresidentialmunilcommerce",
       "slug": "Redcliff-City-RP-Script-Downtown-Precinct-Residential-Muni*l-Commerce-151808",
-      "views": 4,
+      "views": 5,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ce99554bb0302f9db2ae3e198ac9d692/480/270/Image/Png/noFilter",
@@ -2815,7 +3366,7 @@
       "title": "Script Handshake Fingertip Grasp Wrist Dexterity Mimic",
       "titleKey": "scripthandshakefingertipgraspwristdexteritymimic",
       "slug": "Realistic-Hand-RP-Without-VR-Script-Handshake-Fingertip-Grasp-Wrist-Dexterity-Mimic-151803",
-      "views": 14,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-a374bbf8ce516218454a848251933870/480/270/Image/Png/noFilter",
@@ -2853,7 +3404,7 @@
       "title": "Script Lumber Flotation Dock Harbor Timber Mooring",
       "titleKey": "scriptlumberflotationdockharbortimbermooring",
       "slug": "Raft-Tycoon-Script-Lumber-Flotation-Dock-Harbor-Timber-Mooring-151801",
-      "views": 11,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-0f7a5a73a5378b67d849988fd3e28a1c/480/270/Image/Png/noFilter",
@@ -2891,7 +3442,7 @@
       "title": "Script Volley Smash Court Rally Serve Ace",
       "titleKey": "scriptvolleysmashcourtrallyserveace",
       "slug": "Racket-Rivals-Script-Volley-Smash-Court-Rally-Serve-Ace-151799",
-      "views": 28,
+      "views": 31,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-2f730fd2ce58cb7c4414dfaede422928/480/270/Image/Png/noFilter",
@@ -2967,7 +3518,7 @@
       "title": "Script Quarantine Perimeter Creature Barricade Siren Patrol",
       "titleKey": "scriptquarantineperimetercreaturebarricadesirenpatrol",
       "slug": "Quarantine-Border-HORROR-Script-Quarantine-Perimeter-Creature-Barricade-Siren-Patrol-151790",
-      "views": 14,
+      "views": 15,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8b4850b587bbb5fa7a7474c8ff2c337b/480/270/Image/Png/noFilter",
@@ -3005,7 +3556,7 @@
       "title": "Script Rika Binding Exorcise Hollow Zenith Purge",
       "titleKey": "scriptrikabindingexorcisehollowzenithpurge",
       "slug": "QOL-Jujutsu:-Zero-Script-Rika-Binding-Exorcise-Hollow-Zenith-Purge-151788",
-      "views": 17,
+      "views": 18,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-839341e576a8fdbf2e192d1090599d28/480/270/Image/Png/noFilter",
@@ -3043,7 +3594,7 @@
       "title": "Script Mystery Lootblock Fortune Grabber Bonus Charm",
       "titleKey": "scriptmysterylootblockfortunegrabberbonuscharm",
       "slug": "Pull-a-Lucky-Block!-Script-Mystery-Lootblock-Fortune-Grabber-Bonus-Charm-151786",
-      "views": 19,
+      "views": 21,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5dfb975bcfa5ef89fd1f7a3d438eecdb/480/270/Image/Png/noFilter",
@@ -3062,7 +3613,7 @@
       "title": "Script Gacha Roll Legendary Pull Rarity Jackpot",
       "titleKey": "scriptgacharolllegendarypullrarityjackpot",
       "slug": "Pull-a-Lucky-Block!-Script-Gacha-Roll-Legendary-Pull-Rarity-Jackpot-151784",
-      "views": 13,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5dfb975bcfa5ef89fd1f7a3d438eecdb/480/270/Image/Png/noFilter",
@@ -3081,7 +3632,7 @@
       "title": "Script Gacha Pull Lucky Summon Capsule Roll",
       "titleKey": "scriptgachapullluckysummoncapsuleroll",
       "slug": "Pull-a-Brainrot-Script-Gacha-Pull-Lucky-Summon-Capsule-Roll-151778",
-      "views": 14,
+      "views": 15,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-f420e0dd6ed0abb5846aba87c4b56cde/480/270/Image/Png/noFilter",
@@ -3138,7 +3689,7 @@
       "title": "Script Tactical Recon Suppressor Marksman Loadout Breach",
       "titleKey": "scripttacticalreconsuppressormarksmanloadoutbreach",
       "slug": "Project-Delta-Script-Tactical-Recon-Suppressor-Marksman-Loadout-Breach-151773",
-      "views": 16,
+      "views": 20,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5ed6d0ba45958ede8c1fa1cac82ee1a5/480/270/Image/Png/noFilter",
@@ -3176,7 +3727,7 @@
       "title": "Script Cellblock Warden Barbell Deadlift Squat Rep",
       "titleKey": "scriptcellblockwardenbarbelldeadliftsquatrep",
       "slug": "2X-Prison-Pump-Script-Cellblock-Warden-Barbell-Deadlift-Squat-Rep-151768",
-      "views": 21,
+      "views": 25,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b955a39f17af80d3e4cd7382b9a7426c/480/270/Image/Png/noFilter",
@@ -3195,7 +3746,7 @@
       "title": "Script Inmate Breakout Guard Keycard Cell Lockpick",
       "titleKey": "scriptinmatebreakoutguardkeycardcelllockpick",
       "slug": "Prison-Life-Script-Inmate-Breakout-Guard-Keycard-Cell-Lockpick-151751",
-      "views": 26,
+      "views": 30,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8e16b433df6f2c94391865bc438e076a/480/270/Image/Png/noFilter",
@@ -3233,7 +3784,7 @@
       "title": "Script Claustrophobia Pipe Valve Tension Reactor Meltdown",
       "titleKey": "scriptclaustrophobiapipevalvetensionreactormeltdown",
       "slug": "Pressure-Reopening-on-March-28th-Script-Claustrophobia-Pipe-Valve-Tension-Reactor-Meltdown-151749",
-      "views": 18,
+      "views": 19,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-fd2f04445b67187b491dec3175905d23/480/270/Image/Png/noFilter",
@@ -3290,7 +3841,7 @@
       "title": "Script Balloon Burst Target Lock Rapid Multiplier",
       "titleKey": "scriptballoonbursttargetlockrapidmultiplier",
       "slug": "Pop-a-Balloon-Script-Balloon-Burst-Target-Lock-Rapid-Multiplier-151745",
-      "views": 15,
+      "views": 16,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-1a3924f4874e9e693ea7ba0b0da4af31/480/270/Image/Png/noFilter",
@@ -3328,7 +3879,7 @@
       "title": "Script Ghost Ward Apparition Phantom Asylum Specter",
       "titleKey": "scriptghostwardapparitionphantomasylumspecter",
       "slug": "Pocong:-Cursed-Hospital-Beta-Scary-Horror-Script-Ghost-Ward-Apparition-Phantom-Asylum-Specter-151738",
-      "views": 9,
+      "views": 11,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-6cce78747bc708831731b817f46ce200/480/270/Image/Png/noFilter",
@@ -3385,7 +3936,7 @@
       "title": "Script Voxel Slash Raven Katana Sheath Samurai",
       "titleKey": "scriptvoxelslashravenkatanasheathsamurai",
       "slug": "Pixel-Blade-RAVEN-Script-Voxel-Slash-Raven-Katana-Sheath-Samurai-151735",
-      "views": 40,
+      "views": 47,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-012373903be12898d789ef8c722b1ac6/480/270/Image/Png/noFilter",
@@ -3404,7 +3955,7 @@
       "title": "Script Holster Quickdraw Reload Sidearm Buckshot Caliber",
       "titleKey": "scriptholsterquickdrawreloadsidearmbuckshotcaliber",
       "slug": "Pistol-Arena-Script-Holster-Quickdraw-Reload-Sidearm-Buckshot-Caliber-151734",
-      "views": 15,
+      "views": 16,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-318bbdbc22778b73c60dc615ee8f38e8/480/270/Image/Png/noFilter",
@@ -3423,7 +3974,7 @@
       "title": "Script Triggerbot Crosshair Spray Pattern Wallbang Clip",
       "titleKey": "scripttriggerbotcrosshairspraypatternwallbangclip",
       "slug": "Pistol-Arena-Script-Triggerbot-Crosshair-Spray-Pattern-Wallbang-Clip-151733",
-      "views": 16,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-318bbdbc22778b73c60dc615ee8f38e8/480/270/Image/Png/noFilter",
@@ -3556,7 +4107,7 @@
       "title": "Script Sniper Ballistic Optic Suppressed Flank Warfare",
       "titleKey": "scriptsniperballisticopticsuppressedflankwarfare",
       "slug": "Phantom-Forces-Script-Sniper-Ballistic-Optic-Suppressed-Flank-Warfare-151726",
-      "views": 11,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5269484ec3fd78ec695ba07a05372a39/480/270/Image/Png/noFilter",
@@ -3670,7 +4221,7 @@
       "title": "Script Memory Fragment Puzzle Narrative Clue Trace",
       "titleKey": "scriptmemoryfragmentpuzzlenarrativecluetrace",
       "slug": "Outcome-Memories-v0.2-Script-Memory-Fragment-Puzzle-Narrative-Clue-Trace-151717",
-      "views": 18,
+      "views": 19,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-701317c8523220227c0a29750f06e459/480/270/Image/Png/noFilter",
@@ -3689,7 +4240,7 @@
       "title": "Script Phantom Haunt Lantern Corridor Apparition Asylum",
       "titleKey": "scriptphantomhauntlanterncorridorapparitionasylum",
       "slug": "Ophelia-HORROR-Script-Phantom-Haunt-Lantern-Corridor-Apparition-Asylum-151715",
-      "views": 19,
+      "views": 20,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-3985753fd6f67c11a460b513c3d462d1/480/270/Image/Png/noFilter",
@@ -3708,7 +4259,7 @@
       "title": "Script Operative Recon Insertion Platoon Sniper Ambush",
       "titleKey": "scriptoperativereconinsertionplatoonsniperambush",
       "slug": "Operation-One-Script-Operative-Recon-Insertion-Platoon-Sniper-Ambush-151712",
-      "views": 27,
+      "views": 29,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-0705c28a69627a5e527514b9c2022581/480/270/Image/Png/noFilter",
@@ -3727,7 +4278,7 @@
       "title": "Script Intersection Stoplight Roanoke Cruising Boulevard",
       "titleKey": "scriptintersectionstoplightroanokecruisingboulevard",
       "slug": "OPENABLE-DOORS-Roanoke-VA-Driving-RP-Script-Intersection-Stoplight-Roanoke-Cruising-Boulevard-151706",
-      "views": 20,
+      "views": 26,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ca786817db4ab08473c898c63a79db2c/480/270/Image/Png/noFilter",
@@ -3746,7 +4297,7 @@
       "title": "Script Ability Surge Domain Clash Rampage",
       "titleKey": "scriptabilitysurgedomainclashrampage",
       "slug": "OPE-V2-Fruit-Battlegrounds-Script-Ability-Surge-Domain-Clash-Rampage-151703",
-      "views": 20,
+      "views": 25,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-6688078543e2f947bf998f31c4601037/480/270/Image/Png/noFilter",
@@ -3784,7 +4335,7 @@
       "title": "Script Derrick Pipeline Refinery Barrel Crude Extract",
       "titleKey": "scriptderrickpipelinerefinerybarrelcrudeextract",
       "slug": "Oil-Empire-Script-Derrick-Pipeline-Refinery-Barrel-Crude-Extract-151700",
-      "views": 17,
+      "views": 23,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-fe03c1dedff0fb416dbac34ec38691e7/480/270/Image/Png/noFilter",
@@ -3822,7 +4373,7 @@
       "title": "Script Reactor Uranium Cooling Fission Turbine Meltdown",
       "titleKey": "scriptreactoruraniumcoolingfissionturbinemeltdown",
       "slug": "Nuke-Tycoon-Nuclear-ENGINES-Script-Reactor-Uranium-Cooling-Fission-Turbine-Meltdown-151693",
-      "views": 22,
+      "views": 25,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-653f4e27ab5a25150eee1d48fe020134/480/270/Image/Png/noFilter",
@@ -3841,7 +4392,7 @@
       "title": "Script Impersonate Blend Disguise Mimic Patrol Stealth",
       "titleKey": "scriptimpersonateblenddisguisemimicpatrolstealth",
       "slug": "NPC-or-DIE!-Script-Impersonate-Blend-Disguise-Mimic-Patrol-Stealth-151693",
-      "views": 16,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c07333d9345bbdea328ead13fd27d4d6/480/270/Image/Png/noFilter",
@@ -3860,7 +4411,7 @@
       "title": "Script Rocket Thrust Orbit Al*ude Fuel Payload",
       "titleKey": "scriptrocketthrustorbitaludefuelpayload",
       "slug": "UPD-5!-Launch-Your-Rocket-Script-Rocket-Thrust-Orbit-Al*ude-Fuel-Payload-151694",
-      "views": 18,
+      "views": 19,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8b60e766534e701a0f91c4d03b58706d/480/270/Image/Png/noFilter",
@@ -3879,7 +4430,7 @@
       "title": "Script Prey Tracker Rifle Woodland Camouflage Snare",
       "titleKey": "scriptpreytrackerriflewoodlandcamouflagesnare",
       "slug": "NOW!!!-Foresto:-Hunting-Game-Script-Prey-Tracker-Rifle-Woodland-Camouflage-Snare-151694",
-      "views": 12,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-bf1a274f5dfa60abf9d99267989a45bc/480/270/Image/Png/noFilter",
@@ -3898,7 +4449,7 @@
       "title": "Script Trap Lure Creature Habitat Safari Evolve",
       "titleKey": "scripttraplurecreaturehabitatsafarievolve",
       "slug": "1H-Catch-a-Monster-Script-Trap-Lure-Creature-Habitat-Safari-Evolve-151692",
-      "views": 16,
+      "views": 21,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e57d945f00feec25506126e8b14151e7/480/270/Image/Png/noFilter",
@@ -3917,7 +4468,7 @@
       "title": "Script Heist Vault Loot Covert Infiltrate Getaway",
       "titleKey": "scriptheistvaultlootcovertinfiltrategetaway",
       "slug": "Notoriety:-A-PAYDAY(r)-Experience-Script-Heist-Vault-Loot-Covert-Infiltrate-Getaway-151690",
-      "views": 18,
+      "views": 19,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-da35fb3da155c9e67f24a46a61695958/480/270/Image/Png/noFilter",
@@ -3936,7 +4487,7 @@
       "title": "Script Wrench Repair Plumbing Wiring Toolbox Handyman",
       "titleKey": "scriptwrenchrepairplumbingwiringtoolboxhandyman",
       "slug": "Fix-It-Up!-Script-Wrench-Repair-Plumbing-Wiring-Toolbox-Handyman-151689",
-      "views": 24,
+      "views": 25,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b9fc411e5fea3f12abb963c6184c11aa/480/270/Image/Png/noFilter",
@@ -3955,7 +4506,7 @@
       "title": "Script Battalion Deploy Recruit Barracks Revenue Expand",
       "titleKey": "scriptbattaliondeployrecruitbarracksrevenueexpand",
       "slug": "Noob-Army-Tycoon-(New-noobs)-Script-Battalion-Deploy-Recruit-Barracks-Revenue-Expand-151686",
-      "views": 22,
+      "views": 26,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-7a254ad1be7de19f4c75b3784d4b87d7/480/270/Image/Png/noFilter",
@@ -3993,7 +4544,7 @@
       "title": "Script Touchdown Quarterback Receiver Gridiron Tackle Blitz",
       "titleKey": "scripttouchdownquarterbackreceivergridirontackleblitz",
       "slug": "SOON-NFL-Universe-Football-Script-Touchdown-Quarterback-Receiver-Gridiron-Tackle-Blitz-151678",
-      "views": 15,
+      "views": 19,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e14ba77b705bd718a4cc3f50ec55768d/480/270/Image/Png/noFilter",
@@ -4031,7 +4582,7 @@
       "title": "Script Showroom Profit Inventory Sedan Wholesale",
       "titleKey": "scriptshowroomprofitinventorysedanwholesale",
       "slug": "NEW-SEASON!-Car-Dealership-Tycoon-Script-Showroom-Profit-Inventory-Sedan-Wholesale-151673",
-      "views": 19,
+      "views": 21,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-1cb51c3e960fa8d5c8828d1465154f13/480/270/Image/Png/noFilter",
@@ -4050,7 +4601,7 @@
       "title": "Script Drift Nitro Garage Lap Track Circuit",
       "titleKey": "scriptdriftnitrogaragelaptrackcircuit",
       "slug": "NEW-MAP-Driving-Empire-Car-Racing-Script-Drift-Nitro-Garage-Lap-Track-Circuit-151668",
-      "views": 19,
+      "views": 20,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-960641b103ecd1f78ab8acd46ea4929b/480/270/Image/Png/noFilter",
@@ -4069,7 +4620,7 @@
       "title": "Script Raptor Prehistoric Roar Expedition Carnivore Rex",
       "titleKey": "scriptraptorprehistoricroarexpeditioncarnivorerex",
       "slug": "NEW-HORIZONS-Jurassic-Blocky-Script-Raptor-Prehistoric-Roar-Expedition-Carnivore-Rex-151665",
-      "views": 10,
+      "views": 11,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-72007dc11099c62685db43551189ca26/480/270/Image/Png/noFilter",
@@ -4126,7 +4677,7 @@
       "title": "Script Disaster Shelter Tsunami Earthquake Safe Zone",
       "titleKey": "scriptdisastersheltertsunamiearthquakesafezone",
       "slug": "Natural-Disaster-Survival-Script-Disaster-Shelter-Tsunami-Earthquake-Safe-Zone-151661",
-      "views": 22,
+      "views": 25,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-7ea7065a02f8cff80f8b0270a9ad2d3b/480/270/Image/Png/noFilter",
@@ -4145,7 +4696,7 @@
       "title": "Script Best Free",
       "titleKey": "scriptbestfree",
       "slug": "MYTHICAL-Garden-Horizons-Script-Best-Free-151660",
-      "views": 9,
+      "views": 10,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-3fb4de1a639afae0086075bfd15f9c17/480/270/Image/Png/noFilter",
@@ -4202,7 +4753,7 @@
       "title": "Script Swindler Ruse Deception Scheme Trickster Fraud",
       "titleKey": "scriptswindlerrusedeceptionschemetricksterfraud",
       "slug": "My-Scamming-Brainrots!-Script-Swindler-Ruse-Deception-Scheme-Trickster-Fraud-151657",
-      "views": 13,
+      "views": 14,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-203be00f468adc63bd02a36a2fabafa8/480/270/Image/Png/noFilter",
@@ -4316,7 +4867,7 @@
       "title": "DODGEBALL SCRIPT BY ARJUN",
       "titleKey": "dodgeballscriptbyarjun",
       "slug": "Dodgeball!-DODGEBALL-SCRIPT-BY-ARJUN-151648",
-      "views": 14,
+      "views": 16,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/76469560314137-1774631344925.png",
@@ -4392,7 +4943,7 @@
       "title": "Script Lobby Descent Madness Shaft Random Chaos",
       "titleKey": "scriptlobbydescentmadnessshaftrandomchaos",
       "slug": "Insane-Elevator!-Script-Lobby-Descent-Madness-Shaft-Random-Chaos-151548",
-      "views": 27,
+      "views": 28,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-901d5d32a875bb38293386653d8b84e2/480/270/Image/Png/noFilter",
@@ -4411,7 +4962,7 @@
       "title": "Script Chase Evade Pursuer Hideout Agility Dash",
       "titleKey": "scriptchaseevadepursuerhideoutagilitydash",
       "slug": "I-WANNA-RUN-AWAY!-Script-Chase-Evade-Pursuer-Hideout-Agility-Dash-151542",
-      "views": 14,
+      "views": 15,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-9db0bcdd025f80d8e84d0629e80ce301/480/270/Image/Png/noFilter",
@@ -4449,7 +5000,7 @@
       "title": "Script Cast Reel Bait Trophy Pond Catch",
       "titleKey": "scriptcastreelbaittrophypondcatch",
       "slug": "Hooked!-Script-Cast-Reel-Bait-Trophy-Pond-Catch-151530",
-      "views": 30,
+      "views": 31,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-aa9667e99c83f558e450495a738cf19d/480/270/Image/Png/noFilter",
@@ -4468,7 +5019,7 @@
       "title": "Script Bite Detector Rod Cast Rare Species Depth",
       "titleKey": "scriptbitedetectorrodcastrarespeciesdepth",
       "slug": "Hooked!-Script-Bite-Detector-Rod-Cast-Rare-Species-Depth-151524",
-      "views": 13,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-aa9667e99c83f558e450495a738cf19d/480/270/Image/Png/noFilter",
@@ -4525,7 +5076,7 @@
       "title": "Script Naval Cannon Dock Warship Torpedo *ault",
       "titleKey": "scriptnavalcannondockwarshiptorpedoault",
       "slug": "Harbor-Havoc-Script-Naval-Cannon-Dock-Warship-Torpedo-*ault-151518",
-      "views": 13,
+      "views": 16,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-516ffb6351227e2613d75199775168ea/480/270/Image/Png/noFilter",
@@ -4556,7 +5107,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4575,7 +5126,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4594,7 +5145,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4613,7 +5164,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4632,7 +5183,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4651,7 +5202,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4670,7 +5221,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4689,7 +5240,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4708,7 +5259,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4727,7 +5278,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4746,7 +5297,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4765,7 +5316,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4784,7 +5335,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4803,7 +5354,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4822,7 +5373,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4841,7 +5392,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4860,7 +5411,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4879,7 +5430,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4898,7 +5449,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4917,7 +5468,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4936,7 +5487,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4955,7 +5506,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4974,7 +5525,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4993,7 +5544,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5012,7 +5563,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5031,7 +5582,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5050,7 +5601,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5069,7 +5620,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5088,7 +5639,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5107,7 +5658,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5126,7 +5677,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5145,7 +5696,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5164,7 +5715,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5183,7 +5734,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5202,7 +5753,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5221,7 +5772,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5240,7 +5791,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5259,7 +5810,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5278,7 +5829,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5297,7 +5848,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5316,7 +5867,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5335,7 +5886,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5354,7 +5905,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5373,7 +5924,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5392,7 +5943,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5411,7 +5962,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5430,7 +5981,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5449,7 +6000,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5468,7 +6019,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5487,7 +6038,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5506,7 +6057,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5525,7 +6076,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5544,7 +6095,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5563,7 +6114,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5582,7 +6133,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5601,7 +6152,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5620,7 +6171,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5639,7 +6190,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5658,7 +6209,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5677,7 +6228,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5696,7 +6247,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5715,7 +6266,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5734,7 +6285,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5753,7 +6304,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5772,7 +6323,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5791,7 +6342,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5810,7 +6361,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5829,7 +6380,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5848,7 +6399,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5867,7 +6418,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5886,7 +6437,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5905,7 +6456,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5924,7 +6475,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5943,7 +6494,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5962,7 +6513,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -5981,7 +6532,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6000,7 +6551,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6019,7 +6570,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6038,7 +6589,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6057,7 +6608,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6076,7 +6627,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6095,7 +6646,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6114,7 +6665,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6133,7 +6684,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6152,7 +6703,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6171,7 +6722,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6190,7 +6741,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6209,7 +6760,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6228,7 +6779,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6247,7 +6798,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6266,7 +6817,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6285,7 +6836,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6304,7 +6855,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6323,7 +6874,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6342,7 +6893,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6361,7 +6912,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6380,7 +6931,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6399,7 +6950,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6418,7 +6969,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6437,7 +6988,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6456,7 +7007,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6475,7 +7026,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6494,7 +7045,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6513,7 +7064,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6532,7 +7083,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6551,7 +7102,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6570,7 +7121,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6589,7 +7140,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6608,7 +7159,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6627,7 +7178,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6646,7 +7197,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6665,7 +7216,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6684,7 +7235,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6703,7 +7254,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6722,7 +7273,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6741,7 +7292,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6760,7 +7311,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6779,7 +7330,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6798,7 +7349,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6817,7 +7368,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6836,7 +7387,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6855,7 +7406,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6874,7 +7425,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6893,7 +7444,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6912,7 +7463,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6931,7 +7482,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6950,7 +7501,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6969,7 +7520,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6988,7 +7539,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -7007,7 +7558,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -7026,7 +7577,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -7045,7 +7596,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -7064,7 +7615,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -7083,7 +7634,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -7102,7 +7653,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -15450,7 +16001,7 @@
       "title": "TETRAZ panel",
       "titleKey": "tetrazpanel",
       "slug": "Universal-Script-TETRAZ-panel-149081",
-      "views": 394,
+      "views": 402,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774525542720.jpg",
@@ -20409,7 +20960,7 @@
       "title": "One shot kill aura",
       "titleKey": "oneshotkillaura",
       "slug": "UPD-Zombie-Wave-Survival-One-shot-kill-aura-148137",
-      "views": 701,
+      "views": 717,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-cb35129200b8255df5530bca5c2d3731/480/270/Image/Png/noFilter",
@@ -22746,7 +23297,7 @@
       "title": "Auto Goto Correct Pad l Made by me l Lunariel",
       "titleKey": "autogotocorrectpadlmadebymellunariel",
       "slug": "Find-a-color-or-Fall-Auto-Goto-Correct-Pad-l-Made-by-me-l-Lunariel-146026",
-      "views": 190,
+      "views": 194,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/119980846204104-1774333097761.png",
@@ -23240,7 +23791,7 @@
       "title": "[REINCARNATE] UPD | Auto Farm | Auto Roll | Free Gamepasses",
       "titleKey": "reincarnateupdautofarmautorollfreegamepasses",
       "slug": "INFINITE-RAIDS-Jujutsu-Kaisen-Incremental-Auto-Farm-Auto-Roll-Free-Gamepasses-Open-Source-145854",
-      "views": 1305,
+      "views": 1318,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/79916693834792-1774400751633.webp",
@@ -24088,8 +24639,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
-      "trending": true
+      "isNewThisRun": false,
+      "trending": false
     },
     {
       "title": "Knockout Skin Changer OP",
@@ -47230,8 +47781,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
-      "trending": true
+      "isNewThisRun": false,
+      "trending": false
     },
     {
       "title": "Script Silence Whisper Mute Soundless Decibel",
@@ -55996,7 +56547,7 @@
       "title": "INF CASH src",
       "titleKey": "infcashsrc",
       "slug": "Pomerania-Roads-INF-CASH-src-134667",
-      "views": 518,
+      "views": 519,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/90166277380078-1773927142987.png",
@@ -56008,8 +56559,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
+      "isNewThisRun": true,
+      "trending": true
     },
     {
       "title": "INSTANT COOK INSTANT SEAT INSTANT GIVE FOOD AUTO BILL",
@@ -66427,7 +66978,7 @@
       "title": "Auto Explode zombie uhhh source code",
       "titleKey": "autoexplodezombieuhhhsourcecode",
       "slug": "100-Waves-Later-Auto-Explode-zombie-uhhh-135760",
-      "views": 1336,
+      "views": 1340,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-de5d3f713fc040c7cdcfdb4a97611266/480/270/Image/Png/noFilter",
@@ -67320,7 +67871,7 @@
       "title": "Auto revive Self/Other Ez duh source code",
       "titleKey": "autoreviveselfotherezduhsourcecode",
       "slug": "100-Waves-Later-Auto-revive-Self-Ez-duh-135696",
-      "views": 580,
+      "views": 585,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-de5d3f713fc040c7cdcfdb4a97611266/480/270/Image/Png/noFilter",
@@ -67332,8 +67883,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
+      "isNewThisRun": true,
+      "trending": true
     },
     {
       "title": "Script Scythe Arsenal Bunker Fortify Reap",
@@ -72241,7 +72792,7 @@
       "title": "Auto Escape n Find By Rarity and more",
       "titleKey": "autoescapenfindbyrarityandmore",
       "slug": "Cut-Grass-for-Brainrots-Auto-Escape-n-Find-By-Rarity-and-more-136345",
-      "views": 370,
+      "views": 374,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-3fca9a8c9391c8780ac59025320b2891/480/270/Image/Png/noFilter",
@@ -72253,8 +72804,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
+      "isNewThisRun": true,
+      "trending": true
     },
     {
       "title": "Auto Secret And Auto Collect Money And More",
@@ -72640,7 +73191,7 @@
       "title": "OP Hook Aura Undetected Free",
       "titleKey": "ophookauraundetectedfree",
       "slug": "Hooked!-OP-Hook-Aura-Undetected-Free-136306",
-      "views": 2270,
+      "views": 2278,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b03d2911c4953a0c8302d413bf8defb4/480/270/Image/Png/noFilter",
@@ -73305,7 +73856,7 @@
       "title": "Op auto block script for forsaken",
       "titleKey": "opautoblockscriptforforsaken",
       "slug": "Universal-Script-Op-auto-block-script-for-forsaken-136203",
-      "views": 738,
+      "views": 742,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1773706116244.jpg",
@@ -77048,7 +77599,7 @@
       "title": "Kill All Open Source Bad Executors Not Supported",
       "titleKey": "killallopensourcebadexecutorsnotsupported",
       "slug": "Hooked!-Kill-All-Open-Source-Bad-Executors-Not-Supported-135913",
-      "views": 2935,
+      "views": 2943,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b03d2911c4953a0c8302d413bf8defb4/480/270/Image/Png/noFilter",
@@ -79024,7 +79575,7 @@
       "title": "inf money",
       "titleKey": "infmoney",
       "slug": "Cut-Grass-for-Brainrots-inf-money-135755",
-      "views": 4735,
+      "views": 4745,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/97365843755210-1773659898533.webp",
@@ -85085,7 +85636,7 @@
       "title": "Avocat HUB",
       "titleKey": "avocathub",
       "slug": "Universal-Script-Avocat-HUB-142656",
-      "views": 2454,
+      "views": 2465,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1773588429924.png",
@@ -86940,8 +87491,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
-      "trending": true
+      "isNewThisRun": false,
+      "trending": false
     },
     {
       "title": "cysense",
@@ -86985,7 +87536,7 @@
       "title": "inf gems inf currency for jujutsu",
       "titleKey": "infgemsinfcurrencyforjujutsu",
       "slug": "UPD-3-Anime-Paradox-inf-gems-inf-currency-for-jujutsu-141556",
-      "views": 2212,
+      "views": 2217,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-6b63ae05c15be9aee02f2378bb07e63a/480/270/Image/Png/noFilter",
@@ -96219,7 +96770,7 @@
       "title": "Flow  Script Hub | 14+ Games",
       "titleKey": "flowscripthub14games",
       "slug": "Universal-Script-Flow-Script-Hub-140129",
-      "views": 20118,
+      "views": 20166,
       "verified": true,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1773511144177.png",
@@ -107049,7 +107600,7 @@
       "title": "Server Browser",
       "titleKey": "serverbrowser",
       "slug": "Universal-Script-Server-Browser-138979",
-      "views": 1747,
+      "views": 1763,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1773449351972.png",
@@ -107068,7 +107619,7 @@
       "title": "KittyWare",
       "titleKey": "kittyware",
       "slug": "The-Strongest-Battlegrounds-Relia-138974",
-      "views": 1788,
+      "views": 1818,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/10449761463-1774134223695.png",
