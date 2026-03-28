@@ -1,9 +1,9 @@
 {
   "source": "scriptblox",
-  "generatedAt": "2026-03-28T11:39:19.4324887Z",
+  "generatedAt": "2026-03-28T12:03:45.2476639Z",
   "maxPagesRequested": 80,
-  "totalPagesAtSource": 3267,
-  "count": 11213,
+  "totalPagesAtSource": 3276,
+  "count": 11217,
   "moderation": {
     "max_posts_per_window": 2,
     "max_user_posts_per_window": 2,
@@ -11,19 +11,19 @@
     "max_stale_validations_per_run": 120,
     "unresolved_new_post_quarantine_minutes": 60,
     "window_minutes": 30,
-    "filteredByKeywordCount": 6881,
+    "filteredByKeywordCount": 6900,
     "filteredByUserCount": 48,
-    "filteredBySpamCount": 7325,
-    "filteredByOwnerBurstCount": 7321,
+    "filteredBySpamCount": 7482,
+    "filteredByOwnerBurstCount": 7482,
     "filteredByRunAuthorBurstCount": 0,
-    "filteredByOwnerWindowBurstCount": 4648,
-    "filteredByTitleWindowBurstCount": 2673,
-    "filteredByUnresolvedNewCount": 4,
-    "removedByInvalidDetail404Count": 0,
-    "filteredCount": 14254,
+    "filteredByOwnerWindowBurstCount": 4766,
+    "filteredByTitleWindowBurstCount": 2716,
+    "filteredByUnresolvedNewCount": 0,
+    "removedByInvalidDetail404Count": 2,
+    "filteredCount": 14430,
     "autoBlacklistedTitleCount": 3,
     "newlyAutoBlacklistedTitleCount": 0,
-    "burstBlockedOwnerCount": 533,
+    "burstBlockedOwnerCount": 535,
     "burstBlockedTitleKeyCount": 256,
     "trustedKeywordRuleCount": 4,
     "blacklistKeywordRuleCount": 12,
@@ -31,17 +31,36 @@
     "blacklistedUserCount": 8,
     "blacklistedOwnerSlugCount": 46,
     "trendingCount": 20,
-    "ownerResolvedCount": 9103,
+    "ownerResolvedCount": 9223,
     "detailLookupsTried": 120,
     "detailLookupsSucceeded": 120,
     "staleDetailValidationsTried": 120
   },
   "scripts": [
     {
+      "title": "Linux Minimal Roblox",
+      "titleKey": "linuxminimalroblox",
+      "slug": "Universal-Script-Linux-Minimal-Roblox-154915",
+      "views": 18,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1774698374814.png",
+      "createdAt": "2026-03-28T11:46:14.8300000Z",
+      "ownerUsername": "T00dkiddd",
+      "ownerProfilePicture": "https://scriptblox.com/images/photo/69487d7f412eaa14db0b4701-1766359638975.png",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
       "title": "Cut Gras For Bralnrot undetected script auto collect",
       "titleKey": "cutgrasforbralnrotundetectedscriptautocollect",
       "slug": "Cut-Grass-for-Brainrots-Cut-Gras-For-Bralnrot-undetected-script-auto-collect-154726",
-      "views": 17,
+      "views": 21,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/97365843755210-1774697003984.webp",
@@ -60,7 +79,7 @@
       "title": "Tufoos93 Gui V2",
       "titleKey": "tufoos93guiv2",
       "slug": "Universal-Script-Tufoos93-Gui-V2-154717",
-      "views": 21,
+      "views": 26,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774696707743.png",
@@ -76,16 +95,16 @@
       "trending": false
     },
     {
-      "title": "Echo hub 99 nights",
-      "titleKey": "echohub99nights",
-      "slug": "99-Nights-in-the-Forest-Echo-hub-99-nights-154715",
-      "views": 39,
+      "title": "Jhub script no key",
+      "titleKey": "jhubscriptnokey",
+      "slug": "RIVALS-Jhub-script-no-key-154690",
+      "views": 38,
       "verified": false,
       "tags": [],
-      "image": "https://tr.rbxcdn.com/180DAY-65eebaac747ed81ff9dfdc85643a1e12/480/270/Image/Png/noFilter",
-      "createdAt": "2026-03-28T11:15:51.2840000Z",
-      "ownerUsername": "Echo_Studios",
-      "ownerProfilePicture": "https://scriptblox.com/images/photo/6930737bf0170c0a5193fd1c-1774694701287.png",
+      "image": "https://scriptblox.com/images/script/17625359962-1774696402416.jpg",
+      "createdAt": "2026-03-28T11:13:22.4300000Z",
+      "ownerUsername": "A_guywhowantsnothin",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
       "trusted": false,
       "trustedByUser": false,
       "blocked_user": false,
@@ -95,16 +114,73 @@
       "trending": false
     },
     {
-      "title": "Jhub script no key",
-      "titleKey": "jhubscriptnokey",
-      "slug": "RIVALS-Jhub-script-no-key-154690",
-      "views": 19,
+      "title": "Auto farm",
+      "titleKey": "autofarm",
+      "slug": "UPD+1-Speed-Skibidi-Escape-Auto-farm-154481",
+      "views": 16,
       "verified": false,
       "tags": [],
-      "image": "https://scriptblox.com/images/script/17625359962-1774696402416.jpg",
-      "createdAt": "2026-03-28T11:13:22.4300000Z",
-      "ownerUsername": "A_guywhowantsnothin",
-      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "image": "https://scriptblox.com/images/script/104500139253018-1774695324835.webp",
+      "createdAt": "2026-03-28T10:55:24.8620000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "esp open source",
+      "titleKey": "espopensource",
+      "slug": "Operation-One-esp-open-source-154476",
+      "views": 35,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-0705c28a69627a5e527514b9c2022581/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-28T10:50:33.0820000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "RScript V2 works on all executors and keyless",
+      "titleKey": "rscriptv2worksonallexecutorsandkeyless",
+      "slug": "Realistic-Street-Soccer-RScript-V2-works-on-all-executors-and-keyless-154469",
+      "views": 23,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-70a7b4098467e49b27dcbb744ca3fd23/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-28T10:46:59.7210000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "SUMAREKON HUB",
+      "titleKey": "sumarekonhub",
+      "slug": "Dig-DEEPER-for-Brainrots!-SUMAREKON-HUB-154434",
+      "views": 10,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-b3917d84601555469c55af2aff49195d/480/270/Image/Png/noFilter",
+      "createdAt": "2026-03-28T10:43:36.0250000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
       "trusted": false,
       "trustedByUser": false,
       "blocked_user": false,
@@ -136,7 +212,7 @@
       "title": "Egg hunt brookhaven",
       "titleKey": "egghuntbrookhaven",
       "slug": "Brookhaven-RP-Egg-hunt-brookhaven-154374",
-      "views": 23,
+      "views": 27,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/4924922222-1774694128643.webp",
@@ -155,7 +231,7 @@
       "title": "AI GUI",
       "titleKey": "aigui",
       "slug": "Universal-Script-AI-GUI-154355",
-      "views": 14,
+      "views": 19,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774693988323.png",
@@ -174,7 +250,7 @@
       "title": "LiquidEz",
       "titleKey": "liquidez",
       "slug": "Universal-Script-LiquidEz-154348",
-      "views": 45,
+      "views": 47,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774693612498.png",
@@ -193,7 +269,7 @@
       "title": "PRISON LIFE NO KEY SELENIUM HUB",
       "titleKey": "prisonlifenokeyseleniumhub",
       "slug": "UPD-Star-Fishing-PRISON-LIFE-NO-KEY-SELENIUM-HUB-154344",
-      "views": 47,
+      "views": 53,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/86111605798689-1774693357392.jpg",
@@ -231,7 +307,7 @@
       "title": "Candy esp auto candy bomb ETFB NEW LATEST SCRIPT",
       "titleKey": "candyespautocandybombetfbnewlatestscript",
       "slug": "Universal-Script-Candy-esp-auto-candy-bomb-ETFB-NEW-LATEST-SCRIPT-154304",
-      "views": 29,
+      "views": 30,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774692799355.jpg",
@@ -250,7 +326,7 @@
       "title": "Void Fishing Auto Fish Open Source",
       "titleKey": "voidfishingautofishopensource",
       "slug": "Pixel-Blade-RAVEN-Void-Fishing-Auto-Fish-Open-Source-154288",
-      "views": 34,
+      "views": 40,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-115979c74083fb7b1bda1f12f836e0de/480/270/Image/Png/noFilter",
@@ -307,7 +383,7 @@
       "title": "Eggman 100 Percent Master Plan",
       "titleKey": "eggman100percentmasterplan",
       "slug": "Outcome-Memories-v0.2-Eggman-100-Percent-Master-Plan-154159",
-      "views": 27,
+      "views": 32,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/14608970270-1774690325395.jpg",
@@ -326,7 +402,7 @@
       "title": "The BSMT",
       "titleKey": "thebsmt",
       "slug": "SIGMA-War-Tycoon-The-BSMT-154141",
-      "views": 21,
+      "views": 27,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-673ca5a42eb1a818643c538f25486b65/480/270/Image/Png/noFilter",
@@ -345,7 +421,7 @@
       "title": "FE john doe Slash",
       "titleKey": "fejohndoeslash",
       "slug": "Universal-Script-FE-john-doe-Slash-154138",
-      "views": 32,
+      "views": 34,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774690097453.jpg",
@@ -364,7 +440,7 @@
       "title": "Auto Sell Auto Collect  Auto Steal Pickup all",
       "titleKey": "autosellautocollectautostealpickupall",
       "slug": "Oil-Empire-Auto-Sell-Auto-Collect-Auto-Steal-Pickup-all-154142",
-      "views": 28,
+      "views": 31,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/107095834793267-1774690054624.png",
@@ -383,7 +459,7 @@
       "title": "1 age every click script",
       "titleKey": "1ageeveryclickscript",
       "slug": "Universal-Script-1-age-every-click-script-154137",
-      "views": 18,
+      "views": 19,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774690009206.png",
@@ -440,7 +516,7 @@
       "title": "BEST OP INFINITE JUMP SPEED AND 10 MORE FEATURESz",
       "titleKey": "bestopinfinitejumpspeedand10morefeaturesz",
       "slug": "Universal-Script-asdscsd-153951",
-      "views": 34,
+      "views": 37,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774688183446.webp",
@@ -497,7 +573,7 @@
       "title": "SUMAREKON HUB",
       "titleKey": "sumarekonhub",
       "slug": "Pickaxe-Simulator!-SUMAREKON-HUB-153917",
-      "views": 23,
+      "views": 24,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-3e22ba46a60c6ebfdb7172e173353eec/480/270/Image/Png/noFilter",
@@ -516,7 +592,7 @@
       "title": "Wallhop V5 SCRIPT",
       "titleKey": "wallhopv5script",
       "slug": "Universal-Script-Wallhop-V5-SCRIPT-153910",
-      "views": 42,
+      "views": 46,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774686825463.jpg",
@@ -573,7 +649,7 @@
       "title": "Keyless Pizza Farm JOIN DISCORD",
       "titleKey": "keylesspizzafarmjoindiscord",
       "slug": "Welcome-to-Bloxburg-Keyless-Pizza-Farm-JOIN-DISCORD-153863",
-      "views": 35,
+      "views": 39,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-879f48863925be6f1c2b6d18addb24aa/480/270/Image/Png/noFilter",
@@ -611,7 +687,7 @@
       "title": "Kaito Hub",
       "titleKey": "kaitohub",
       "slug": "FREE-DISCO-FRUIT-Cat-Piece-Kaito-Hub-153822",
-      "views": 36,
+      "views": 37,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b0963cd41a9aacd79d19ec9c137a985b/480/270/Image/Png/noFilter",
@@ -630,7 +706,7 @@
       "title": "POWER MENU",
       "titleKey": "powermenu",
       "slug": "Universal-Script-POWER-MENU-153799",
-      "views": 48,
+      "views": 50,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774684011977.jpg",
@@ -649,7 +725,7 @@
       "title": "Freeze Trade",
       "titleKey": "freezetrade",
       "slug": "Universal-Script-Freeze-Trade-153797",
-      "views": 14,
+      "views": 17,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774683991937.jpg",
@@ -668,7 +744,7 @@
       "title": "K00pkidd Op Reqiurev4",
       "titleKey": "k00pkiddopreqiurev4",
       "slug": "Universal-Script-K00pkidd-Op-Reqiurev4-153788",
-      "views": 37,
+      "views": 38,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774683859113.png",
@@ -687,7 +763,7 @@
       "title": "Clicker type *",
       "titleKey": "clickertype",
       "slug": "Universal-Script-Clicker-type-*-153771",
-      "views": 41,
+      "views": 42,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774683189783.png",
@@ -725,7 +801,7 @@
       "title": "MicUp script hub",
       "titleKey": "micupscripthub",
       "slug": "MIC-UP-MicUp-script-hub-153662",
-      "views": 91,
+      "views": 92,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/6884319169-1774680867949.png",
@@ -744,7 +820,7 @@
       "title": "Candy esp mini table games ETFB",
       "titleKey": "candyespminitablegamesetfb",
       "slug": "Universal-Script-Candy-esp-mini-table-games-ETFB-153653",
-      "views": 72,
+      "views": 73,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774680263691.jpg",
@@ -763,7 +839,7 @@
       "title": "GaksP0wer Backdoor",
       "titleKey": "gaksp0werbackdoor",
       "slug": "Universal-Script-GaksP0wer-Backdoor-153651",
-      "views": 84,
+      "views": 89,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774680155245.png",
@@ -782,7 +858,7 @@
       "title": "MushYO script",
       "titleKey": "mushyoscript",
       "slug": "MushYO!-MushYO-script-153650",
-      "views": 68,
+      "views": 69,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/17274762379-1774680109393.png",
@@ -801,7 +877,7 @@
       "title": "Walt Way Point Keyless",
       "titleKey": "waltwaypointkeyless",
       "slug": "Universal-Script-Walt-Way-Point-Keyless-153644",
-      "views": 50,
+      "views": 51,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774679821277.jpg",
@@ -820,7 +896,7 @@
       "title": "Volt Find Fruit",
       "titleKey": "voltfindfruit",
       "slug": "Universal-Script-Volt-Find-Fruit-153643",
-      "views": 97,
+      "views": 101,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774679742885.jpg",
@@ -839,7 +915,7 @@
       "title": "death baII auto parry script and more",
       "titleKey": "deathbaiiautoparryscriptandmore",
       "slug": "Death-Ball-death-baII-auto-parry-script-and-more-153643",
-      "views": 84,
+      "views": 85,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/15002061926-1774679082510.png",
@@ -858,7 +934,7 @@
       "title": "Bids1d Mobile Backdoor Scanner",
       "titleKey": "bids1dmobilebackdoorscanner",
       "slug": "Universal-Script-Bids1d-Mobile-Backdoor-Scanner-153608",
-      "views": 76,
+      "views": 80,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774678319527.png",
@@ -877,7 +953,7 @@
       "title": "Blackhub Auto Farm Level Bosses",
       "titleKey": "blackhubautofarmlevelbosses",
       "slug": "Massive-Update-Sailor-Piece-Blackhub-Auto-Farm-Level-Bosses-153605",
-      "views": 241,
+      "views": 255,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-650531a10328e7318905bfc95af50860/480/270/Image/Png/noFilter",
@@ -896,7 +972,7 @@
       "title": "SUMAREKON HUB",
       "titleKey": "sumarekonhub",
       "slug": "GEAR-TUNING!Midnight-Chasers:-Highway-Racing-SUMAREKON-HUB-153603",
-      "views": 46,
+      "views": 47,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-24d583414f04f6f72489d790a1d2b425/480/270/Image/Png/noFilter",
@@ -915,7 +991,7 @@
       "title": "sikosikohub",
       "titleKey": "sikosikohub",
       "slug": "Universal-Script-sikosikohub-153602",
-      "views": 44,
+      "views": 45,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774677714687.png",
@@ -1029,7 +1105,7 @@
       "title": "Notepad",
       "titleKey": "notepad",
       "slug": "Universal-Script-Notepad-153578",
-      "views": 42,
+      "views": 43,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774674841123.jpg",
@@ -1124,7 +1200,7 @@
       "title": "Open source gui",
       "titleKey": "opensourcegui",
       "slug": "Stick-War-Legacy-Reborn-(Bug-fixesOptimization)-Open-source-gui-153567",
-      "views": 99,
+      "views": 101,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-9db7770b3287e8d07afff55d5b4e4e08/480/270/Image/Png/noFilter",
@@ -1162,7 +1238,7 @@
       "title": "extremely good dahood gui",
       "titleKey": "extremelygooddahoodgui",
       "slug": "Universal-Script-extremely-good-dahood-gui-153564",
-      "views": 80,
+      "views": 81,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774673377299.png",
@@ -1200,7 +1276,7 @@
       "title": "Sailor Piece Autofarm",
       "titleKey": "sailorpieceautofarm",
       "slug": "Universal-Script-Sailor-Piece-Autofarm-153560",
-      "views": 169,
+      "views": 173,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774672332819.png",
@@ -1257,7 +1333,7 @@
       "title": "Break 1 BEST SCRIPT",
       "titleKey": "break1bestscript",
       "slug": "Break-In-(Story)-Break-1-153555",
-      "views": 76,
+      "views": 77,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-f1bf07ece48a0234176a7ff9b6e7059d/480/270/Image/Png/noFilter",
@@ -1276,7 +1352,7 @@
       "title": "Free Script Auto Catch INF Laso Strength",
       "titleKey": "freescriptautocatchinflasostrength",
       "slug": "Catch-And-Tame!-Free-Script-Auto-Catch-INF-Laso-Strength-153548",
-      "views": 184,
+      "views": 192,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-45e71c48a9356356cf17c80a163a192d/480/270/Image/Png/noFilter",
@@ -1295,7 +1371,7 @@
       "title": "da hood moonshine script",
       "titleKey": "dahoodmoonshinescript",
       "slug": "Universal-Script-da-hood-moonshine-scirpt-153545",
-      "views": 153,
+      "views": 160,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774668794042.png",
@@ -1314,7 +1390,7 @@
       "title": "Mobile phone mouse",
       "titleKey": "mobilephonemouse",
       "slug": "Universal-Script-Mobile-phone-mouse-153544",
-      "views": 103,
+      "views": 104,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774668280503.jpg",
@@ -1352,7 +1428,7 @@
       "title": "testwork2",
       "titleKey": "testwork2",
       "slug": "Universal-Script-testwork2-153533",
-      "views": 68,
+      "views": 69,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774667530595.png",
@@ -1371,7 +1447,7 @@
       "title": "fe esp",
       "titleKey": "feesp",
       "slug": "Universal-Script-fe-esp-153531",
-      "views": 98,
+      "views": 99,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774667306547.png",
@@ -1390,7 +1466,7 @@
       "title": "Best Script Hub for the Most Poplular Survival Games TS LONE",
       "titleKey": "bestscripthubforthemostpoplularsurvivalgamestslone",
       "slug": "Universal-Script-Best-Script-Hub-for-the-Most-Poplular-Survival-Games-TS-LONE-153528",
-      "views": 94,
+      "views": 95,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774667141541.jpg",
@@ -1409,7 +1485,7 @@
       "title": "fe open source noclip with gui",
       "titleKey": "feopensourcenoclipwithgui",
       "slug": "Universal-Script-fe-open-source-noclip-with-gui-153513",
-      "views": 105,
+      "views": 107,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774665383372.jpg",
@@ -1428,7 +1504,7 @@
       "title": "Vrhub",
       "titleKey": "vrhub",
       "slug": "Universal-Script-Vrhub-153511",
-      "views": 129,
+      "views": 130,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774665270221.png",
@@ -1466,7 +1542,7 @@
       "title": "JUJUTSU VERSION 0 0 0 1",
       "titleKey": "jujutsuversion0001",
       "slug": "DISASTER-PLANTS-Jujutsu-Shenanigans-JUJUTSU-VERSION-0-0-0-1-153509",
-      "views": 134,
+      "views": 138,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/9391468976-1774664990946.jpg",
@@ -1485,7 +1561,7 @@
       "title": "AUTOFARM Keyless and FREE",
       "titleKey": "autofarmkeylessandfree",
       "slug": "Shrink-For-Brainrots-AUTOFARM-Keyless-and-FREE-153504",
-      "views": 147,
+      "views": 151,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/82397737462020-1774664394178.png",
@@ -1504,7 +1580,7 @@
       "title": "BRIDGER WESTERN",
       "titleKey": "bridgerwestern",
       "slug": "bridger:-WESTERN-BRIDGER-WESTERN-153503",
-      "views": 224,
+      "views": 230,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/99449877692519-1774664333628.webp",
@@ -1523,7 +1599,7 @@
       "title": "Xes script",
       "titleKey": "xesscript",
       "slug": "bridger:-WESTERN-GREAT-SCRIPT-153502",
-      "views": 286,
+      "views": 292,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/99449877692519-1774664036020.png",
@@ -1542,7 +1618,7 @@
       "title": "Cherry Hub",
       "titleKey": "cherryhub",
       "slug": "Universal-Script-Cherry-Hub-153495",
-      "views": 72,
+      "views": 73,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774663452394.png",
@@ -1580,7 +1656,7 @@
       "title": "BRUTON HUB AUTO CANDY BROOKHAVEN",
       "titleKey": "brutonhubautocandybrookhaven",
       "slug": "Brookhaven-RP-BRUTON-HUB-AUTO-CANDY-BROOKHAVEN-153480",
-      "views": 181,
+      "views": 182,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c66a88ba9ba649fcc8b7ea6cb61e1f78/480/270/Image/Png/noFilter",
@@ -1637,7 +1713,7 @@
       "title": "OP SCRIPT KEYLESS",
       "titleKey": "opscriptkeyless",
       "slug": "Massive-Update-Sailor-Piece-OP-SCRIPT-KEYLESS-153475",
-      "views": 451,
+      "views": 464,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-650531a10328e7318905bfc95af50860/480/270/Image/Png/noFilter",
@@ -1656,7 +1732,7 @@
       "title": "Dead Ralls BONDS AUTOFARM SCRIPT",
       "titleKey": "deadrallsbondsautofarmscript",
       "slug": "Dead-Rails-Beta-Dead-Ralls-BONDS-AUTOFARM-SCRIPT-153465",
-      "views": 103,
+      "views": 104,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/116495829188952-1774661287991.webp",
@@ -1713,7 +1789,7 @@
       "title": "CodeBlox Hub Ultimate Farm",
       "titleKey": "codebloxhubultimatefarm",
       "slug": "UPD-+1-Speed-Facility-Escape-CodeBlox-Hub-Ultimate-Farm-153461",
-      "views": 66,
+      "views": 67,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/74635471134821-1774660412835.png",
@@ -1732,7 +1808,7 @@
       "title": "Popcorn burst etfb best rn",
       "titleKey": "popcornburstetfbbestrn",
       "slug": "Universal-Script-Popcorn-burst-etfb-best-rn-153453",
-      "views": 118,
+      "views": 122,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774659951582.jpg",
@@ -1789,7 +1865,7 @@
       "title": "UNIVERSAL DOOR CODE REMOVER",
       "titleKey": "universaldoorcoderemover",
       "slug": "Universal-Script-UNIVERSAL-DOOR-CODE-REMOVER-153443",
-      "views": 105,
+      "views": 108,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774658622676.webp",
@@ -1827,7 +1903,7 @@
       "title": "Auto Farm Auto Kill Auto Brawl Auto Buy Auto Rebirth",
       "titleKey": "autofarmautokillautobrawlautobuyautorebirth",
       "slug": "Muscle-Legends-Auto-Farm-Auto-Kill-Auto-Brawl-Auto-Buy-Auto-Rebirth-153440",
-      "views": 134,
+      "views": 136,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/3623096087-1774658002101.png",
@@ -1846,7 +1922,7 @@
       "title": "OP TP TO POWERUP  EXT SAFE ZONE  DAMAGE MULTPL OPEN SOURCE",
       "titleKey": "optptopowerupextsafezonedamagemultplopensource",
       "slug": "Steal-FPS-from-Others!-OP-TP-TO-POWERUP-EXT-SAFE-ZONE-DAMAGE-MULTPL-OPEN-SOURCE-153443",
-      "views": 190,
+      "views": 193,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/74268130525137-1774657142098.webp",
@@ -1865,7 +1941,7 @@
       "title": "Updated GUI",
       "titleKey": "updatedgui",
       "slug": "99-Nights-in-the-Forest-Updated-GUI-153528",
-      "views": 184,
+      "views": 185,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-65eebaac747ed81ff9dfdc85643a1e12/480/270/Image/Png/noFilter",
@@ -1922,7 +1998,7 @@
       "title": "OpenSource  Cheat UI",
       "titleKey": "opensourcecheatui",
       "slug": "NEW-Minecraft-OpenSource-Cheat-UI-153518",
-      "views": 244,
+      "views": 245,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/102019850130872-1774653475158.png",
@@ -1960,7 +2036,7 @@
       "title": "inf coins",
       "titleKey": "infcoins",
       "slug": "Strike-Back-Season-1-inf-coins-153500",
-      "views": 409,
+      "views": 416,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-70efd2d646b531a42432cc37df5d18cc/480/270/Image/Png/noFilter",
@@ -1998,7 +2074,7 @@
       "title": "modern sonic final update supersonic lms ABility in lms",
       "titleKey": "modernsonicfinalupdatesupersoniclmsabilityinlms",
       "slug": "Outcome-Memories-v0.2-modern-sonic-final-update-supersonic-lms-p*ive-153492",
-      "views": 149,
+      "views": 150,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/14608970270-1774650563511.png",
@@ -2055,7 +2131,7 @@
       "title": "Expand INSANE FEATURES INSTANT EXFIL TELEPORT TO CRATE",
       "titleKey": "expandinsanefeaturesinstantexfilteleporttocrate",
       "slug": "The-Armory-Expand-INSANE-FEATURES-INSTANT-EXFIL-TELEPORT-TO-CRATE-153442",
-      "views": 148,
+      "views": 150,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/115209351507608-1774649889379.png",
@@ -2074,7 +2150,7 @@
       "title": "inf stamina for into da abyss",
       "titleKey": "infstaminaforintodaabyss",
       "slug": "Into-The-Abyss-inf-stamina-for-into-da-abyss-153398",
-      "views": 114,
+      "views": 117,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8ce53e32828de74143e66e437c9a1353/480/270/Image/Png/noFilter",
@@ -2112,7 +2188,7 @@
       "title": "OP INSTA KILL",
       "titleKey": "opinstakill",
       "slug": "Massive-Update-Sailor-Piece-OP-INSTA-KILL-153318",
-      "views": 433,
+      "views": 441,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-650531a10328e7318905bfc95af50860/480/270/Image/Png/noFilter",
@@ -2150,7 +2226,7 @@
       "title": "Brookhaven Auto Farm Egg | Update V3",
       "titleKey": "brookhavenautofarmeggupdatev3",
       "slug": "Brookhaven-RP-BrookhavenRPAutoFarm-153307",
-      "views": 144,
+      "views": 146,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/4924922222-1774648174030.png",
@@ -2169,7 +2245,7 @@
       "title": "OP  SCRIPT",
       "titleKey": "opscript",
       "slug": "Dead-Rails-Beta-op-script-ringta-153273",
-      "views": 123,
+      "views": 125,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/116495829188952-1774647821353.jpg",
@@ -2302,7 +2378,7 @@
       "title": "Auto Clicker",
       "titleKey": "autoclicker",
       "slug": "Universal-Script-Auto-Clicker-153212",
-      "views": 54,
+      "views": 55,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774647193747.png",
@@ -2340,7 +2416,7 @@
       "title": "MoneyPlexity",
       "titleKey": "moneyplexity",
       "slug": "Prison-Life-MoneyPlexity-153199",
-      "views": 183,
+      "views": 186,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8e16b433df6f2c94391865bc438e076a/480/270/Image/Png/noFilter",
@@ -2416,7 +2492,7 @@
       "title": "pls script",
       "titleKey": "plsscript",
       "slug": "Oil-Empire-pls-script-153181",
-      "views": 125,
+      "views": 126,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/107095834793267-1774646851328.webp",
@@ -3556,7 +3632,7 @@
       "title": "F3x script Joseph is Real",
       "titleKey": "f3xscriptjosephisreal",
       "slug": "Universal-Script-F3x-script-Joseph-is-Real-152940",
-      "views": 93,
+      "views": 94,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774645177303.png",
@@ -3613,7 +3689,7 @@
       "title": "INF LUCK and Coin BYPASS",
       "titleKey": "influckandcoinbypass",
       "slug": "Universal-Script-INF-LUCK-and-Coin-BYPASS-152937",
-      "views": 225,
+      "views": 230,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774645125468.webp",
@@ -4525,7 +4601,7 @@
       "title": "Auto lvl farm Low unc support Qwenzy hub",
       "titleKey": "autolvlfarmlowuncsupportqwenzyhub",
       "slug": "Massive-Update-Sailor-Piece-Auto-lvl-farm-Low-unc-support-Qwenzy-hub-152798",
-      "views": 142,
+      "views": 143,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-650531a10328e7318905bfc95af50860/480/270/Image/Png/noFilter",
@@ -4620,7 +4696,7 @@
       "title": "Team Armed Gui f3x",
       "titleKey": "teamarmedguif3x",
       "slug": "Universal-Script-Team-Armed-Gui-f3x-152756",
-      "views": 91,
+      "views": 94,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774643437016.png",
@@ -4658,7 +4734,7 @@
       "title": "Volley Ball Legends Inf Spin",
       "titleKey": "volleyballlegendsinfspin",
       "slug": "Universal-Script-Volley-Ball-Legends-Inf-Spin-152691",
-      "views": 230,
+      "views": 235,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774642771461.jpg",
@@ -4677,7 +4753,7 @@
       "title": "AUTO ARREST CASH FARM GOD MODE ESP and More",
       "titleKey": "autoarrestcashfarmgodmodeespandmore",
       "slug": "UPD-Jailbreak-AUTO-ARREST-CASH-FARM-GOD-MODE-ESP-and-More-152664",
-      "views": 149,
+      "views": 152,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-55b6a8f847cdca2ed16ad2e13a972893/480/270/Image/Png/noFilter",
@@ -4734,7 +4810,7 @@
       "title": "AUTO ROB MONEY FARM CASH FARM GOD MODE ANTI COPS",
       "titleKey": "autorobmoneyfarmcashfarmgodmodeanticops",
       "slug": "UPD-Jailbreak-AUTO-ROB-MONEY-FARM-CASH-FARM-GOD-MODE-ANTI-COPS-152654",
-      "views": 121,
+      "views": 123,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-55b6a8f847cdca2ed16ad2e13a972893/480/270/Image/Png/noFilter",
@@ -4772,7 +4848,7 @@
       "title": "TAKUCARE",
       "titleKey": "takucare",
       "slug": "UPD-+1-Health-Per-Click-TAKUCARE-152639",
-      "views": 27,
+      "views": 28,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5cfdb25d5cba2c1030cb2e22b7baeea6/480/270/Image/Png/noFilter",
@@ -4791,7 +4867,7 @@
       "title": "Team Wind0ws Gui V3 and V4",
       "titleKey": "teamwind0wsguiv3andv4",
       "slug": "Universal-Script-Team-Wind0ws-Gui-V3-and-V4-152633",
-      "views": 57,
+      "views": 58,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774641490751.png",
@@ -4810,7 +4886,7 @@
       "title": "TakaWare",
       "titleKey": "takaware",
       "slug": "RIVALS-TakaWare-152616",
-      "views": 173,
+      "views": 174,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/17625359962-1774641268193.png",
@@ -4829,7 +4905,7 @@
       "title": "Auto Farm Auto Sell",
       "titleKey": "autofarmautosell",
       "slug": "Cursed-BladeALPHA-Auto-Farm-Auto-Sell-152607",
-      "views": 135,
+      "views": 137,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ecf7361a98cf4b0099bfa620abb9cf1b/480/270/Image/Png/noFilter",
@@ -4848,7 +4924,7 @@
       "title": "Script coolgui no visual",
       "titleKey": "scriptcoolguinovisual",
       "slug": "Universal-Script-Script-coolgui-no-visual-152604",
-      "views": 71,
+      "views": 73,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774640582929.png",
@@ -4867,7 +4943,7 @@
       "title": "FREE Beta Script",
       "titleKey": "freebetascript",
       "slug": "OVERKILL-FREE-Beta-Script-152594",
-      "views": 96,
+      "views": 98,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/74996816424339-1774640359446.png",
@@ -4886,7 +4962,7 @@
       "title": "OP admin Fe script",
       "titleKey": "opadminfescript",
       "slug": "Universal-Script-OP-admin-Fe-script-152581",
-      "views": 125,
+      "views": 127,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774639972859.jpg",
@@ -4905,7 +4981,7 @@
       "title": "open source kill all players",
       "titleKey": "opensourcekillallplayers",
       "slug": "THA-BRONX-3-open-source-kill-all-players-152578",
-      "views": 138,
+      "views": 139,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-d554b73876f4097179cb08d19a74f91f/480/270/Image/Png/noFilter",
@@ -4936,14 +5012,14 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
       "title": "Anti LoveStrukTrap",
       "titleKey": "antilovestruktrap",
       "slug": "Piggy-LOVE-HEARTS-Anti-LoveStrukTrap-152497",
-      "views": 52,
+      "views": 53,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/4623386862-1774638779477.jpg",
@@ -4981,7 +5057,7 @@
       "title": "AUTO FARM EASTER TOKEN BY ARES",
       "titleKey": "autofarmeastertokenbyares",
       "slug": "Brookhaven-RP-AUTO-FARM-EASTER-TOKEN-BY-ARES-152454",
-      "views": 118,
+      "views": 119,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c66a88ba9ba649fcc8b7ea6cb61e1f78/480/270/Image/Png/noFilter",
@@ -5019,7 +5095,7 @@
       "title": "idk",
       "titleKey": "idk",
       "slug": "RIVALS-idk-152364",
-      "views": 215,
+      "views": 217,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-60c154f21752ff4cb520340183edb77a/480/270/Image/Png/noFilter",
@@ -5437,7 +5513,7 @@
       "title": "KEYLESS 1 CLICK AUTO SMART FARM",
       "titleKey": "keyless1clickautosmartfarm",
       "slug": "Aura-Ascension-KEYLESS-1-CLICK-AUTO-SMART-FARM-152275",
-      "views": 184,
+      "views": 187,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5d308388ca0967300250bf99a5d8bf60/480/270/Image/Png/noFilter",
@@ -6919,7 +6995,7 @@
       "title": "Aimlock script open source",
       "titleKey": "aimlockscriptopensource",
       "slug": "Universal-Script-Aimlock-script-open-source-151975",
-      "views": 68,
+      "views": 70,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774634100469.png",
@@ -8154,7 +8230,7 @@
       "title": "Player locator",
       "titleKey": "playerlocator",
       "slug": "Universal-Script-Name-locator-151732",
-      "views": 19,
+      "views": 20,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774632227678.jpg",
@@ -8192,7 +8268,7 @@
       "title": "Nebula Admin X",
       "titleKey": "nebulaadminx",
       "slug": "Universal-Script-Nebula-Admin-X-151730",
-      "views": 98,
+      "views": 100,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774632222825.png",
@@ -9085,7 +9161,7 @@
       "title": "auto farm open source",
       "titleKey": "autofarmopensource",
       "slug": "Jump-Clicker-auto-farm-151552",
-      "views": 38,
+      "views": 40,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/140317247681516-1774630146293.png",
@@ -9218,7 +9294,7 @@
       "title": "GExT HuB v2",
       "titleKey": "gexthubv2",
       "slug": "Universal-Script-GExT-HuB-v2-151520",
-      "views": 53,
+      "views": 54,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774629763163.webp",
@@ -9256,7 +9332,7 @@
       "title": "BEST AUTO FARM FREE KEYLESS OPEN SOURCE",
       "titleKey": "bestautofarmfreekeylessopensource",
       "slug": "Aura-Ascension-BEST-AUTO-FARM-FREE-KEYLESS-OPEN-SOURCED-151493",
-      "views": 234,
+      "views": 237,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/77393318863643-1774629560280.png",
@@ -9427,7 +9503,7 @@
       "title": "Hueglotus Scanner",
       "titleKey": "hueglotusscanner",
       "slug": "Universal-Script-Hueglotus-Scanner-151455",
-      "views": 113,
+      "views": 115,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774629320768.png",
@@ -10491,7 +10567,7 @@
       "title": "FE Fling Yourself GUI",
       "titleKey": "feflingyourselfgui",
       "slug": "Universal-Script-FE-Fling-Yourself-GUI-151210",
-      "views": 92,
+      "views": 94,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774627003974.png",
@@ -10909,7 +10985,7 @@
       "title": "Infinite fruits script",
       "titleKey": "infinitefruitsscript",
       "slug": "FREE-DISCO-FRUIT-Cat-Piece-Infinite-fruits-script-151131",
-      "views": 86,
+      "views": 91,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/10598963932-1774625777980.jpg",
@@ -10947,7 +11023,7 @@
       "title": "s",
       "titleKey": "s",
       "slug": "Universal-Script-s-151129",
-      "views": 33,
+      "views": 34,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774625744334.jpg",
@@ -11118,7 +11194,7 @@
       "title": "Custom Infinity Yield",
       "titleKey": "custominfinityyield",
       "slug": "Universal-Script-Custom-Infinity-Yield-151104",
-      "views": 64,
+      "views": 65,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774625374990.png",
@@ -11175,7 +11251,7 @@
       "title": "Auto Farm",
       "titleKey": "autofarm",
       "slug": "Build-A-Farm-Factory-Auto-Farm-151099",
-      "views": 39,
+      "views": 40,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/102192921830821-1774625266852.png",
@@ -11194,7 +11270,7 @@
       "title": "Full Auto Rebirth and Progress",
       "titleKey": "fullautorebirthandprogress",
       "slug": "Aura-Ascension-Full-Auto-Rebirth-and-Progress-151098",
-      "views": 139,
+      "views": 140,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5d308388ca0967300250bf99a5d8bf60/480/270/Image/Png/noFilter",
@@ -11441,7 +11517,7 @@
       "title": "Project X Crack No Key",
       "titleKey": "projectxcracknokey",
       "slug": "Universal-Script-Project-X-Crack-No-Key-151039",
-      "views": 71,
+      "views": 73,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774624289595.jpg",
@@ -11555,7 +11631,7 @@
       "title": "FE Spin GUI",
       "titleKey": "fespingui",
       "slug": "Universal-Script-FE-Spin-GUI-151033",
-      "views": 67,
+      "views": 70,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774624187609.png",
@@ -11688,7 +11764,7 @@
       "title": "Anti grandmaster",
       "titleKey": "antigrandmaster",
       "slug": "The-Battle-Bricks-Anti-grandmaster-151005",
-      "views": 134,
+      "views": 135,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-a50d50b624706f5c40f67bb9cc77559a/480/270/Image/Png/noFilter",
@@ -11707,7 +11783,7 @@
       "title": "AlwaysLose crack x ClydeProtection Crack",
       "titleKey": "alwayslosecrackxclydeprotectioncrack",
       "slug": "MAGNUM-Trident-Survival-AlwaysLose-crack-x-ClydeProtection-Crack-150991",
-      "views": 181,
+      "views": 183,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/13253735473-1774623367478.png",
@@ -11726,7 +11802,7 @@
       "title": "script request READ DESC IT INPORTANT",
       "titleKey": "scriptrequestreaddescitinportant",
       "slug": "Universal-Script-script-request-READ-DESC-IT-INPORTANT-150989",
-      "views": 40,
+      "views": 41,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774623300716.png",
@@ -11764,7 +11840,7 @@
       "title": "Okak",
       "titleKey": "okak",
       "slug": "Universal-Script-Okak-150966",
-      "views": 43,
+      "views": 45,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774622579047.jpg",
@@ -11802,7 +11878,7 @@
       "title": "Rotweaker The Eastern War",
       "titleKey": "rotweakertheeasternwar",
       "slug": "The-Eastern-War-2.5-Rotweaker-The-Eastern-War-150964",
-      "views": 110,
+      "views": 112,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-11defaa55eaa55f2ad943d668cb482f4/480/270/Image/Png/noFilter",
@@ -12030,7 +12106,7 @@
       "title": "free  skin changer detected",
       "titleKey": "freeskinchangerdetected",
       "slug": "RIVALS-free-skin-changer-detected-150911",
-      "views": 228,
+      "views": 229,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-60c154f21752ff4cb520340183edb77a/480/270/Image/Png/noFilter",
@@ -12049,7 +12125,7 @@
       "title": "MOD MENU Undetectable AutoShoot Safe Zone and more",
       "titleKey": "modmenuundetectableautoshootsafezoneandmore",
       "slug": "Survive-Zombie-Arena-MOD-MENU-Undetectable-AutoShoot-Safe-Zone-and-more-150910",
-      "views": 117,
+      "views": 120,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/114204398207377-1774621845657.png",
@@ -12277,7 +12353,7 @@
       "title": "Rune Hub",
       "titleKey": "runehub",
       "slug": "Massive-Update-Sailor-Piece-Rune-Hub-150837",
-      "views": 165,
+      "views": 167,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-650531a10328e7318905bfc95af50860/480/270/Image/Png/noFilter",
@@ -12353,7 +12429,7 @@
       "title": "SyphonX executor",
       "titleKey": "syphonxexecutor",
       "slug": "Universal-Script-SyphonX-executor-150825",
-      "views": 152,
+      "views": 156,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774620823565.png",
@@ -12961,7 +13037,7 @@
       "title": "Bee swarm auto farm",
       "titleKey": "beeswarmautofarm",
       "slug": "Bee-Swarm-Simulator-Bee-swarm-auto-farm-150607",
-      "views": 60,
+      "views": 61,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-d8b8aba149ab05576a05a44283645b53/480/270/Image/Png/noFilter",
@@ -13379,7 +13455,7 @@
       "title": "NurHub Auto bonds",
       "titleKey": "nurhubautobonds",
       "slug": "Dead-Rails-Beta-Auto-bonds-150561",
-      "views": 77,
+      "views": 78,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/116495829188952-1774617698700.jpg",
@@ -14310,7 +14386,7 @@
       "title": "Aura Ascension Tora is me",
       "titleKey": "auraascensiontoraisme",
       "slug": "Universal-Script-Aura-Ascension-Tora-is-me-150419",
-      "views": 127,
+      "views": 128,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774615478281.jpg",
@@ -14595,7 +14671,7 @@
       "title": "ALINUR SCRIPT AUTO FARM TP TO FINISH",
       "titleKey": "alinurscriptautofarmtptofinish",
       "slug": "Be-a-Lucky-Block-ALINUR-SCRIPT-150377",
-      "views": 199,
+      "views": 207,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b4f94203799e828b02d5a031e36cba8f/480/270/Image/Png/noFilter",
@@ -15355,7 +15431,7 @@
       "title": "anti chat rephrase",
       "titleKey": "antichatrephrase",
       "slug": "Universal-Script-anti-chat-rephrase-150230",
-      "views": 66,
+      "views": 67,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774611234105.png",
@@ -15583,7 +15659,7 @@
       "title": "voice chat crasher open source",
       "titleKey": "voicechatcrasheropensource",
       "slug": "Universal-Script-voice-chat-crasher-open-source-150136",
-      "views": 118,
+      "views": 120,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774610121794.png",
@@ -16647,7 +16723,7 @@
       "title": "Universal player esp and npc esp working",
       "titleKey": "universalplayerespandnpcespworking",
       "slug": "Universal-Script-Universal-player-esp-and-npc-esp-working-149981",
-      "views": 68,
+      "views": 70,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774609123123.jpg",
@@ -17464,7 +17540,7 @@
       "title": "Zero Universal",
       "titleKey": "zerouniversal",
       "slug": "Universal-Script-Zero-Universal-149835",
-      "views": 186,
+      "views": 187,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774606922424.jpg",
@@ -17483,7 +17559,7 @@
       "title": "Eclipsed",
       "titleKey": "eclipsed",
       "slug": "Criminality-Eclipsed-149833",
-      "views": 159,
+      "views": 161,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/4588604953-1774605817235.png",
@@ -17521,7 +17597,7 @@
       "title": "Midgard hub",
       "titleKey": "midgardhub",
       "slug": "Massive-Update-Sailor-Piece-Midgard-hub-149810",
-      "views": 422,
+      "views": 429,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/77747658251236-1774602441470.png",
@@ -17540,7 +17616,7 @@
       "title": "[OP] Repz Hub | [MOBILE]",
       "titleKey": "oprepzhubmobile",
       "slug": "Flip-Rocks-for-Brainrot!-*le-twt-149804",
-      "views": 305,
+      "views": 307,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/107314033610469-1774601223005.webp",
@@ -17616,7 +17692,7 @@
       "title": "OPEN SOURCED RAGE SCRIPT, ESP, AIM, AUTOSHOOT, ITEM HACKS",
       "titleKey": "opensourcedragescriptespaimautoshootitemhacks",
       "slug": "RIVALS-OPEN-SOURCED-RAGE-SCRIPT-149764",
-      "views": 370,
+      "views": 371,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-60c154f21752ff4cb520340183edb77a/480/270/Image/Png/noFilter",
@@ -17654,7 +17730,7 @@
       "title": "Bonaparte Auto farm",
       "titleKey": "bonaparteautofarm",
       "slug": "The-Core-of-Wallhop-Tower-Bonaparte-Auto-farm-149761",
-      "views": 85,
+      "views": 87,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e9883689d4d031c38ad8f7b5f6c5a858/480/270/Image/Png/noFilter",
@@ -17749,7 +17825,7 @@
       "title": "Polaria F3X by anony",
       "titleKey": "polariaf3xbyanony",
       "slug": "Universal-Script-Polaria-F3X-by-anony-149689",
-      "views": 174,
+      "views": 180,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774594011335.png",
@@ -17768,7 +17844,7 @@
       "title": "Best Script",
       "titleKey": "bestscript",
       "slug": "UPD-Ghoul-Incremental-Best-Script-149688",
-      "views": 127,
+      "views": 128,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8f8bbdae1915608b73a823f456a3477c/480/270/Image/Png/noFilter",
@@ -17844,7 +17920,7 @@
       "title": "SONIC GUI SCRIPT",
       "titleKey": "sonicguiscript",
       "slug": "Universal-Script-SONIC-GUI-SCRIPT-149664",
-      "views": 284,
+      "views": 287,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774591547215.jpg",
@@ -17882,7 +17958,7 @@
       "title": "4479Hub 1 BEST SCRIPT all in 1 SIGMA AUTOFARM",
       "titleKey": "4479hub1bestscriptallin1sigmaautofarm",
       "slug": "Aura-Ascension-4479Hub-1-BEST-SCRIPT-all-in-1-SIGMA-AUTOFARM-149653",
-      "views": 196,
+      "views": 198,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/77393318863643-1774588972772.jpg",
@@ -18034,7 +18110,7 @@
       "title": "Inf Cash and Auto Train",
       "titleKey": "infcashandautotrain",
       "slug": "UPD-Train-to-Escape-Prison-Inf-Cash-and-Auto-Train-149607",
-      "views": 127,
+      "views": 128,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/86260905411899-1774585114849.jpg",
@@ -18072,7 +18148,7 @@
       "title": "Zenix Anti Lag",
       "titleKey": "zenixantilag",
       "slug": "Universal-Script-Zenix-Anti-Lag-149596",
-      "views": 75,
+      "views": 77,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774584612592.jpg",
@@ -18091,7 +18167,7 @@
       "title": "Best deadrail script auto farm bond auto win infinite items",
       "titleKey": "bestdeadrailscriptautofarmbondautowininfiniteitems",
       "slug": "Dead-Rails-Beta-Best-deadrail-script-auto-farm-bond-auto-win-infinite-items-149592",
-      "views": 276,
+      "views": 277,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-da525289338642275e4838a07d685e93/480/270/Image/Png/noFilter",
@@ -18129,7 +18205,7 @@
       "title": "FE drop tools",
       "titleKey": "fedroptools",
       "slug": "Universal-Script-FE-drop-tools-149584",
-      "views": 184,
+      "views": 185,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774582268287.png",
@@ -18148,7 +18224,7 @@
       "title": "Dribble macro auto green inf coins",
       "titleKey": "dribblemacroautogreeninfcoins",
       "slug": "STAGEPlayground:-Basketball-Dribble-macro-auto-green-inf-coins-149581",
-      "views": 262,
+      "views": 263,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/18474291382-1774581838233.png",
@@ -18224,7 +18300,7 @@
       "title": "OP SCRIPT VOIDWARE REWORK",
       "titleKey": "opscriptvoidwarerework",
       "slug": "Ink-Game-OP-SCRIPT-VOIDWARE-REWORK-149568",
-      "views": 242,
+      "views": 243,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/99567941238278-1774579913651.png",
@@ -18243,7 +18319,7 @@
       "title": "Inf money and wins",
       "titleKey": "infmoneyandwins",
       "slug": "Climb-Poppy-Playtime-Tower-Inf-money-and-wins-149565",
-      "views": 237,
+      "views": 238,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8b1180d124ce2f8f0de81c6b7f438603/480/270/Image/Png/noFilter",
@@ -18357,7 +18433,7 @@
       "title": "OP legit GUI",
       "titleKey": "oplegitgui",
       "slug": "DUST-II-BloxStrike-OP-legit-GUI-149537",
-      "views": 377,
+      "views": 382,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-6e7305a39b04a9acb99ea48c31e146b3/480/270/Image/Png/noFilter",
@@ -18395,7 +18471,7 @@
       "title": "OP Autofarmer Miles farm Auto Race and MORE",
       "titleKey": "opautofarmermilesfarmautoraceandmore",
       "slug": "NEW-MAP-Driving-Empire-Car-Racing-OP-Autofarmer-Miles-farm-Auto-Race-and-MORE-149532",
-      "views": 388,
+      "views": 393,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-2fd405954a520534622d983519748128/480/270/Image/Png/noFilter",
@@ -18452,7 +18528,7 @@
       "title": "OP FULL AUTOFARM",
       "titleKey": "opfullautofarm",
       "slug": "99-Nights-in-the-Forest-OP-FULL-AUTOFARM-149522",
-      "views": 270,
+      "views": 271,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-65eebaac747ed81ff9dfdc85643a1e12/480/270/Image/Png/noFilter",
@@ -18490,7 +18566,7 @@
       "title": "OP Kill Aura m Auto Arrest",
       "titleKey": "opkillauramautoarrest",
       "slug": "Prison-Life-OP-Kill-Aura-m-Auto-Arrest-149502",
-      "views": 330,
+      "views": 331,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8e16b433df6f2c94391865bc438e076a/480/270/Image/Png/noFilter",
@@ -18509,7 +18585,7 @@
       "title": "Auto fight",
       "titleKey": "autofight",
       "slug": "The-Strongest-Battlegrounds-Auto-fight-149503",
-      "views": 280,
+      "views": 282,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ccd8bcf9f66dc37834534d2cb3cfd1b9/480/270/Image/Png/noFilter",
@@ -18528,7 +18604,7 @@
       "title": "Fe headless work on any executor and game has key btw",
       "titleKey": "feheadlessworkonanyexecutorandgamehaskeybtw",
       "slug": "White-Room-Fe-headless-work-on-any-executor-and-game-has-key-btw-149498",
-      "views": 201,
+      "views": 202,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-93ecb6ee875106c2785ea34d5e212a86/480/270/Image/Png/noFilter",
@@ -18547,7 +18623,7 @@
       "title": "V 1 Repent yen script UI",
       "titleKey": "v1repentyenscriptui",
       "slug": "FPS-Flick-V-1-Repent-yen-script-UI-149483",
-      "views": 285,
+      "views": 287,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-6520033018c6162771a61aac035963ef/480/270/Image/Png/noFilter",
@@ -18566,7 +18642,7 @@
       "title": "CyberX AI Chatbot Script",
       "titleKey": "cyberxaichatbotscript",
       "slug": "Universal-Script-CyberX-AI-Chatbot-Script-149482",
-      "views": 620,
+      "views": 623,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774564294971.jpg",
@@ -18680,7 +18756,7 @@
       "title": "script OP MANY FEATURES easy use no ban",
       "titleKey": "scriptopmanyfeatureseasyusenoban",
       "slug": "Ink-Game-script-OP-MANY-FEATURES-easy-use-no-ban-149426",
-      "views": 322,
+      "views": 323,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-eeb754830041c5f9ddfd168242949f14/480/270/Image/Png/noFilter",
@@ -18718,7 +18794,7 @@
       "title": "Auto Catch Auto Farm and more",
       "titleKey": "autocatchautofarmandmore",
       "slug": "Catch-And-Tame!-Auto-Catch-Auto-Farm-and-more-149424",
-      "views": 240,
+      "views": 242,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-026747c58a34c0138a33c58d1ce95c96/480/270/Image/Png/noFilter",
@@ -18756,7 +18832,7 @@
       "title": "SFG - OP BLAB [16 POWEFUL FEATURES]",
       "titleKey": "sfgopblab16powefulfeatures",
       "slug": "Be-a-Lucky-Block-SFG-OP-BLAB-16-POWEFUL-FEATURES-149419",
-      "views": 225,
+      "views": 228,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b4f94203799e828b02d5a031e36cba8f/480/270/Image/Png/noFilter",
@@ -18870,7 +18946,7 @@
       "title": "Hitbox Expander Script",
       "titleKey": "hitboxexpanderscript",
       "slug": "Universal-Script-Hitbox-Expander-Script-149405",
-      "views": 397,
+      "views": 401,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774556440916.png",
@@ -18927,7 +19003,7 @@
       "title": "WongaSpecter Ultimate f3x gui    with chicken arms f3x",
       "titleKey": "wongaspecterultimatef3xguiwithchickenarmsf3x",
       "slug": "Universal-Script-WongaSpecter-Ultiamte-f3x-gui-with-chicken-arms-f3x-149375",
-      "views": 246,
+      "views": 247,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774555202578.png",
@@ -18946,7 +19022,7 @@
       "title": "Infinite yield V2",
       "titleKey": "infiniteyieldv2",
       "slug": "Universal-Script-Infinite-yield-V2-149361",
-      "views": 369,
+      "views": 370,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774554614401.png",
@@ -18965,7 +19041,7 @@
       "title": "AUTOFARM BEST BRAINROTS | GOD MODE | AND MUCH MORE",
       "titleKey": "autofarmbestbrainrotsgodmodeandmuchmore",
       "slug": "Be-a-Lucky-Block-Auto-Farm-Best-Brainrots-149354",
-      "views": 605,
+      "views": 613,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b4f94203799e828b02d5a031e36cba8f/480/270/Image/Png/noFilter",
@@ -18984,7 +19060,7 @@
       "title": "dark textures",
       "titleKey": "darktextures",
       "slug": "Universal-Script-dark-textures-149352",
-      "views": 145,
+      "views": 146,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774554392213.png",
@@ -19003,7 +19079,7 @@
       "title": "op keyless INF",
       "titleKey": "opkeylessinf",
       "slug": "Massive-Update-Sailor-Piece-op-keyless-INF-149351",
-      "views": 688,
+      "views": 694,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-650531a10328e7318905bfc95af50860/480/270/Image/Png/noFilter",
@@ -19060,7 +19136,7 @@
       "title": "op keyless INF",
       "titleKey": "opkeylessinf",
       "slug": "Massive-Update-Sailor-Piece-op-keyless-INF-149289",
-      "views": 396,
+      "views": 397,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-650531a10328e7318905bfc95af50860/480/270/Image/Png/noFilter",
@@ -19079,7 +19155,7 @@
       "title": "inf all gamepass and robux shop items",
       "titleKey": "infallgamepassandrobuxshopitems",
       "slug": "Fart-Training-inf-all-gamepass-and-robux-shop-items-149287",
-      "views": 540,
+      "views": 544,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/81643004510026-1774552398809.webp",
@@ -19136,7 +19212,7 @@
       "title": "ROHUB BY ROCTA",
       "titleKey": "rohubbyrocta",
       "slug": "SIGMA-War-Tycoon-ROHUB-BY-ROCTA-149267",
-      "views": 180,
+      "views": 182,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-673ca5a42eb1a818643c538f25486b65/480/270/Image/Png/noFilter",
@@ -19193,7 +19269,7 @@
       "title": "KrakenWare AutoFarm",
       "titleKey": "krakenwareautofarm",
       "slug": "Welcome-to-Bloxburg-Kraken-Ware-149263",
-      "views": 237,
+      "views": 241,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-879f48863925be6f1c2b6d18addb24aa/480/270/Image/Png/noFilter",
@@ -19288,7 +19364,7 @@
       "title": "MY OWN FLY GUI",
       "titleKey": "myownflygui",
       "slug": "Universal-Script-Fly-Gui-149226",
-      "views": 233,
+      "views": 234,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774548906926.jpg",
@@ -19364,7 +19440,7 @@
       "title": "4jayyz  Unlimited Deflect and VIP Seat",
       "titleKey": "4jayyzunlimiteddeflectandvipseat",
       "slug": "Predict-the-Shot-4jayyz-Unlimited-Deflect-and-VIP-Seat-149219",
-      "views": 337,
+      "views": 340,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/109264437608896-1774547202252.jpg",
@@ -19383,7 +19459,7 @@
       "title": "SYPCERR FE Animation SCRIPT",
       "titleKey": "sypcerrfeanimationscript",
       "slug": "Universal-Script-SYPCERR-FE-Animation-SCRIPT-149218",
-      "views": 374,
+      "views": 376,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774547151120.jpg",
@@ -19402,7 +19478,7 @@
       "title": "Sync",
       "titleKey": "sync",
       "slug": "Boys-and-Girls-Highschool-Roleplay-Announcement-149217",
-      "views": 140,
+      "views": 141,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8485bbc5a0ce4734ff094d2551fd3c42/480/270/Image/Png/noFilter",
@@ -19459,7 +19535,7 @@
       "title": "Coisaskoo",
       "titleKey": "coisaskoo",
       "slug": "Universal-Script-Coisaskoo-149190",
-      "views": 215,
+      "views": 216,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774544690477.jpg",
@@ -19478,7 +19554,7 @@
       "title": "Mod menu  de  y de arsenal",
       "titleKey": "modmenudeydearsenal",
       "slug": "Twisted-BETA-Mod-menu-elijan-149146",
-      "views": 310,
+      "views": 311,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/6161235818-1774543751277.jpg",
@@ -19554,7 +19630,7 @@
       "title": "op noob army tycoon script",
       "titleKey": "opnoobarmytycoonscript",
       "slug": "Noob-Army-Tycoon-(New-noobs)-op-noob-army-tycoon-script-149119",
-      "views": 273,
+      "views": 275,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-7a254ad1be7de19f4c75b3784d4b87d7/480/270/Image/Png/noFilter",
@@ -19573,7 +19649,7 @@
       "title": "Dark Triad Hub 4",
       "titleKey": "darktriadhub4",
       "slug": "Universal-Script-Dark-Triad-Hub-4-149115",
-      "views": 146,
+      "views": 148,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774542193135.png",
@@ -19592,7 +19668,7 @@
       "title": "Undetectable AutoShoot Safe Zone and more",
       "titleKey": "undetectableautoshootsafezoneandmore",
       "slug": "Survive-Zombie-Arena-Undetectable-AutoShoot-Safe-Zone-and-more-149113",
-      "views": 206,
+      "views": 208,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-43d2ce8ef1487a0866293a34862078c0/480/270/Image/Png/noFilter",
@@ -19611,7 +19687,7 @@
       "title": "print rayfield key",
       "titleKey": "printrayfieldkey",
       "slug": "Universal-Script-print-rayfield-key-149113",
-      "views": 171,
+      "views": 173,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774541519382.jpg",
@@ -19744,7 +19820,7 @@
       "title": "BrzzzHOOK OpenSrc by Dev                                me 3",
       "titleKey": "brzzzhookopensrcbydevme3",
       "slug": "Project-Delta-BrzzzHOOK-OpenSrc-by-Dev-me-3-149101",
-      "views": 212,
+      "views": 213,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5ed6d0ba45958ede8c1fa1cac82ee1a5/480/270/Image/Png/noFilter",
@@ -19801,7 +19877,7 @@
       "title": "Script Keyless OP Sharkbite",
       "titleKey": "scriptkeylessopsharkbite",
       "slug": "SharkBite-Classic-Script-Keyless-OP-Sharkbite-149099",
-      "views": 154,
+      "views": 155,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8af54bd04cab100361501d9c38211f4e/480/270/Image/Png/noFilter",
@@ -19820,7 +19896,7 @@
       "title": "inf money inf rebirth",
       "titleKey": "infmoneyinfrebirth",
       "slug": "Be-a-YouTuber!-inf-money-inf-rebirth-149098",
-      "views": 491,
+      "views": 492,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/120564326011184-1774537826013.png",
@@ -19839,7 +19915,7 @@
       "title": "Krusty Krab F3X MAP",
       "titleKey": "krustykrabf3xmap",
       "slug": "Universal-Script-Krusty-Krab-F3X-MAP-149096",
-      "views": 288,
+      "views": 289,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774536785804.jpg",
@@ -19877,7 +19953,7 @@
       "title": "Fly script",
       "titleKey": "flyscript",
       "slug": "UP-Just-a-baseplate.-Fly-script-149095",
-      "views": 381,
+      "views": 382,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/123974602339071-1774533848798.png",
@@ -19915,7 +19991,7 @@
       "title": "inf ammo Open source",
       "titleKey": "infammoopensource",
       "slug": "mid-eastern-conflict-sim-inf-ammo-Open-source-149287",
-      "views": 311,
+      "views": 313,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-2bcfb28b5d1771f44ae9b981c80f8ac0/480/270/Image/Png/noFilter",
@@ -19934,7 +20010,7 @@
       "title": "Rohax  FE invisible and headless",
       "titleKey": "rohaxfeinvisibleandheadless",
       "slug": "Universal-Script-Rohax-FE-invisible-and-headless-149286",
-      "views": 319,
+      "views": 321,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774532926249.png",
@@ -19972,7 +20048,7 @@
       "title": "Space Hub",
       "titleKey": "spacehub",
       "slug": "Tower-Defense-Simulator-Space-Hub-149207",
-      "views": 157,
+      "views": 158,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/3260590327-1774531590792.webp",
@@ -19991,7 +20067,7 @@
       "title": "Timebomb Duels Pathfinder",
       "titleKey": "timebombduelspathfinder",
       "slug": "Universal-Script-Timebomb-Duels-Pathfinder-149203",
-      "views": 211,
+      "views": 213,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774531529884.png",
@@ -20029,7 +20105,7 @@
       "title": "Script",
       "titleKey": "script",
       "slug": "RIVALS-Script-149178",
-      "views": 602,
+      "views": 603,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/17625359962-1774530766669.jpg",
@@ -20086,7 +20162,7 @@
       "title": "Op script keyless",
       "titleKey": "opscriptkeyless",
       "slug": "Massive-Update-Sailor-Piece-Op-script-keyless-149087",
-      "views": 1155,
+      "views": 1165,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-650531a10328e7318905bfc95af50860/480/270/Image/Png/noFilter",
@@ -20105,7 +20181,7 @@
       "title": "NexaHub Dandys World ESP AUTOMATION ETC",
       "titleKey": "nexahubdandysworldespautomationetc",
       "slug": "Dandy's-World-ALPHA-NexaHub-Dandys-World-ESP-AUTOMATION-ETC-149085",
-      "views": 258,
+      "views": 259,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c3efad9eb2e1e0c465b35c4568310785/480/270/Image/Png/noFilter",
@@ -20162,7 +20238,7 @@
       "title": "TETRAZ panel",
       "titleKey": "tetrazpanel",
       "slug": "Universal-Script-TETRAZ-panel-149081",
-      "views": 473,
+      "views": 478,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774525542720.jpg",
@@ -20219,7 +20295,7 @@
       "title": "Wallhop Pro auto",
       "titleKey": "wallhopproauto",
       "slug": "Universal-Script-Wallhop-Pro-auto-paid-149077",
-      "views": 176,
+      "views": 178,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774525167213.jpg",
@@ -20276,7 +20352,7 @@
       "title": "open source construction autofarm",
       "titleKey": "opensourceconstructionautofarm",
       "slug": "THA-BRONX-3-open-source-construction-autofarm-149048",
-      "views": 280,
+      "views": 281,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-d554b73876f4097179cb08d19a74f91f/480/270/Image/Png/noFilter",
@@ -20295,7 +20371,7 @@
       "title": "FREE  KEYLESS XENO SUPPORTED",
       "titleKey": "freekeylessxenosupported",
       "slug": "Cali-Shootout-FREE-KEYLESS-XENO-SUPPORTED-149047",
-      "views": 325,
+      "views": 326,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/12077443856-1774521413015.jpg",
@@ -20314,7 +20390,7 @@
       "title": "XHUB OP",
       "titleKey": "xhubop",
       "slug": "SIGMA-War-Tycoon-XHUB-OP-149031",
-      "views": 210,
+      "views": 211,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-673ca5a42eb1a818643c538f25486b65/480/270/Image/Png/noFilter",
@@ -20352,7 +20428,7 @@
       "title": "arafzial hub",
       "titleKey": "arafzialhub",
       "slug": "GEAR-TUNING!Midnight-Chasers:-Highway-Racing-arafzial-hub-149024",
-      "views": 112,
+      "views": 115,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-24d583414f04f6f72489d790a1d2b425/480/270/Image/Png/noFilter",
@@ -20371,7 +20447,7 @@
       "title": "open source inf training and cash",
       "titleKey": "opensourceinftrainingandcash",
       "slug": "UPD-Train-to-Escape-Prison-open-source-inf-training-and-cash-148985",
-      "views": 371,
+      "views": 374,
       "verified": true,
       "tags": [],
       "image": "https://scriptblox.com/images/script/86260905411899-1774518462674.png",
@@ -20390,7 +20466,7 @@
       "title": "Anti Killbrick Scripts",
       "titleKey": "antikillbrickscripts",
       "slug": "Universal-Script-Anti-Killbrick-Scripts-148962",
-      "views": 79,
+      "views": 80,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774517730481.jpg",
@@ -20428,7 +20504,7 @@
       "title": "Days lib",
       "titleKey": "dayslib",
       "slug": "Universal-Script-Days-lib-148943",
-      "views": 105,
+      "views": 106,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774514382354.png",
@@ -20504,7 +20580,7 @@
       "title": "Open Source Script",
       "titleKey": "opensourcescript",
       "slug": "Pull-Lucky-Blocks-Open-Source-Script-148926",
-      "views": 410,
+      "views": 412,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-424c019db49ae228b663e62df0cd4f69/480/270/Image/Png/noFilter",
@@ -20523,7 +20599,7 @@
       "title": "Arafzial hub",
       "titleKey": "arafzialhub",
       "slug": "RELEASE-The-Button-Room-Arafzial-hub-148917",
-      "views": 172,
+      "views": 174,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-a4e397b090051ad46ad2ae4c151f9440/480/270/Image/Png/noFilter",
@@ -20561,7 +20637,7 @@
       "title": "Answer with ai read desc",
       "titleKey": "answerwithaireaddesc",
       "slug": "Drum-Judge-Answer-with-ai-read-desc-148900",
-      "views": 244,
+      "views": 245,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/79454007962937-1774509467138.webp",
@@ -20580,7 +20656,7 @@
       "title": "NLGcontent f3x credits F3xtroller for the script",
       "titleKey": "nlgcontentf3xcreditsf3xtrollerforthescript",
       "slug": "Universal-Script-NLGcontent-f3x-credits-F3xtroller-for-the-script-148897",
-      "views": 134,
+      "views": 136,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774508984487.jpg",
@@ -20675,7 +20751,7 @@
       "title": "arafzial hub",
       "titleKey": "arafzialhub",
       "slug": "SIGMA-War-Tycoon-arafzial-hub-148889",
-      "views": 187,
+      "views": 189,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-673ca5a42eb1a818643c538f25486b65/480/270/Image/Png/noFilter",
@@ -20789,7 +20865,7 @@
       "title": "Best Auto Bond Farm  Infinite Items And More",
       "titleKey": "bestautobondfarminfiniteitemsandmore",
       "slug": "Dead-Rails-Beta-Best-Auto-Bond-Farm-Infinite-Items-And-More-148848",
-      "views": 521,
+      "views": 525,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-da525289338642275e4838a07d685e93/480/270/Image/Png/noFilter",
@@ -20808,7 +20884,7 @@
       "title": "AuroraHud",
       "titleKey": "aurorahud",
       "slug": "Booga-Booga-St-Patty!-AuroraHud-148842",
-      "views": 453,
+      "views": 454,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-deb15f2d6851a835ef4db3f8e5ba1ec7/480/270/Image/Png/noFilter",
@@ -20827,7 +20903,7 @@
       "title": "I The Strongest Battleground I Auto Kill Player and more",
       "titleKey": "ithestrongestbattlegroundiautokillplayerandmore",
       "slug": "The-Strongest-Battlegrounds-I-The-Strongest-Battleground-I-Auto-Kill-Player-and-more-148841",
-      "views": 308,
+      "views": 311,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/10449761463-1774504392351.webp",
@@ -20865,7 +20941,7 @@
       "title": "TLMENU",
       "titleKey": "tlmenu",
       "slug": "Universal-Script-TLMENU-148817",
-      "views": 280,
+      "views": 283,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774503523493.png",
@@ -20922,7 +20998,7 @@
       "title": "ARES EMOTE HUB",
       "titleKey": "aresemotehub",
       "slug": "Universal-Script-ARES-EMOTE-HUB-148804",
-      "views": 416,
+      "views": 417,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774501296314.png",
@@ -20941,7 +21017,7 @@
       "title": "Team Wind0ws Gui V4 Unfinished",
       "titleKey": "teamwind0wsguiv4unfinished",
       "slug": "Universal-Script-wind0ws-gui-v4-unfinished-148802",
-      "views": 262,
+      "views": 264,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774501191923.png",
@@ -20979,7 +21055,7 @@
       "title": "Hub v1",
       "titleKey": "hubv1",
       "slug": "Crawl-for-Brainrot!-Hub-v1-148777",
-      "views": 278,
+      "views": 280,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/71249794780202-1774499836510.png",
@@ -20998,7 +21074,7 @@
       "title": "AcidHub",
       "titleKey": "acidhub",
       "slug": "Murderers-VS-Sheriffs-DUELS-AcidHub-148777",
-      "views": 183,
+      "views": 184,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/12355337193-1774558320710.png",
@@ -21093,7 +21169,7 @@
       "title": "oll empire script auto sleal auto collect and more",
       "titleKey": "ollempirescriptautoslealautocollectandmore",
       "slug": "Oil-Empire-oll-empire-script-auto-sleal-auto-collect-and-more-148737",
-      "views": 209,
+      "views": 210,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/107095834793267-1774496519906.webp",
@@ -21150,7 +21226,7 @@
       "title": "Auto Escape n Collect Cash and more",
       "titleKey": "autoescapencollectcashandmore",
       "slug": "Math-for-Brainrots!-Auto-Escape-n-Collect-Cash-and-more-148728",
-      "views": 172,
+      "views": 173,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-18bd9da4df8ab3e5553dcdfe2d6cc9b7/480/270/Image/Png/noFilter",
@@ -21302,7 +21378,7 @@
       "title": "Tsbg desync auto kill from anywhere hitbox expander",
       "titleKey": "tsbgdesyncautokillfromanywherehitboxexpander",
       "slug": "The-Strongest-Battlegrounds-Tsbg-desync-auto-kill-from-anywhere-hitbox-expander-148705",
-      "views": 348,
+      "views": 350,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ccd8bcf9f66dc37834534d2cb3cfd1b9/480/270/Image/Png/noFilter",
@@ -21340,7 +21416,7 @@
       "title": "Script By Destine Hub",
       "titleKey": "scriptbydestinehub",
       "slug": "Part-2-Anime-Eternal-Made-By-Destine-Hub-148702",
-      "views": 176,
+      "views": 178,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/90462358603255-1774490604654.png",
@@ -21378,7 +21454,7 @@
       "title": "Tsunami Script",
       "titleKey": "tsunamiscript",
       "slug": "Universal-Script-Tsunami-Script-148696",
-      "views": 301,
+      "views": 302,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1774490041554.jpg",
@@ -21511,7 +21587,7 @@
       "title": "JJS SMART BLACK FLASH Mobile  PC AND BACKSTAB EZ KEY Qwenzy",
       "titleKey": "jjssmartblackflashmobilepcandbackstabezkeyqwenzy",
       "slug": "DISASTER-PLANTS-Jujutsu-Shenanigans-JJS-SMART-BLACK-FLASH-Mobile-PC-AND-BACKSTAB-EZ-KEY-Qwenzy-148673",
-      "views": 909,
+      "views": 914,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-decec85a41b80e4ac0beca8bc2952a7f/480/270/Image/Png/noFilter",
@@ -21530,7 +21606,7 @@
       "title": "Sawit Hub Farm",
       "titleKey": "sawithubfarm",
       "slug": "Pixel-Blade-RAVEN-Sawit-Hub-Farm-148671",
-      "views": 544,
+      "views": 547,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/18172553902-1774485585104.jpg",
@@ -21580,7 +21656,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21599,7 +21675,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21618,7 +21694,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21637,7 +21713,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21656,7 +21732,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21675,7 +21751,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21694,7 +21770,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21713,7 +21789,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21732,7 +21808,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21751,7 +21827,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21770,7 +21846,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21789,7 +21865,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21808,7 +21884,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21827,7 +21903,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21846,7 +21922,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21865,7 +21941,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21884,7 +21960,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21903,7 +21979,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21922,7 +21998,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21941,7 +22017,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21960,7 +22036,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21979,7 +22055,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -21998,7 +22074,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22017,7 +22093,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22036,7 +22112,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22055,7 +22131,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22074,7 +22150,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22093,7 +22169,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22112,7 +22188,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22131,7 +22207,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22150,7 +22226,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22169,7 +22245,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22188,7 +22264,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22207,7 +22283,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22226,7 +22302,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22245,7 +22321,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22264,7 +22340,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22283,7 +22359,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22302,7 +22378,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22321,7 +22397,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22378,7 +22454,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22397,7 +22473,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22416,7 +22492,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22435,7 +22511,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22454,7 +22530,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22473,7 +22549,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22530,7 +22606,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22549,7 +22625,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22568,7 +22644,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22587,7 +22663,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22606,7 +22682,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22625,7 +22701,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22644,7 +22720,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22663,7 +22739,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22682,7 +22758,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22701,7 +22777,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22720,7 +22796,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22739,7 +22815,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22758,7 +22834,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22777,7 +22853,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22815,7 +22891,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22834,7 +22910,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22853,7 +22929,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22872,7 +22948,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22891,7 +22967,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22910,7 +22986,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22929,7 +23005,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22967,7 +23043,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -22986,7 +23062,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23005,7 +23081,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23024,7 +23100,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23043,7 +23119,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23062,7 +23138,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23081,7 +23157,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23119,7 +23195,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23138,7 +23214,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23157,7 +23233,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23176,7 +23252,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23195,7 +23271,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23214,7 +23290,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23233,7 +23309,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23252,7 +23328,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23271,7 +23347,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23309,7 +23385,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23328,7 +23404,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23347,7 +23423,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23366,7 +23442,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23385,7 +23461,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23404,7 +23480,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23423,7 +23499,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23442,7 +23518,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23461,7 +23537,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23480,7 +23556,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23499,7 +23575,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23518,7 +23594,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23537,7 +23613,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23556,7 +23632,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23575,7 +23651,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23594,7 +23670,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23632,7 +23708,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23651,7 +23727,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23670,7 +23746,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23689,7 +23765,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23708,7 +23784,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23727,7 +23803,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23746,7 +23822,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23765,7 +23841,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23784,7 +23860,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23879,7 +23955,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23898,7 +23974,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23955,7 +24031,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23974,7 +24050,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -23993,7 +24069,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24012,7 +24088,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24031,7 +24107,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24050,7 +24126,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24069,7 +24145,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24088,7 +24164,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24107,7 +24183,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24126,7 +24202,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24145,7 +24221,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24164,7 +24240,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24183,7 +24259,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24202,7 +24278,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24221,7 +24297,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24240,7 +24316,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24259,7 +24335,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24278,7 +24354,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24297,7 +24373,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24316,7 +24392,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24335,7 +24411,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24354,7 +24430,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24373,7 +24449,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24392,7 +24468,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24411,7 +24487,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24430,7 +24506,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24449,7 +24525,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24468,7 +24544,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24487,7 +24563,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24506,7 +24582,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24525,7 +24601,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24544,7 +24620,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24563,7 +24639,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24582,7 +24658,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24601,7 +24677,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24620,7 +24696,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24639,7 +24715,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24658,7 +24734,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24677,7 +24753,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24696,7 +24772,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24715,7 +24791,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24734,7 +24810,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24772,7 +24848,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24791,7 +24867,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24810,7 +24886,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24829,7 +24905,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24867,7 +24943,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24886,7 +24962,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24905,7 +24981,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -24924,7 +25000,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -25121,7 +25197,7 @@
       "title": "One shot kill aura",
       "titleKey": "oneshotkillaura",
       "slug": "UPD-Zombie-Wave-Survival-One-shot-kill-aura-148137",
-      "views": 898,
+      "views": 906,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-cb35129200b8255df5530bca5c2d3731/480/270/Image/Png/noFilter",
@@ -27952,7 +28028,7 @@
       "title": "[REINCARNATE] UPD | Auto Farm | Auto Roll | Free Gamepasses",
       "titleKey": "reincarnateupdautofarmautorollfreegamepasses",
       "slug": "INFINITE-RAIDS-Jujutsu-Kaisen-Incremental-Auto-Farm-Auto-Roll-Free-Gamepasses-Open-Source-145854",
-      "views": 1493,
+      "views": 1501,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/79916693834792-1774400751633.webp",
@@ -28800,8 +28876,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
-      "trending": true
+      "isNewThisRun": false,
+      "trending": false
     },
     {
       "title": "Knockout Skin Changer OP",
@@ -29294,8 +29370,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
-      "trending": true
+      "isNewThisRun": false,
+      "trending": false
     },
     {
       "title": "XHUB OP",
@@ -60720,8 +60796,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
-      "trending": true
+      "isNewThisRun": false,
+      "trending": false
     },
     {
       "title": "INSTANT COOK INSTANT SEAT INSTANT GIVE FOOD AUTO BILL",
@@ -67054,7 +67130,7 @@
       "title": "BEST KEYLESS SCRIPT KAITUN DELTA AUTO EVERYTHING 1 CLICK AFK",
       "titleKey": "bestkeylessscriptkaitundeltaautoeverything1clickafk",
       "slug": "Alter-Update-Sailor-Piece-BEST-SCRIPT-KAITUN-DELTA-AUTO-EVERYTHING-1-CLICK-SLEEP-UI-134322",
-      "views": 6204,
+      "views": 6222,
       "verified": true,
       "tags": [],
       "image": "https://scriptblox.com/images/script/77747658251236-1773852660330.png",
@@ -69695,7 +69771,7 @@
       "title": "OPEN SOURCE INF POINTS AND EXP",
       "titleKey": "opensourceinfpointsandexp",
       "slug": "General-Quarters-UPDATE-OPEN-SOURCE-INF-POINTS-AND-EXP-135921",
-      "views": 816,
+      "views": 821,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/3357016679-1773837079152.webp",
@@ -69707,8 +69783,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
+      "isNewThisRun": true,
+      "trending": true
     },
     {
       "title": "FOKI HUB (only remote spy)",
@@ -71139,7 +71215,7 @@
       "title": "Auto Explode zombie uhhh source code",
       "titleKey": "autoexplodezombieuhhhsourcecode",
       "slug": "100-Waves-Later-Auto-Explode-zombie-uhhh-135760",
-      "views": 1402,
+      "views": 1403,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-de5d3f713fc040c7cdcfdb4a97611266/480/270/Image/Png/noFilter",
@@ -72032,7 +72108,7 @@
       "title": "Auto revive Self/Other Ez duh source code",
       "titleKey": "autoreviveselfotherezduhsourcecode",
       "slug": "100-Waves-Later-Auto-revive-Self-Ez-duh-135696",
-      "views": 592,
+      "views": 613,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-de5d3f713fc040c7cdcfdb4a97611266/480/270/Image/Png/noFilter",
@@ -72044,8 +72120,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
+      "isNewThisRun": true,
+      "trending": true
     },
     {
       "title": "Script Scythe Arsenal Bunker Fortify Reap",
@@ -77352,7 +77428,7 @@
       "title": "OP Hook Aura Undetected Free",
       "titleKey": "ophookauraundetectedfree",
       "slug": "Hooked!-OP-Hook-Aura-Undetected-Free-136306",
-      "views": 2374,
+      "views": 2378,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b03d2911c4953a0c8302d413bf8defb4/480/270/Image/Png/noFilter",
@@ -78017,7 +78093,7 @@
       "title": "Op auto block script for forsaken",
       "titleKey": "opautoblockscriptforforsaken",
       "slug": "Universal-Script-Op-auto-block-script-for-forsaken-136203",
-      "views": 782,
+      "views": 783,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1773706116244.jpg",
@@ -81760,7 +81836,7 @@
       "title": "Kill All Open Source Bad Executors Not Supported",
       "titleKey": "killallopensourcebadexecutorsnotsupported",
       "slug": "Hooked!-Kill-All-Open-Source-Bad-Executors-Not-Supported-135913",
-      "views": 3074,
+      "views": 3080,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-b03d2911c4953a0c8302d413bf8defb4/480/270/Image/Png/noFilter",
@@ -83736,7 +83812,7 @@
       "title": "inf money",
       "titleKey": "infmoney",
       "slug": "Cut-Grass-for-Brainrots-inf-money-135755",
-      "views": 4870,
+      "views": 4873,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/97365843755210-1773659898533.webp",
@@ -84553,7 +84629,7 @@
       "title": "free and open source",
       "titleKey": "freeandopensource",
       "slug": "DUST-II-BloxStrike-free-and-open-source-135704",
-      "views": 1948,
+      "views": 1960,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-6e7305a39b04a9acb99ea48c31e146b3/480/270/Image/Png/noFilter",
@@ -89797,7 +89873,7 @@
       "title": "Avocat HUB",
       "titleKey": "avocathub",
       "slug": "Universal-Script-Avocat-HUB-142656",
-      "views": 2690,
+      "views": 2706,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1773588429924.png",
@@ -91697,7 +91773,7 @@
       "title": "inf gems inf currency for jujutsu",
       "titleKey": "infgemsinfcurrencyforjujutsu",
       "slug": "UPD-3-Anime-Paradox-inf-gems-inf-currency-for-jujutsu-141556",
-      "views": 2263,
+      "views": 2264,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-6b63ae05c15be9aee02f2378bb07e63a/480/270/Image/Png/noFilter",
@@ -100931,7 +101007,7 @@
       "title": "Flow  Script Hub | 14+ Games",
       "titleKey": "flowscripthub14games",
       "slug": "Universal-Script-Flow-Script-Hub-140129",
-      "views": 21265,
+      "views": 21302,
       "verified": true,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1773511144177.png",
