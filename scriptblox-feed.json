@@ -1,9 +1,9 @@
 {
   "source": "scriptblox",
-  "generatedAt": "2026-04-10T10:46:10.1883250Z",
+  "generatedAt": "2026-04-10T12:02:19.8916399Z",
   "maxPagesRequested": 80,
-  "totalPagesAtSource": 3576,
-  "count": 13842,
+  "totalPagesAtSource": 3618,
+  "count": 13858,
   "moderation": {
     "max_posts_per_window": 2,
     "max_user_posts_per_window": 2,
@@ -11,37 +11,417 @@
     "max_stale_validations_per_run": 120,
     "unresolved_new_post_quarantine_minutes": 60,
     "window_minutes": 30,
-    "filteredByKeywordCount": 7506,
+    "filteredByKeywordCount": 7512,
     "filteredByUserCount": 46,
-    "filteredBySpamCount": 21315,
-    "filteredByOwnerBurstCount": 21315,
+    "filteredBySpamCount": 22132,
+    "filteredByOwnerBurstCount": 22132,
     "filteredByRunAuthorBurstCount": 0,
-    "filteredByOwnerWindowBurstCount": 11119,
-    "filteredByTitleWindowBurstCount": 10196,
+    "filteredByOwnerWindowBurstCount": 11222,
+    "filteredByTitleWindowBurstCount": 10910,
     "filteredByUnresolvedNewCount": 0,
-    "removedByInvalidDetail404Count": 9,
-    "filteredCount": 28867,
+    "removedByInvalidDetail404Count": 1,
+    "filteredCount": 29690,
     "autoBlacklistedTitleCount": 3,
     "newlyAutoBlacklistedTitleCount": 0,
-    "burstBlockedOwnerCount": 789,
-    "burstBlockedTitleKeyCount": 291,
+    "burstBlockedOwnerCount": 790,
+    "burstBlockedTitleKeyCount": 292,
     "trustedKeywordRuleCount": 4,
     "blacklistKeywordRuleCount": 12,
     "trustedUserCount": 1,
     "blacklistedUserCount": 8,
     "blacklistedOwnerSlugCount": 46,
     "trendingCount": 20,
-    "ownerResolvedCount": 18064,
+    "ownerResolvedCount": 18184,
     "detailLookupsTried": 120,
-    "detailLookupsSucceeded": 119,
+    "detailLookupsSucceeded": 120,
     "staleDetailValidationsTried": 120
   },
   "scripts": [
     {
+      "title": "Kawatan Hub",
+      "titleKey": "kawatanhub",
+      "slug": "Universal-Script-Kawatan-Hub-199331",
+      "views": 4,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1775821806877.png",
+      "createdAt": "2026-04-10T11:50:06.8980000Z",
+      "ownerUsername": "raqueldean3",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Death Note FE",
+      "titleKey": "deathnotefe",
+      "slug": "Universal-Script-Death-Note-FE-199326",
+      "views": 26,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1775821217583.png",
+      "createdAt": "2026-04-10T11:40:17.6010000Z",
+      "ownerUsername": "Vata909tt2",
+      "ownerProfilePicture": "https://scriptblox.com/images/photo/695ba52deec58d5a20c5fed9-1767613909278.png",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Enchanted Hub",
+      "titleKey": "enchantedhub",
+      "slug": "Universal-Script-Enchanted-Hub-199323",
+      "views": 17,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1775821034628.png",
+      "createdAt": "2026-04-10T11:37:14.6510000Z",
+      "ownerUsername": "shreksus2",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Instant Proximity Script",
+      "titleKey": "instantproximityscript",
+      "slug": "Universal-Script-Instant-Proximity-Script-199322",
+      "views": 28,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1775821027373.jpg",
+      "createdAt": "2026-04-10T11:37:07.4030000Z",
+      "ownerUsername": "MAPSLOVER",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Universal Sprint",
+      "titleKey": "universalsprint",
+      "slug": "Universal-Script-Universal-Sprint-199320",
+      "views": 36,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1775820765846.jpg",
+      "createdAt": "2026-04-10T11:32:45.8610000Z",
+      "ownerUsername": "WhyAreYouReadingThi",
+      "ownerProfilePicture": "https://scriptblox.com/images/photo/68ba098a6ae0b7235e12ef7c-1766638052897.jpg",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Atlas V2 keyless",
+      "titleKey": "atlasv2keyless",
+      "slug": "Bee-Swarm-Simulator-Atlas-V2-keyless-199319",
+      "views": 32,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/1537690962-1775820673842.png",
+      "createdAt": "2026-04-10T11:31:13.8720000Z",
+      "ownerUsername": "joeesanjose",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Destroy anyone with this script",
+      "titleKey": "destroyanyonewiththisscript",
+      "slug": "The-Strongest-Battlegrounds-Destroy-anyone-with-this-script-199316",
+      "views": 37,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-ccd8bcf9f66dc37834534d2cb3cfd1b9/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T11:28:30.7400000Z",
+      "ownerUsername": "jmsss",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Azriel",
+      "titleKey": "azriel",
+      "slug": "Universal-Script-Azriel-199314",
+      "views": 29,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1775820472815.jpg",
+      "createdAt": "2026-04-10T11:27:52.8350000Z",
+      "ownerUsername": "Docikerem",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "AUTO KILL ALL SUPER GOOD",
+      "titleKey": "autokillallsupergood",
+      "slug": "RIVALS-AUTO-KILL-ALL-SUPER-GOOD-199312",
+      "views": 37,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-60c154f21752ff4cb520340183edb77a/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T11:27:17.4910000Z",
+      "ownerUsername": "HybridE3",
+      "ownerProfilePicture": "https://scriptblox.com/images/photo/6867542b0fc69c3ddfb8a330-1772457483265.jpg",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Infinite stamina",
+      "titleKey": "infinitestamina",
+      "slug": "aprile-game-with-evil-Infinite-stamina-199311",
+      "views": 30,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-2995165c8d2dc13731e6d8a0f85f9a73/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T11:26:14.4420000Z",
+      "ownerUsername": "Thirdbacruya12345",
+      "ownerProfilePicture": "https://scriptblox.com/images/photo/678c396a37bd3df270a98501-1771455004791.jpeg",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Optimize Bypass Fly",
+      "titleKey": "optimizebypassfly",
+      "slug": "Universal-Script-Optimize-Bypass-Fly-199307",
+      "views": 42,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/0-1775819887615.jpg",
+      "createdAt": "2026-04-10T11:18:07.6310000Z",
+      "ownerUsername": "SoIo_Trio",
+      "ownerProfilePicture": "https://scriptblox.com/images/photo/692ad11aff78f147111d05c5-1766914590875.jpg",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Vow of Iron Auto Farm Relic Instant Parry",
+      "titleKey": "vowofironautofarmrelicinstantparry",
+      "slug": "Deepwoken-Vow-of-Iron-Auto-Farm-Relic-Instant-Parry-199302",
+      "views": 54,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-0d58b293b1c4e24c6eafe3d27c69eddd/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T11:12:48.1740000Z",
+      "ownerUsername": "f3b0d1",
+      "ownerProfilePicture": "https://scriptblox.com/images/user-default.webp",
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Skinchanger Unlock All KEYLESS",
+      "titleKey": "skinchangerunlockallkeyless",
+      "slug": "RIVALS-Skinchanger-Unlock-All-KEYLESS-198233",
+      "views": 33,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-60c154f21752ff4cb520340183edb77a/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T10:59:03.9500000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Auto EDash Auto Carry Revive",
+      "titleKey": "autoedashautocarryrevive",
+      "slug": "Evade-Auto-EDash-Auto-Carry-Revive-198232",
+      "views": 10,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-b369ba8c1f57248e2ce70504b831611b/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T10:57:56.4310000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Take Nearest And TP Mythical And Secret And More",
+      "titleKey": "takenearestandtpmythicalandsecretandmore",
+      "slug": "Train-For-Brainrots-Take-Nearest-And-TP-Mythical-And-Secret-And-More-198230",
+      "views": 17,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-11abf0ec4c691cedb739952f77187957/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T10:55:51.2700000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "insane OP features",
+      "titleKey": "insaneopfeatures",
+      "slug": "RIVALS-insane-OP-features-198229",
+      "views": 26,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/17625359962-1775818449863.webp",
+      "createdAt": "2026-04-10T10:54:09.8920000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Suqomi",
+      "titleKey": "suqomi",
+      "slug": "SHARP-Suqomi-198226",
+      "views": 19,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-10389d5fa1e64568e61ce13518f91c3d/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T10:49:46.4410000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "op  script",
+      "titleKey": "opscript",
+      "slug": "RIVALS-op-script-198224",
+      "views": 35,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-60c154f21752ff4cb520340183edb77a/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T10:47:15.6360000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "unlock all",
+      "titleKey": "unlockall",
+      "slug": "RIVALS-unlock-all-198223",
+      "views": 62,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/17625359962-1775817994213.webp",
+      "createdAt": "2026-04-10T10:46:34.2410000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Script hub for this game",
+      "titleKey": "scripthubforthisgame",
+      "slug": "2x-Luck-Sailor-Piece-Script-hub-for-this-game-198219",
+      "views": 45,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-33fe4e3dfcce376ad216aa402643b993/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T10:39:20.2610000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
       "title": "[Easter!] Keyless AI.dpot Me",
       "titleKey": "easterkeylessaidpotme",
       "slug": "Universal-Script-universal-script-free-198214",
-      "views": 6,
+      "views": 63,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/-1-1775817211342.png",
@@ -72,14 +452,14 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
       "title": "RuBO HUB V6",
       "titleKey": "rubohubv6",
       "slug": "Universal-Script-RuBO-HUB-V6-198212",
-      "views": 14,
+      "views": 44,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775816964496.png",
@@ -98,7 +478,7 @@
       "title": "New Official Draconic",
       "titleKey": "newofficialdraconic",
       "slug": "Universal-Script-New-Official-Draconic-198210",
-      "views": 32,
+      "views": 69,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775816566232.jpg",
@@ -117,7 +497,7 @@
       "title": "Your typical script",
       "titleKey": "yourtypicalscript",
       "slug": "UPD-Forsaken-Your-typical-script-198206",
-      "views": 16,
+      "views": 40,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e550523ea10246a409ce73db2417d5a5/480/270/Image/Png/noFilter",
@@ -136,7 +516,7 @@
       "title": "BSMT",
       "titleKey": "bsmt",
       "slug": "Prison-Life-BSMT-198207",
-      "views": 18,
+      "views": 42,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8e16b433df6f2c94391865bc438e076a/480/270/Image/Png/noFilter",
@@ -155,7 +535,7 @@
       "title": "Ringta scripts dead rails auto Bonds script",
       "titleKey": "ringtascriptsdeadrailsautobondsscript",
       "slug": "Universal-Script-Ringta-scripts-dead-rails-auto-Bonds-script-198205",
-      "views": 32,
+      "views": 69,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775816206951.png",
@@ -174,7 +554,7 @@
       "title": "ZEXN",
       "titleKey": "zexn",
       "slug": "Ohio.-ZEXN-198204",
-      "views": 36,
+      "views": 59,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-89545a28d06b7d323e04018dc1962cce/480/270/Image/Png/noFilter",
@@ -193,7 +573,7 @@
       "title": "OP Auto Farm 8k An Hour",
       "titleKey": "opautofarm8kanhour",
       "slug": "Build-A-Boat-For-Treasure-OP-Auto-Farm-8k-An-Hour-198202",
-      "views": 41,
+      "views": 70,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-57ac7b7b654e95f6b13697227f85d1ae/480/270/Image/Png/noFilter",
@@ -212,7 +592,7 @@
       "title": "Shiva magnetic",
       "titleKey": "shivamagnetic",
       "slug": "Universal-Script-Shiva-magnetic-198200",
-      "views": 32,
+      "views": 54,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775814679983.webp",
@@ -231,7 +611,7 @@
       "title": "AXUS SCRIPT | OP AUTO FARM + FLING AND MORE | MOBILE SUPPORT",
       "titleKey": "axusscriptopautofarmflingandmoremobilesupport",
       "slug": "Universal-Script-universal-script-free-198198",
-      "views": 65,
+      "views": 112,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/-1-1775814177871.png",
@@ -250,7 +630,7 @@
       "title": "Script request",
       "titleKey": "scriptrequest",
       "slug": "Cool-Gym-Game-FIXED-DATA-Script-request-198197",
-      "views": 55,
+      "views": 89,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/136276200257140-1775813910775.webp",
@@ -269,7 +649,7 @@
       "title": "Fake lag",
       "titleKey": "fakelag",
       "slug": "Universal-Script-Fake-lag-198196",
-      "views": 53,
+      "views": 75,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775813847844.jpg",
@@ -285,10 +665,29 @@
       "trending": false
     },
     {
+      "title": "Adventure Up",
+      "titleKey": "adventureup",
+      "slug": "Adventure-Up!-Adventure-Up-198195",
+      "views": 73,
+      "verified": false,
+      "tags": [],
+      "image": "https://scriptblox.com/images/script/3194820651-1775813808644.webp",
+      "createdAt": "2026-04-10T09:36:48.6660000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
       "title": "1hatgui",
       "titleKey": "1hatgui",
       "slug": "Universal-Script-1hatgui-198193",
-      "views": 49,
+      "views": 74,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775813654651.png",
@@ -307,7 +706,7 @@
       "title": "RUBO TROLL WINGS",
       "titleKey": "rubotrollwings",
       "slug": "Universal-Script-RUBO-TROLL-WINGS-198193",
-      "views": 49,
+      "views": 72,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775813505298.png",
@@ -326,7 +725,7 @@
       "title": "Best New deadrails script for auto farm and more",
       "titleKey": "bestnewdeadrailsscriptforautofarmandmore",
       "slug": "Dead-Rails-Beta-Best-New-deadrails-script-for-auto-farm-and-more-198194",
-      "views": 58,
+      "views": 83,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/116495829188952-1775813033621.jpg",
@@ -345,7 +744,7 @@
       "title": "Lag switch Modify Version",
       "titleKey": "lagswitchmodifyversion",
       "slug": "Universal-Script-Lag-switch-Modify-Version-198193",
-      "views": 83,
+      "views": 110,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775812558703.png",
@@ -364,7 +763,7 @@
       "title": "Shiva v1 hub",
       "titleKey": "shivav1hub",
       "slug": "Universal-Script-Shiva-v1-hub-198184",
-      "views": 72,
+      "views": 93,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775811987984.webp",
@@ -383,7 +782,7 @@
       "title": "Eclipsed Best Script",
       "titleKey": "eclipsedbestscript",
       "slug": "Criminality-Eclipsed-Best-Script-198182",
-      "views": 101,
+      "views": 137,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/4588604953-1775811353339.webp",
@@ -402,7 +801,7 @@
       "title": "EXOP",
       "titleKey": "exop",
       "slug": "AIMBOT-Weaponry-BETA-EXOP-198182",
-      "views": 85,
+      "views": 113,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-81d0066b5c7ae72d3c573af2a4641909/480/270/Image/Png/noFilter",
@@ -421,7 +820,7 @@
       "title": "[ Easter Update ] Zero Hub 45 Features Keyless",
       "titleKey": "easterupdatezerohub45featureskeyless",
       "slug": "Universal-Script-universal-script-free-198180",
-      "views": 115,
+      "views": 150,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/-1-1775811267463.png",
@@ -440,7 +839,7 @@
       "title": "INSANE SCRIPT",
       "titleKey": "insanescript",
       "slug": "Deepwoken-INSANE-SCRIPT-198162",
-      "views": 93,
+      "views": 108,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/4111023553-1775809513852.jpg",
@@ -459,7 +858,7 @@
       "title": "ZEXN",
       "titleKey": "zexn",
       "slug": "Granny-ZEXN-198156",
-      "views": 91,
+      "views": 103,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-a38cb5b8817557c06b2f4f64ca8df4b3/480/270/Image/Png/noFilter",
@@ -478,7 +877,7 @@
       "title": "Fe Mood Face Changer",
       "titleKey": "femoodfacechanger",
       "slug": "Universal-Script-Fe-Mood-Face-Changer-198151",
-      "views": 139,
+      "views": 152,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775808681682.jpg",
@@ -497,7 +896,7 @@
       "title": "[Valentine] Zepth hub Almbot Esp Troll (Keyless]",
       "titleKey": "valentinezepthhubalmbotesptrollkeyless",
       "slug": "Universal-Script-universal-script-free-198148",
-      "views": 182,
+      "views": 224,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/-1-1775808361181.png",
@@ -516,7 +915,7 @@
       "title": "Remote spy with AI and solara support",
       "titleKey": "remotespywithaiandsolarasupport",
       "slug": "Universal-Script-Remote-spy-with-AI-198139",
-      "views": 115,
+      "views": 120,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775807517647.png",
@@ -535,7 +934,7 @@
       "title": "MURDER VS SHERIFF",
       "titleKey": "murdervssheriff",
       "slug": "DUELS-Murderers-VS-Sheriffs-MURDER-VS-SHERIFF-198133",
-      "views": 111,
+      "views": 128,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/135856908115931-1775806831193.jpg",
@@ -554,7 +953,7 @@
       "title": "Telport Kill v7",
       "titleKey": "telportkillv7",
       "slug": "Arsenal-Telport-Kill-v7-198123",
-      "views": 90,
+      "views": 100,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/286090429-1775806102840.png",
@@ -570,10 +969,29 @@
       "trending": false
     },
     {
+      "title": "god sscript",
+      "titleKey": "godsscript",
+      "slug": "ANNIVERSARY-+-KURE-STYLE-Asura-god-sscript-198122",
+      "views": 104,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-cfb0842250faffea1c80389c2495ed47/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T07:25:30.8650000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
       "title": "Keyless universal AIdpot M.e - Neon Maker & Pet Farm",
       "titleKey": "keylessuniversalaidpotmeneonmakerpetfarm",
       "slug": "Universal-Script-universal-script-free-198117",
-      "views": 156,
+      "views": 175,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/-1-1775805505985.png",
@@ -592,7 +1010,7 @@
       "title": "Vanta x Methion cracked",
       "titleKey": "vantaxmethioncracked",
       "slug": "Your-Bizarre-Adventure-Vanta-x-Methion-cracked-198111",
-      "views": 116,
+      "views": 119,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/2809202155-1775804587339.jpg",
@@ -611,7 +1029,7 @@
       "title": "BEST OPEN SOURCE AND AI SCRIPT HUB",
       "titleKey": "bestopensourceandaiscripthub",
       "slug": "EASTER-Combat-Initiation-BEST-OPEN-SOURCE-AND-AI-SCRIPT-HUB-198106",
-      "views": 116,
+      "views": 120,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/13559635034-1775803802473.png",
@@ -627,10 +1045,48 @@
       "trending": false
     },
     {
+      "title": "op script many features",
+      "titleKey": "opscriptmanyfeatures",
+      "slug": "Find-the-Markers-(320)-op-script-many-features-198105",
+      "views": 104,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-ecaaaeecfb922177b680373990095583/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T06:48:05.2130000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
+      "title": "Op script auto win",
+      "titleKey": "opscriptautowin",
+      "slug": "Parkour-Run!-Op-script-auto-win-198103",
+      "views": 117,
+      "verified": false,
+      "tags": [],
+      "image": "https://tr.rbxcdn.com/180DAY-342b33c68e2f194dd49fdcf502b29e3d/480/270/Image/Png/noFilter",
+      "createdAt": "2026-04-10T06:43:37.4740000Z",
+      "ownerUsername": "",
+      "ownerProfilePicture": null,
+      "trusted": false,
+      "trustedByUser": false,
+      "blocked_user": false,
+      "blocked_manual_keyword": false,
+      "blocked_spam": false,
+      "isNewThisRun": true,
+      "trending": false
+    },
+    {
       "title": "Lexushub ALL CREDITS TO KIRA",
       "titleKey": "lexushuballcreditstokira",
       "slug": "Build-A-Boat-For-Treasure-Lexushub-ALL-CREDITS-TO-KIRA-198099",
-      "views": 112,
+      "views": 115,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-57ac7b7b654e95f6b13697227f85d1ae/480/270/Image/Png/noFilter",
@@ -649,7 +1105,7 @@
       "title": "Snowy Hub v3 keyless",
       "titleKey": "snowyhubv3keyless",
       "slug": "Universal-Script-universal-script-free-198097",
-      "views": 193,
+      "views": 217,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/-1-1775802633779.png",
@@ -668,7 +1124,7 @@
       "title": "AOTR AUTO RAID AUTO MISSION TS FARM UPGRADE I US SUITE",
       "titleKey": "aotrautoraidautomissiontsfarmupgradeiussuite",
       "slug": "Attack-on-Titan-Revolution-AOTR-AUTO-RAID-AUTO-MISSION-TS-FARM-UPGRADE-I-US-SUITE-198093",
-      "views": 152,
+      "views": 158,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5340a12b15ac2b53dbd7a1518c6aa2e9/480/270/Image/Png/noFilter",
@@ -687,7 +1143,7 @@
       "title": "Particle f3x",
       "titleKey": "particlef3x",
       "slug": "Universal-Script-Particle-f3x-198090",
-      "views": 139,
+      "views": 146,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775800946952.png",
@@ -706,7 +1162,7 @@
       "title": "ZEXN",
       "titleKey": "zexn",
       "slug": "World-Zero-Anime-RPG-ZEXN-198089",
-      "views": 125,
+      "views": 130,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-9e60ec5333303445f56b4f6aaec5f99f/480/270/Image/Png/noFilter",
@@ -725,7 +1181,7 @@
       "title": "CacaGui",
       "titleKey": "cacagui",
       "slug": "The-Chosen-One-CacaGui-198085",
-      "views": 257,
+      "views": 265,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/11137575513-1775800547066.png",
@@ -744,7 +1200,7 @@
       "title": "Ares Mod Detecter",
       "titleKey": "aresmoddetecter",
       "slug": "Brookhaven-RP-Ares-Mod-Detecter-198082",
-      "views": 173,
+      "views": 178,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/4924922222-1775799970165.png",
@@ -763,7 +1219,7 @@
       "title": "OP AUTO SELL AUTO BUY SEEDS AUTO ROLL SEEDS OPEN SOURCE",
       "titleKey": "opautosellautobuyseedsautorollseedsopensource",
       "slug": "Build-A-Farm-Factory-OP-AUTO-SELL-AUTO-BUY-SEEDS-AUTO-ROLL-SEEDS-OPEN-SOURCE-198081",
-      "views": 140,
+      "views": 144,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-c0dc74420968fe149d6442fb06b4057a/480/270/Image/Png/noFilter",
@@ -782,7 +1238,7 @@
       "title": "Killaura ESP Auto Collect",
       "titleKey": "killauraespautocollect",
       "slug": "Minecraft-Killaura-ESP-Auto-Collect-197655",
-      "views": 27,
+      "views": 29,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-34c14d2bc7aae35de83cf3c945e0fff5/480/270/Image/Png/noFilter",
@@ -801,7 +1257,7 @@
       "title": "MAGSO",
       "titleKey": "magso",
       "slug": "Nightmare-Pocong:-Cursed-Hospital-Scary-Horror-MAGSO-197599",
-      "views": 27,
+      "views": 28,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-6cce78747bc708831731b817f46ce200/480/270/Image/Png/noFilter",
@@ -820,7 +1276,7 @@
       "title": "NPC gangsters Control multiple NPC",
       "titleKey": "npcgangsterscontrolmultiplenpc",
       "slug": "Universal-Script-NPC-gangsters-Control-multiple-NPC-197597",
-      "views": 18,
+      "views": 20,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775798739039.jpg",
@@ -839,7 +1295,7 @@
       "title": "Legit Hub",
       "titleKey": "legithub",
       "slug": "Universal-Script-Legit-Hub-197317",
-      "views": 58,
+      "views": 62,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1775798379152.jpg",
@@ -870,7 +1326,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -889,7 +1345,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -908,7 +1364,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -927,7 +1383,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -946,7 +1402,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -965,7 +1421,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -984,7 +1440,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1003,7 +1459,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1022,7 +1478,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1041,7 +1497,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1060,7 +1516,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1079,7 +1535,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1098,7 +1554,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1117,7 +1573,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1136,7 +1592,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1155,7 +1611,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1174,7 +1630,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1193,7 +1649,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1212,7 +1668,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1231,7 +1687,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1250,7 +1706,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1269,7 +1725,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1288,7 +1744,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1307,7 +1763,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1326,7 +1782,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1345,7 +1801,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1364,7 +1820,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1383,7 +1839,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1421,7 +1877,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1440,7 +1896,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1459,7 +1915,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1478,7 +1934,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1497,7 +1953,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1516,7 +1972,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1535,7 +1991,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1554,7 +2010,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1573,7 +2029,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1592,7 +2048,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1611,7 +2067,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1630,7 +2086,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1649,7 +2105,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1668,7 +2124,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1687,7 +2143,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1706,7 +2162,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1725,7 +2181,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1744,7 +2200,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1763,7 +2219,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1782,7 +2238,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1801,7 +2257,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1820,7 +2276,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1839,7 +2295,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1858,7 +2314,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1877,7 +2333,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1896,7 +2352,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1915,7 +2371,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1934,7 +2390,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1953,7 +2409,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1972,7 +2428,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1991,7 +2447,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2010,7 +2466,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2029,7 +2485,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2048,7 +2504,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2067,7 +2523,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2086,7 +2542,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2105,7 +2561,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2124,7 +2580,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2143,7 +2599,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2162,7 +2618,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2181,7 +2637,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2200,7 +2656,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2219,7 +2675,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2238,7 +2694,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2257,7 +2713,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2276,7 +2732,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2295,7 +2751,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2314,7 +2770,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2333,7 +2789,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2352,7 +2808,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2371,7 +2827,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2390,7 +2846,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2409,7 +2865,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2428,7 +2884,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2447,7 +2903,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2466,7 +2922,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2485,7 +2941,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2504,7 +2960,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2523,7 +2979,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2542,7 +2998,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2561,7 +3017,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2580,7 +3036,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2599,7 +3055,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2618,7 +3074,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2637,7 +3093,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2656,7 +3112,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2675,7 +3131,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2694,7 +3150,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2713,7 +3169,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2751,7 +3207,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2770,7 +3226,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2789,7 +3245,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2808,7 +3264,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2827,7 +3283,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2846,7 +3302,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2865,7 +3321,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2884,7 +3340,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2903,7 +3359,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2922,7 +3378,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2941,7 +3397,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2960,7 +3416,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2979,7 +3435,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -2998,7 +3454,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3017,7 +3473,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3036,7 +3492,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3055,7 +3511,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3074,7 +3530,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3093,7 +3549,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3112,7 +3568,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3131,7 +3587,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3150,7 +3606,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3169,7 +3625,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3188,7 +3644,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3207,7 +3663,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3226,7 +3682,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3245,7 +3701,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3264,7 +3720,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3283,7 +3739,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3302,7 +3758,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3321,7 +3777,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3340,7 +3796,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3359,7 +3815,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3378,7 +3834,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3397,7 +3853,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3416,7 +3872,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3435,7 +3891,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3454,7 +3910,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3473,7 +3929,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3492,7 +3948,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3511,7 +3967,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3530,7 +3986,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3549,7 +4005,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3568,7 +4024,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3587,7 +4043,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3606,7 +4062,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3625,7 +4081,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3644,7 +4100,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3663,7 +4119,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3682,7 +4138,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3701,7 +4157,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3720,7 +4176,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3739,7 +4195,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3758,7 +4214,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3777,7 +4233,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -3796,7 +4252,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -6292,7 +6748,7 @@
       "title": "invisibility fast generator auto generator no die and more",
       "titleKey": "invisibilityfastgeneratorautogeneratornodieandmore",
       "slug": "UPD-Forsaken-invisibility-fast-generator-auto-generator-no-die-and-more-194121",
-      "views": 388,
+      "views": 391,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e550523ea10246a409ce73db2417d5a5/480/270/Image/Png/noFilter",
@@ -14804,7 +15260,7 @@
       "title": "sols rng auto farm READ DESCRIPTION",
       "titleKey": "solsrngautofarmreaddescription",
       "slug": "Sol's-RNG-Eon67-sols-rng-auto-farm-READ-DESCRIPTION-192839",
-      "views": 1620,
+      "views": 1635,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8d432fad8439331b6c33dc523ff4bcd6/480/270/Image/Png/noFilter",
@@ -17198,7 +17654,7 @@
       "title": "AUTO GET BRAINROTS AUTO UPGRADE OP GUI",
       "titleKey": "autogetbrainrotsautoupgradeopgui",
       "slug": "Dig-DEEPER-for-Brainrots!-AUTO-GET-BRAINROTS-AUTO-UPGRADE-OP-GUI-190494",
-      "views": 512,
+      "views": 519,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e705655a5486320608e2d721c29c7dbd/480/270/Image/Png/noFilter",
@@ -17217,7 +17673,7 @@
       "title": "FREE OP AUTO SMASH AUTO PUNCH AUTO TRAIN SCRIPT GUI",
       "titleKey": "freeopautosmashautopunchautotrainscriptgui",
       "slug": "UPD!-Muscle-Transform-Simulator-FREE-OP-AUTO-SMASH-AUTO-PUNCH-AUTO-TRAIN-SCRIPT-GUI-190491",
-      "views": 488,
+      "views": 491,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ce0a1453e0e68d4822ab2b570b4534bc/480/270/Image/Png/noFilter",
@@ -17236,7 +17692,7 @@
       "title": "OP AUTO CATCH SPECIFIC AUTO COLLECT PET CASH OP SCRIPT GUI",
       "titleKey": "opautocatchspecificautocollectpetcashopscriptgui",
       "slug": "Catch-And-Tame!-OP-AUTO-CATCH-SPECIFIC-AUTO-COLLECT-PET-CASH-OP-SCRIPT-GUI-190490",
-      "views": 503,
+      "views": 506,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-852ef67b24d0f73ac03acf770ff6606e/480/270/Image/Png/noFilter",
@@ -17293,7 +17749,7 @@
       "title": "Best OP Auto Farm GUI Auto Spin Rebirth",
       "titleKey": "bestopautofarmguiautospinrebirth",
       "slug": "Spin-a-Soccer-Card-Best-OP-Auto-Farm-GUI-Auto-Spin-Rebirth-190486",
-      "views": 589,
+      "views": 596,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5e2d4c187a07a777fbf3a8a6909bb5e7/480/270/Image/Png/noFilter",
@@ -18205,7 +18661,7 @@
       "title": "INSANE FEATURES (dosent work on xeno )",
       "titleKey": "insanefeaturesdosentworkonxeno",
       "slug": "RIVALS-INSANE-FEATURES-190349",
-      "views": 743,
+      "views": 750,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-60c154f21752ff4cb520340183edb77a/480/270/Image/Png/noFilter",
@@ -21967,7 +22423,7 @@
       "title": "inf dodge inf stamina auto generator esp and more",
       "titleKey": "infdodgeinfstaminaautogeneratorespandmore",
       "slug": "BETA-Bite-By-Night-inf-dodge-inf-stamina-auto-generator-esp-and-more-183148",
-      "views": 715,
+      "views": 719,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/70845479499574-1775318639128.png",
@@ -23582,7 +24038,7 @@
       "title": "YYHUB AUTO FARM MONEY ULTRA SPEED NO KEY FREE",
       "titleKey": "yyhubautofarmmoneyultraspeednokeyfree",
       "slug": "Reel-a-Brainrot!-YYHUB-AUTO-FARM-MONEY-ULTRA-SPEED-NO-KEY-FREE-180556",
-      "views": 1221,
+      "views": 1236,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-3454be22fc3b69065c424efacd78e112/480/270/Image/Png/noFilter",
@@ -28895,8 +29351,8 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
-      "trending": true
+      "isNewThisRun": false,
+      "trending": false
     },
     {
       "title": "Force chat daddy im a femboy",
@@ -31600,7 +32056,7 @@
       "title": "Best OP Script GUI Overpowered",
       "titleKey": "bestopscriptguioverpowered",
       "slug": "Survive-the-Apocalypse-Best-OP-Script-GUI-Overpowered-172821",
-      "views": 2966,
+      "views": 2992,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e0c425abcbd44871e360f174afba69c5/480/270/Image/Png/noFilter",
@@ -31638,7 +32094,7 @@
       "title": "Fun Chill Script GUI",
       "titleKey": "funchillscriptgui",
       "slug": "Aura-Ascension-Fun-Chill-Script-GUI-172817",
-      "views": 830,
+      "views": 838,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-156dcc2a4016d7a6e49187e8bef83a6d/480/270/Image/Png/noFilter",
@@ -51702,7 +52158,7 @@
       "title": "celeron gui",
       "titleKey": "celerongui",
       "slug": "BETA-Bite-By-Night-celeron-gui-158274",
-      "views": 9331,
+      "views": 9364,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-9e2e5b56356078c7846815c951459808/480/270/Image/Png/noFilter",
@@ -53526,7 +53982,7 @@
       "title": "Rift *XENO + SOLARA* | Auto Farm Level, Dungeon, Haki & More",
       "titleKey": "riftxenosolaraautofarmleveldungeonhakimore",
       "slug": "Massive-Update-Sailor-Piece-b-160793",
-      "views": 5522,
+      "views": 5535,
       "verified": true,
       "tags": [],
       "image": "https://scriptblox.com/images/script/77747658251236-1774801203637.jpg",
@@ -57098,7 +57554,7 @@
       "title": "INF RANGE WORKING USE OP FREE",
       "titleKey": "infrangeworkinguseopfree",
       "slug": "Massive-Update-Sailor-Piece-INF-RANGE-WORKING-USE-OP-FREE-156429",
-      "views": 2743,
+      "views": 2751,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-33fe4e3dfcce376ad216aa402643b993/480/270/Image/Png/noFilter",
@@ -62342,7 +62798,7 @@
       "title": "Void Fishing Auto Fish Open Source",
       "titleKey": "voidfishingautofishopensource",
       "slug": "Pixel-Blade-RAVEN-Void-Fishing-Auto-Fish-Open-Source-154288",
-      "views": 3774,
+      "views": 3797,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-115979c74083fb7b1bda1f12f836e0de/480/270/Image/Png/noFilter",
@@ -66940,7 +67396,7 @@
       "title": "KEYLESS / OP / Infinite XP + DMG / God Mode / Chests",
       "titleKey": "keylessopinfinitexpdmggodmodechests",
       "slug": "Cursed-BladeALPHA-Auto-Farm-Auto-Sell-152607",
-      "views": 6598,
+      "views": 6636,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/112107733863518-1775241152798.png",
@@ -262873,158 +263329,6 @@
       "tags": [],
       "image": "https://scriptblox.com/images/script/0-1770638279729.jpg",
       "createdAt": "2026-02-09T11:57:59.7480000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "OP SCRIPT",
-      "titleKey": "opscript",
-      "slug": "Abyss-BETA-OP-SCRIPT-108652",
-      "views": 472,
-      "verified": false,
-      "tags": [],
-      "image": "https://tr.rbxcdn.com/180DAY-53b3cd30cf4e3ad3435b7fe56430d96c/480/270/Image/Png/noFilter",
-      "createdAt": "2026-02-09T11:37:10.6600000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "Auto Collect Money And More",
-      "titleKey": "autocollectmoneyandmore",
-      "slug": "UPD3-Escape-Tsunami-for-Soccer-Players-Auto-Collect-Money-And-More-108651",
-      "views": 255,
-      "verified": false,
-      "tags": [],
-      "image": "https://tr.rbxcdn.com/180DAY-00b3e97e6ccb8c19707ffd521a63ed69/480/270/Image/Png/noFilter",
-      "createdAt": "2026-02-09T11:36:28.3530000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "Autofarm EVERYTHING III KEYLESS",
-      "titleKey": "autofarmeverythingiiikeyless",
-      "slug": "Abyss-BETA-Autofarm-EVERYTHING-III-KEYLESS-108649",
-      "views": 3916,
-      "verified": false,
-      "tags": [],
-      "image": "https://tr.rbxcdn.com/180DAY-53b3cd30cf4e3ad3435b7fe56430d96c/480/270/Image/Png/noFilter",
-      "createdAt": "2026-02-09T11:21:54.2450000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "Toon Selection Thingy idk for dws",
-      "titleKey": "toonselectionthingyidkfordws",
-      "slug": "survival-world-dandy-Toon-Selection-Thingy-idk-for-dws-108645",
-      "views": 388,
-      "verified": false,
-      "tags": [],
-      "image": "https://scriptblox.com/images/script/107612301456655-1770635840537.jpg",
-      "createdAt": "2026-02-09T11:17:20.5510000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "copy avatar",
-      "titleKey": "copyavatar",
-      "slug": "Universal-Script-copy-avatar-108643",
-      "views": 468,
-      "verified": false,
-      "tags": [],
-      "image": "https://scriptblox.com/images/script/0-1770635539758.png",
-      "createdAt": "2026-02-09T11:12:19.7670000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "Arab hub",
-      "titleKey": "arabhub",
-      "slug": "rost-alpha-Arab-hub-108641",
-      "views": 393,
-      "verified": false,
-      "tags": [],
-      "image": "https://scriptblox.com/images/script/13769775130-1770635012917.png",
-      "createdAt": "2026-02-09T11:03:32.9270000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "JJS Script [Keyless]",
-      "titleKey": "jjsscriptkeyless",
-      "slug": "HEAD-OF-HEI-Jujutsu-Shenanigans-Keyless-108639",
-      "views": 4017,
-      "verified": false,
-      "tags": [],
-      "image": "https://tr.rbxcdn.com/180DAY-717484006e83a24085a9cdbc1a5db322/480/270/Image/Png/noFilter",
-      "createdAt": "2026-02-09T11:00:38.7930000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "best script of all time",
-      "titleKey": "bestscriptofalltime",
-      "slug": "XMAS-Looksmaxxing-Simulator-best-script-of-all-time-108636",
-      "views": 224,
-      "verified": false,
-      "tags": [],
-      "image": "https://scriptblox.com/images/script/74282725742426-1770633297961.webp",
-      "createdAt": "2026-02-09T10:34:57.9830000Z",
       "ownerUsername": "",
       "ownerProfilePicture": null,
       "trusted": false,
