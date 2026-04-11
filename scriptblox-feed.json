@@ -1,9 +1,9 @@
 {
   "source": "scriptblox",
-  "generatedAt": "2026-04-11T07:46:05.2286301Z",
+  "generatedAt": "2026-04-11T08:57:07.1384437Z",
   "maxPagesRequested": 80,
-  "totalPagesAtSource": 3897,
-  "count": 14248,
+  "totalPagesAtSource": 4027,
+  "count": 14244,
   "moderation": {
     "max_posts_per_window": 2,
     "max_user_posts_per_window": 2,
@@ -13,25 +13,25 @@
     "window_minutes": 30,
     "filteredByKeywordCount": 7607,
     "filteredByUserCount": 44,
-    "filteredBySpamCount": 27262,
-    "filteredByOwnerBurstCount": 27262,
+    "filteredBySpamCount": 28747,
+    "filteredByOwnerBurstCount": 28745,
     "filteredByRunAuthorBurstCount": 0,
-    "filteredByOwnerWindowBurstCount": 12792,
-    "filteredByTitleWindowBurstCount": 14470,
-    "filteredByUnresolvedNewCount": 0,
-    "removedByInvalidDetail404Count": 2,
-    "filteredCount": 34913,
+    "filteredByOwnerWindowBurstCount": 12912,
+    "filteredByTitleWindowBurstCount": 15833,
+    "filteredByUnresolvedNewCount": 2,
+    "removedByInvalidDetail404Count": 60,
+    "filteredCount": 36398,
     "autoBlacklistedTitleCount": 3,
     "newlyAutoBlacklistedTitleCount": 0,
-    "burstBlockedOwnerCount": 824,
-    "burstBlockedTitleKeyCount": 303,
+    "burstBlockedOwnerCount": 825,
+    "burstBlockedTitleKeyCount": 305,
     "trustedKeywordRuleCount": 4,
     "blacklistKeywordRuleCount": 12,
     "trustedUserCount": 1,
     "blacklistedUserCount": 8,
     "blacklistedOwnerSlugCount": 46,
     "trendingCount": 20,
-    "ownerResolvedCount": 19970,
+    "ownerResolvedCount": 20090,
     "detailLookupsTried": 120,
     "detailLookupsSucceeded": 120,
     "staleDetailValidationsTried": 120
@@ -53,7 +53,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -72,7 +72,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -91,7 +91,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -110,7 +110,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -129,7 +129,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -148,7 +148,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -167,7 +167,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -186,7 +186,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -205,7 +205,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -224,7 +224,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -243,7 +243,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -262,7 +262,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -281,7 +281,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -300,7 +300,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -319,7 +319,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -338,7 +338,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -357,7 +357,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -376,7 +376,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -395,7 +395,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -414,7 +414,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -433,7 +433,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -452,7 +452,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -471,7 +471,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -490,7 +490,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -509,7 +509,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -528,7 +528,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -547,7 +547,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -566,7 +566,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -585,7 +585,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -604,7 +604,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -623,7 +623,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -642,7 +642,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -661,7 +661,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -680,7 +680,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -699,7 +699,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -718,7 +718,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -737,7 +737,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -756,7 +756,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -775,7 +775,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -794,7 +794,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -813,7 +813,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -832,7 +832,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -851,7 +851,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -870,7 +870,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -889,7 +889,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -908,7 +908,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -927,7 +927,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -946,7 +946,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -965,7 +965,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -984,7 +984,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1003,7 +1003,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1022,7 +1022,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1041,7 +1041,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1060,7 +1060,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1079,7 +1079,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1098,7 +1098,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1117,7 +1117,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1155,7 +1155,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1174,7 +1174,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1193,7 +1193,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1212,7 +1212,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1231,7 +1231,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -1250,7 +1250,7 @@
       "blocked_user": false,
       "blocked_manual_keyword": false,
       "blocked_spam": false,
-      "isNewThisRun": true,
+      "isNewThisRun": false,
       "trending": false
     },
     {
@@ -4560,13 +4560,13 @@
       "trending": false
     },
     {
-      "title": "CHILLI HUB GUI FREE KEYLESS #42",
-      "titleKey": "chillihubguifreekeyless42",
-      "slug": "Universal-Script-CHILLI-HUB-GUI-FREE-KEYLESS-42-206188",
-      "views": 3,
+      "title": "CHILLI HUB GUI FREE KEYLESS #67",
+      "titleKey": "chillihubguifreekeyless67",
+      "slug": "Universal-Script-CHILLI-HUB-GUI-FREE-KEYLESS-67-206188",
+      "views": 2,
       "verified": false,
       "tags": [],
-      "image": "https://scriptblox.com/images/script/0-1775877052290.webp",
+      "image": "https://scriptblox.com/images/script/0-1775877052296.webp",
       "createdAt": "2026-04-11T03:10:52.3180000Z",
       "ownerUsername": "",
       "ownerProfilePicture": null,
@@ -4579,13 +4579,13 @@
       "trending": false
     },
     {
-      "title": "CHILLI HUB GUI FREE KEYLESS #67",
-      "titleKey": "chillihubguifreekeyless67",
-      "slug": "Universal-Script-CHILLI-HUB-GUI-FREE-KEYLESS-67-206188",
-      "views": 2,
+      "title": "CHILLI HUB GUI FREE KEYLESS #42",
+      "titleKey": "chillihubguifreekeyless42",
+      "slug": "Universal-Script-CHILLI-HUB-GUI-FREE-KEYLESS-42-206188",
+      "views": 3,
       "verified": false,
       "tags": [],
-      "image": "https://scriptblox.com/images/script/0-1775877052296.webp",
+      "image": "https://scriptblox.com/images/script/0-1775877052290.webp",
       "createdAt": "2026-04-11T03:10:52.3180000Z",
       "ownerUsername": "",
       "ownerProfilePicture": null,
@@ -16438,7 +16438,7 @@
       "title": "invisibility fast generator auto generator no die and more",
       "titleKey": "invisibilityfastgeneratorautogeneratornodieandmore",
       "slug": "UPD-Forsaken-invisibility-fast-generator-auto-generator-no-die-and-more-194121",
-      "views": 475,
+      "views": 480,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e550523ea10246a409ce73db2417d5a5/480/270/Image/Png/noFilter",
@@ -24950,7 +24950,7 @@
       "title": "sols rng auto farm READ DESCRIPTION",
       "titleKey": "solsrngautofarmreaddescription",
       "slug": "Sol's-RNG-Eon67-sols-rng-auto-farm-READ-DESCRIPTION-192839",
-      "views": 1897,
+      "views": 1915,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-8d432fad8439331b6c33dc523ff4bcd6/480/270/Image/Png/noFilter",
@@ -27344,7 +27344,7 @@
       "title": "AUTO GET BRAINROTS AUTO UPGRADE OP GUI",
       "titleKey": "autogetbrainrotsautoupgradeopgui",
       "slug": "Dig-DEEPER-for-Brainrots!-AUTO-GET-BRAINROTS-AUTO-UPGRADE-OP-GUI-190494",
-      "views": 569,
+      "views": 570,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e705655a5486320608e2d721c29c7dbd/480/270/Image/Png/noFilter",
@@ -27363,7 +27363,7 @@
       "title": "FREE OP AUTO SMASH AUTO PUNCH AUTO TRAIN SCRIPT GUI",
       "titleKey": "freeopautosmashautopunchautotrainscriptgui",
       "slug": "UPD!-Muscle-Transform-Simulator-FREE-OP-AUTO-SMASH-AUTO-PUNCH-AUTO-TRAIN-SCRIPT-GUI-190491",
-      "views": 545,
+      "views": 547,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-ce0a1453e0e68d4822ab2b570b4534bc/480/270/Image/Png/noFilter",
@@ -27382,7 +27382,7 @@
       "title": "OP AUTO CATCH SPECIFIC AUTO COLLECT PET CASH OP SCRIPT GUI",
       "titleKey": "opautocatchspecificautocollectpetcashopscriptgui",
       "slug": "Catch-And-Tame!-OP-AUTO-CATCH-SPECIFIC-AUTO-COLLECT-PET-CASH-OP-SCRIPT-GUI-190490",
-      "views": 573,
+      "views": 574,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-852ef67b24d0f73ac03acf770ff6606e/480/270/Image/Png/noFilter",
@@ -27439,7 +27439,7 @@
       "title": "Best OP Auto Farm GUI Auto Spin Rebirth",
       "titleKey": "bestopautofarmguiautospinrebirth",
       "slug": "Spin-a-Soccer-Card-Best-OP-Auto-Farm-GUI-Auto-Spin-Rebirth-190486",
-      "views": 649,
+      "views": 655,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-5e2d4c187a07a777fbf3a8a6909bb5e7/480/270/Image/Png/noFilter",
@@ -28351,7 +28351,7 @@
       "title": "INSANE FEATURES (dosent work on xeno )",
       "titleKey": "insanefeaturesdosentworkonxeno",
       "slug": "RIVALS-INSANE-FEATURES-190349",
-      "views": 872,
+      "views": 878,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-60c154f21752ff4cb520340183edb77a/480/270/Image/Png/noFilter",
@@ -32113,7 +32113,7 @@
       "title": "inf dodge inf stamina auto generator esp and more",
       "titleKey": "infdodgeinfstaminaautogeneratorespandmore",
       "slug": "BETA-Bite-By-Night-inf-dodge-inf-stamina-auto-generator-esp-and-more-183148",
-      "views": 777,
+      "views": 781,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/70845479499574-1775318639128.png",
@@ -33728,7 +33728,7 @@
       "title": "YYHUB AUTO FARM MONEY ULTRA SPEED NO KEY FREE",
       "titleKey": "yyhubautofarmmoneyultraspeednokeyfree",
       "slug": "Reel-a-Brainrot!-YYHUB-AUTO-FARM-MONEY-ULTRA-SPEED-NO-KEY-FREE-180556",
-      "views": 1344,
+      "views": 1349,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-3454be22fc3b69065c424efacd78e112/480/270/Image/Png/noFilter",
@@ -39029,7 +39029,7 @@
       "title": "infinite revive join any vip server and more very op script",
       "titleKey": "infiniterevivejoinanyvipserverandmoreveryopscript",
       "slug": "Evade-infinite-revive-join-any-vip-server-and-more-very-op-script-177505",
-      "views": 905,
+      "views": 907,
       "verified": false,
       "tags": [],
       "image": "https://scriptblox.com/images/script/9872472334-1775151778495.png",
@@ -41746,7 +41746,7 @@
       "title": "Best OP Script GUI Overpowered",
       "titleKey": "bestopscriptguioverpowered",
       "slug": "Survive-the-Apocalypse-Best-OP-Script-GUI-Overpowered-172821",
-      "views": 3320,
+      "views": 3350,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-e0c425abcbd44871e360f174afba69c5/480/270/Image/Png/noFilter",
@@ -41784,7 +41784,7 @@
       "title": "Fun Chill Script GUI",
       "titleKey": "funchillscriptgui",
       "slug": "Aura-Ascension-Fun-Chill-Script-GUI-172817",
-      "views": 936,
+      "views": 945,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-156dcc2a4016d7a6e49187e8bef83a6d/480/270/Image/Png/noFilter",
@@ -61848,7 +61848,7 @@
       "title": "celeron gui",
       "titleKey": "celerongui",
       "slug": "BETA-Bite-By-Night-celeron-gui-158274",
-      "views": 9839,
+      "views": 9867,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-9e2e5b56356078c7846815c951459808/480/270/Image/Png/noFilter",
@@ -63672,7 +63672,7 @@
       "title": "Rift *XENO + SOLARA* | Auto Farm Level, Dungeon, Haki & More",
       "titleKey": "riftxenosolaraautofarmleveldungeonhakimore",
       "slug": "Massive-Update-Sailor-Piece-b-160793",
-      "views": 5737,
+      "views": 5754,
       "verified": true,
       "tags": [],
       "image": "https://scriptblox.com/images/script/77747658251236-1774801203637.jpg",
@@ -67244,7 +67244,7 @@
       "title": "INF RANGE WORKING USE OP FREE",
       "titleKey": "infrangeworkinguseopfree",
       "slug": "Massive-Update-Sailor-Piece-INF-RANGE-WORKING-USE-OP-FREE-156429",
-      "views": 2963,
+      "views": 2976,
       "verified": true,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-33fe4e3dfcce376ad216aa402643b993/480/270/Image/Png/noFilter",
@@ -72488,7 +72488,7 @@
       "title": "Void Fishing Auto Fish Open Source",
       "titleKey": "voidfishingautofishopensource",
       "slug": "Pixel-Blade-RAVEN-Void-Fishing-Auto-Fish-Open-Source-154288",
-      "views": 4089,
+      "views": 4114,
       "verified": false,
       "tags": [],
       "image": "https://tr.rbxcdn.com/180DAY-115979c74083fb7b1bda1f12f836e0de/480/270/Image/Png/noFilter",
@@ -270663,82 +270663,6 @@
       "tags": [],
       "image": "https://scriptblox.com/images/script/10598963932-1770832882053.png",
       "createdAt": "2026-02-10T08:48:07.4740000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "FREE II Full Autofarm For EVERYTHING",
-      "titleKey": "freeiifullautofarmforeverything",
-      "slug": "Survive-LAVA-for-Brainrots!-FREE-II-Full-Autofarm-For-EVERYTHING-109778",
-      "views": 471,
-      "verified": false,
-      "tags": [],
-      "image": "https://tr.rbxcdn.com/180DAY-75606a5f00792a9717fe08a6609c687c/480/270/Image/Png/noFilter",
-      "createdAt": "2026-02-10T08:14:12.7560000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "FL7",
-      "titleKey": "fl7",
-      "slug": "Apocalypse-Rising-2-FL7-109775",
-      "views": 771,
-      "verified": false,
-      "tags": [],
-      "image": "https://tr.rbxcdn.com/180DAY-697fadef54f387669c21060e6b75078a/480/270/Image/Png/noFilter",
-      "createdAt": "2026-02-10T07:52:49.2200000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "MOVE BEHIND THE PLAYER",
-      "titleKey": "movebehindtheplayer",
-      "slug": "Universal-Script-MOVE-BEHIND-THE-PLAYER-109775",
-      "views": 177,
-      "verified": false,
-      "tags": [],
-      "image": "https://scriptblox.com/images/script/0-1770709337268.jpg",
-      "createdAt": "2026-02-10T07:42:17.2860000Z",
-      "ownerUsername": "",
-      "ownerProfilePicture": null,
-      "trusted": false,
-      "trustedByUser": false,
-      "blocked_user": false,
-      "blocked_manual_keyword": false,
-      "blocked_spam": false,
-      "isNewThisRun": false,
-      "trending": false
-    },
-    {
-      "title": "TELEPORT TO PLAYER",
-      "titleKey": "teleporttoplayer",
-      "slug": "Universal-Script-TO-PLAYER-109774",
-      "views": 370,
-      "verified": false,
-      "tags": [],
-      "image": "https://scriptblox.com/images/script/0-1770709095391.jpg",
-      "createdAt": "2026-02-10T07:38:15.4070000Z",
       "ownerUsername": "",
       "ownerProfilePicture": null,
       "trusted": false,
