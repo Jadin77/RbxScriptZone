@@ -1,5 +1,5 @@
 {
-  "lastRunUtc": "2026-04-17T23:02:53.7738556Z",
+  "lastRunUtc": "2026-04-18T00:03:42.0852547Z",
   "maxPagesUsed": 80,
   "delayMsUsed": 2200,
   "minIntervalMinutes": 10,
@@ -19,15 +19,15 @@
   "windowMinutes": 30,
   "unresolvedNewPostQuarantineMinutes": 60,
   "burstBlockedOwnerCount": 905,
-  "count": 14558,
-  "filteredByKeywordCount": 7780,
+  "count": 14546,
+  "filteredByKeywordCount": 7779,
   "filteredByUserCount": 38,
-  "filteredBySpamCount": 54223,
-  "filteredByOwnerBurstCount": 54223,
+  "filteredBySpamCount": 54221,
+  "filteredByOwnerBurstCount": 54221,
   "filteredByRunAuthorBurstCount": 0,
   "filteredByOwnerWindowBurstCount": 16154,
-  "filteredByTitleWindowBurstCount": 38069,
+  "filteredByTitleWindowBurstCount": 38067,
   "filteredByUnresolvedNewCount": 0,
-  "filteredCount": 62041,
-  "burstBlockedTitleKeyCount": 346
+  "filteredCount": 62038,
+  "burstBlockedTitleKeyCount": 345
 }
