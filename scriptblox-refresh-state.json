@@ -1,5 +1,5 @@
 {
-  "lastRunUtc": "2026-07-21T13:09:14.5522625Z",
+  "lastRunUtc": "2026-07-21T15:18:36.2295722Z",
   "maxPagesUsed": 80,
   "delayMsUsed": 2200,
   "minIntervalMinutes": 10,
@@ -11,7 +11,7 @@
   "maxDetailLookupsPerRun": 6,
   "detailDelayMs": 1500,
   "detailLookupsTried": 120,
-  "detailLookupsSucceeded": 2,
+  "detailLookupsSucceeded": 9,
   "maxStaleValidationsPerRun": 120,
   "staleDetailValidationsTried": 120,
   "removedInvalidDetail404Count": 0,
@@ -19,8 +19,8 @@
   "windowMinutes": 30,
   "unresolvedNewPostQuarantineMinutes": 60,
   "burstBlockedOwnerCount": 0,
-  "count": 7457,
-  "filteredByKeywordCount": 907,
+  "count": 7433,
+  "filteredByKeywordCount": 910,
   "filteredByUserCount": 4,
   "filteredBySpamCount": 97,
   "filteredByOwnerBurstCount": 97,
@@ -28,6 +28,6 @@
   "filteredByOwnerWindowBurstCount": 0,
   "filteredByTitleWindowBurstCount": 97,
   "filteredByUnresolvedNewCount": 0,
-  "filteredCount": 1008,
+  "filteredCount": 1011,
   "burstBlockedTitleKeyCount": 25
 }
