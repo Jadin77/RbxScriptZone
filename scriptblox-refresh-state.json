@@ -1,5 +1,5 @@
 {
-  "lastRunUtc": "2026-08-10T21:26:34.4862720Z",
+  "lastRunUtc": "2026-08-10T22:20:43.2834654Z",
   "maxPagesUsed": 80,
   "delayMsUsed": 2200,
   "minIntervalMinutes": 10,
@@ -19,7 +19,7 @@
   "windowMinutes": 30,
   "unresolvedNewPostQuarantineMinutes": 60,
   "burstBlockedOwnerCount": 0,
-  "count": 3709,
+  "count": 3705,
   "filteredByKeywordCount": 248,
   "filteredByUserCount": 4,
   "filteredBySpamCount": 4,
