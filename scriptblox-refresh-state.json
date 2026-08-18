@@ -1,11 +1,11 @@
 {
-  "lastRunUtc": "2026-08-18T06:10:48.5788381Z",
+  "lastRunUtc": "2026-08-18T07:05:14.2041130Z",
   "maxPagesUsed": 80,
   "delayMsUsed": 2200,
   "minIntervalMinutes": 10,
   "retentionDays": 60,
   "maxVisibleScripts": 19200,
-  "totalPagesAtSource": 3371,
+  "totalPagesAtSource": 3370,
   "maxPostsPerWindow": 2,
   "maxUserPostsPerWindow": 2,
   "maxDetailLookupsPerRun": 6,
