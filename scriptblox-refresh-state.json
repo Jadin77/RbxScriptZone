@@ -1,5 +1,5 @@
 {
-  "lastRunUtc": "2026-08-24T04:07:19.3777733Z",
+  "lastRunUtc": "2026-08-24T04:56:49.9859713Z",
   "maxPagesUsed": 80,
   "delayMsUsed": 2200,
   "minIntervalMinutes": 10,
@@ -10,8 +10,8 @@
   "maxUserPostsPerWindow": 2,
   "maxDetailLookupsPerRun": 6,
   "detailDelayMs": 1500,
-  "detailLookupsTried": 85,
-  "detailLookupsSucceeded": 1,
+  "detailLookupsTried": 86,
+  "detailLookupsSucceeded": 2,
   "maxStaleValidationsPerRun": 120,
   "staleDetailValidationsTried": 120,
   "removedInvalidDetail404Count": 0,
